@@ -1,0 +1,516 @@
+[Public]                                  
+Object=(Name=UMenu.UMenuGoldLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description=Золото)
+Object=(Name=UMenu.UMenuBlueLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description=Льод)
+Object=(Name=UMenu.UMenuMetalLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description=Метал)
+
+[UMenuBotmatchClientWindow]
+StartMatchTab=Матч
+RulesTab=Правила
+SettingsTab=Налаштування
+BotConfigTab=Боти
+StartText=Почати
+
+[UMenuMenuBar]
+GameName=&Гра
+GameHelp=Почати, завантажити або закiнчити гру
+MultiplayerName=&Мережева гра
+MultiplayerHelp=Гра в мережi або з ботами
+OptionsName=&Налаштування
+OptionsHelp=Налаштування як зовнiшностi гравця, аудiо, вiдео та iн. параметрiв гри, а також прiоритет зброї
+StatsName=Статистика
+StatsHelp=Керування статистикою
+ToolName=&Утилiти
+ToolHelp=Утилiти 
+HelpName=&Допомога
+HelpHelp=Увiмкнути/вимкнути допомогу
+VersionName=Версiя
+ModName=&Модифiкацiї
+ModHelp=Налаштування модифiкацiй гри (мутаторiв)
+
+[UTCreditsCW]
+ProgrammersText=Програмiсти
+LevelDesignText=Дизайн рiвнiв
+ArtText=Графiка
+MusicSoundText=Звук та музика
+BizText=Бiзнес
+
+[UMenuModMenuItem]
+MenuCaption=Модифiкацiї
+MenuHelp=Тут можна змiнити установки деяких доповнень (мутаторiв)
+
+[UMenuPlayerSetupClient]
+NameText=Iм'я:
+NameHelp=Iм'я пiд яким ви гратимете
+TeamText=Команда:
+Teams[0]=Червоний
+Teams[1]=Синiй
+Teams[2]=Зелений
+Teams[3]=Золотий
+NoTeam=Жодна
+TeamHelp=Вибiр команди
+ClassText=Клас:
+ClassHelp=Вибiр моделi гравця
+SkinText=Скiн:
+SkinHelp=Зовнiшнiй вигляд ('Розмальовка' гравця, 'скiн')
+FaceText=Обличчя:
+SkinHelp=Обличчя гравця
+
+[UMenuStartMatchClientWindow]
+GameText=Тип гри:
+GameHelp=Виберiть тип гри (Deathmatch, Захоплення прапора, Штурм, Контроль тощо)
+MapText=Картка:
+MapHelp=Виберiть картку
+MapListText=Список карток
+MapListHelp=Змiна списку карт, якi будуть використовуватися пiд час автоматичного використання. перемиканнi карт
+MutatorText=Мутатори
+MutatorHelp=Мутатори - це невеликi доповнення, що змiнюють гру
+
+[UMenuServerSetupPage]
+AdminEmailText=EMail адмiну
+AdminEMailHelp=Щоб користувачi знали, куди звертатися
+AdminNameText=Iм'я
+AdminNameHelp=Уявiть користувачам
+MOTDLine1Text=ФД Рядок 1
+MOTDLine1Help=Фраза дня, що показується користувачам, що приєднується, перший рядок
+MOTDLine2Text=ФД Рядок 2
+MOTDLine2Help=Фраза дня, що показується користувачам, що приєднуються, другий рядок
+MOTDLine3Text=ФД Рядок 3
+MOTDLine3Help=Фраза дня, що показується користувачам, що приєднуються, третiй рядок
+MOTDLine4Text=ФД Рядок 4
+MOTDLine4Help=Фраза дня, що показується користувачам, що приєднується, четвертий рядок
+ServerNameText=Iм'я сервера
+ServerNameHelp=Iм'я сервера, яке вiдображається в браузерi серверiв
+ShortNameText=Коротке iм'я
+ShortNameHelp=Коротке iм'я сервера
+ShowMOTDText=Показувати ФД
+ShowMOTDHelp="Показувати фразу дня"
+DoUplinkText="Реклама сервера"
+DoUplinkHelp=Повiдомити про цей сервер головному серверу
+ngWorldStatsText=Сооб. ngWorldStats
+ngWorldStatsHelp=Повiдомляти ngWorldStats про результати iгор. Зайдiть на ut.ngworldstats.com
+LanPlayText=Локал. мережа
+LanPlayHelp=Оптимiзацiя видiленого сервера для локальної мережi
+
+[UMenuPlayerMeshClient]
+FaceText=Обличчя
+BodyText=Тiло
+
+[UMenuVideoClientWindow]
+DriverText=Вiдеодрайвер
+DriverHelp="Поточний вiдеодрайвер"
+DriverButtonText=Змiнити
+DriverButtonHelp="Перезавантажити UT, щоб вивести вiкно вибору вiдеодрайвера"
+ConfirmDriverTitle=Пiдтвердiть змiну драйвера
+ConfirmDriverText="Справдi вибрати iнший драйвер? Для цього потрiбно перезапустити гру"
+ResolutionText=Роздiльна здатнiсть
+ResolutionHelp=Змiна дозволу
+ColorDepthText=Глибина кольору
+ColorDepthHelp="Глибина кольору в бiтах, 16 або 32, чим менше тим швидше, чим вище тим краще зображення"
+BitsText=бiт
+TextureDetailText=Деталiзацiя текстур
+TextureDetailHelp=Щоб прийняти змiни, необхiдне перезавантаження (не завжди). Пiсля ухвалення змiн графiка може погiршитися.
+Details[0]=Висока
+Details[1]=Середня
+Details[2]=Низька
+SkinDetailText=Детальн.персонажу
+SkinDetailHelp=Щоб гра йшла швидше, зробiть детальнiше менше
+DetailTexturesText=Детальнi текстури
+EnableMLODText=Увiмкнути MLOD
+EnableMLODHelp=
+MLODStrengthText=Сила MLOD
+MLODStrengthHelp=
+BrightnessText=Яскравiсть
+BrightnessHelp=" "
+ScaleText=Розмiри
+ScaleHelp=Розмiри елементiв iнтерфейсу
+ScaleSizes[0]=Нормальнi
+ScaleSizes[1]=Подвоєнi
+MouseText=Iнтер.скор.мишi
+MouseHelp="Швидкiсть мишi в iнтерфейсi"
+GuiSkinText=Забарвлення iнтерф.
+GuiSkinHelp="Кольорове оформлення iнтерфейсу"
+ConfirmSettingsTitle=Пiдтвердiть
+ConfirmSettingsText=Зберегти змiни?
+ConfirmSettingsCancelTitle=Вiдновлення
+ConfirmSettingsCancelText=Були вiдновленi попереднi налаштування
+ShowDecalsText="Кровавiсть"
+ShowDecalsHelp="Кров та м'ясо"
+DynamicLightsText="Динамiч.освiтлення"
+DynamicLightsHelp=" "
+MinFramerateText="Мiн. фреймрейт"
+MinFramerateHelp="Якщо кiлькiсть кадрiв в секунду стане меншою за це значення, будуть вiдключенi деякi спецефекти"
+ConfirmTextureDetailTitle="Пiдтвердiть рiвень деталiзацiї"
+ConfirmTextureDetailText="Збiльшення деталiзацiї може значно сповiльнити гру.\n\nПодтверджуєте змiну деталiзацiї?"
+
+[UMenuCustomizeClientWindow]
+JoystickText="Джойстик"
+JoyXText="Вiсь X"
+JoyXHelp="Дiя осi X"
+JoyXOptions[0]="Сторiнкою влiво-вправо"
+JoyXOptions[1]="Поворот лiворуч-праворуч"
+JoyYText="Вiсь Y"
+JoyYHelp="Дiя осi Y"
+JoyYOptions[0]="Вперед/назад"
+JoyYOptions[1]="Вгору/вниз"
+LabelList[0]=Вогонь
+LabelList[1]=Альтерн. вогонь
+LabelList[2]=Вперед
+LabelList[3]=Назад
+LabelList[4]=Поворот лiворуч
+LabelList[5]=Поворот праворуч
+LabelList[6]=Сторiнкою влiво
+LabelList[7]=Сторiнкою вправо
+LabelList[8]=Вгору/стрибок
+LabelList[9]=Вниз/присiсти
+LabelList[10]=Огляд мишею
+LabelList[11]=Активiзацiя речi
+LabelList[12]=Поперед. рiч
+LabelList[13]=Слiд. рiч
+LabelList[14]=Дивитись вгору
+LabelList[15]=Дивитись вниз
+LabelList[16]=Центрувати екран
+LabelList[17]=Гуляти
+LabelList[18] = Стороною
+LabelList[19]=Слiд. зброя
+LabelList[20]=Кинути зброю
+LabelList[21]=Смерть
+OrString=" або "
+CustomizeHelp="Клацнiть мишею на синьому прямокутнику, потiм натиснiть потрiбну клавiшу"
+DefaultsText=Стандарт
+DefaultsHelp=Клавiшi за замовчуванням
+Localizedkeyname[0]=""
+Localizedkeyname[1]="Лев.миша"
+Localizedkeyname[2]="Прав.миша"
+Localizedkeyname[3]="Скасувати"
+
+[UMenuStatusBar]
+DefaultHelp=Натиснiть ESC для повернення до гри
+DefaultIntroHelp=Використовуйте iгрове меню для початку нової гри
+
+[UMenuGameOptionsClientWindow]
+WeaponFlashText=Мигання зброї
+WeaponFlashHelp=Екран мерехтiтиме пiд час стрiльби зi зброї
+WeaponHandText=Рука
+WeaponHandHelp=З якого боку екрана буде зброя (Якщо вибрано 'не вiдображати' зброю не )
+LeftName=У лiвiй
+CenterName=По центру
+RightName=У правiй
+HiddenName=Не вiдображати
+DodgingText=Ривки
+DodgingHelp=Якщо увiмкнути, швидке подвiйне натискання клавiшi руху призведе до стрибка у вiдповiдний бiк бiк
+ViewBobText=Розкач. при ходьбi
+ViewBobHelp=Наскiльки сильно погойдується зображення пiд час руху
+SpeedText=Швидкiсть гри
+GoreText=Кривiсть гри
+GoreHelp="Рiвень кровi у грi"
+GoreLevels[0]=Нормальний
+GoreLevels[1]=Скорочений
+GoreLevels[2]=Наднизький
+LocalText=Локальна статистика
+LocalHelp=Вiсти так само статистику iгор з ботами
+
+[UMenuGameRulesBase]
+FragText=Фрагмент лiмiту
+FragHelp="Гра закiнчиться, коли хтось набере стiльки фрагiв (вбивств)"
+TimeText=Лiмiт часу
+TimeHelp=Стiльки буде тривати матч, Якщо коштує 0 - матч проводиться без обмеження за часом
+MaxPlayersText=Макс.гравцiв
+MaxPlayersHelp="Максимальна кiлькiсть гравцiв"
+MaxSpectatorsText=Макс.спостереження.
+MaxSpectatorsHelp="Максимальна кiлькiсть глядачiв"
+WeaponsText=Зброя залишається
+WeaponsHelp=Зброя залишається на мiсцi пiсля пiдбору гравцем, замiсть зникнення та появи через деякий час
+
+[UMenuBotSetupBase]
+BotText=Бот:
+BotHelp=
+BotWord=Бот
+NameHelp=Вибiр iменi бота
+TeamText=Колiр:
+TeamHelp=Команда.
+ClassText=Клас бота
+ClassHelp=Вибiр моделi бота
+SkinHelp=Вибiр оформлення бота
+FaceHelp=Вибiр обличчя бота
+DefaultsText=За замовчуванням
+DefaultsHelp=Повернути стандартнi настройки
+
+[UMenuGameSettingsBase]
+StyleText=Стиль гри:
+Styles[0]=Класичний
+Styles[1]=Стандартний
+Styles[2]=Турбо
+StyleHelp=Стандартний - на 10% швидше, на 50% бiльше пошкоджень. Турбо – гравцi перемiщаються дуже швидко.
+DeathText=Повiдомл. про смерть:
+DeathMessages[0]=Класич.
+DeathMessages[1]=З урахуванням зброї
+DeathHelp=Стиль повiдомлень про смерть
+SpeedText=Швидкiсть
+SpeedHelp="Швидкiсть гри. 50% - Як у матрицi, 200% - неймовiрно швидко"
+
+[UMenuBotConfigBase]
+BaseText=Базовий рiвень:
+BaseHelp=Базовий рiвень гри ботiв
+Skills[0]=Новачок(0)
+Skills[1]=Продвинутий(1)
+Skills[2]=Експерт(2)
+Skills[3]=Майстер(3)
+SkillTaunts[0]=Вони не зроблять тобi боляче... занадто...
+SkillTaunts[1]="Не позiхай"
+SkillTaunts[2]="Думаєш, ти крутий?"
+SkillTaunts[3]="Ти вже мертвий..."
+NumBotsText=Кiлькiсть ботiв
+NumBotsHelp="Кiлькiсть ботiв гри"
+AutoAdjustText=Самонавчання
+AutoAdjustHelp=Боти самонавчаються
+RandomText=Випадково
+RandomHelp=Будуть обранi випадковi роботи
+ConfigBotsText=Налаштування
+ConfigBotsHelp="Налаштування параметрiв роботи роботiв. (Iм'я, зовнiшнiй вигляд, влучнiсть, рухливiсть, стиль поведiнки, i т.д.)"
+AtLeastOneBotTitle=Налаштування ботiв
+AtLeastOneBotText=Ви повиннi вибрати хоча б одного бота, щоб увiйти у вiкно налаштування.
+
+[UMenuNetworkClientWindow]
+NetSpeedText=Швидкiсть мережi:
+NetSpeedHelp=Виберiть тип з'єднання з iншими комп'ютерами
+NetSpeeds[0]=Модем (28.8 - 56K)
+NetSpeeds[1]=ISDN, Кабель
+NetSpeeds[2]=Локальна мережа (LAN)
+
+[UMenuMultiplayerMenu]
+StartName=Почати мережну гру
+StartHelp=""
+BrowserName=Шукати iгри в Iнтернетi
+BrowserHelp="Буде запущено браузер iнтернет серверiв. Краще заздалегiдь (до запуску Unreal) встановити з'єднання з провайдером"
+LANName=Шукати iгри в локальнiй мережi
+LANHelp="Буде здiйснено пошук UT серверiв у Вашiй локальнiй мережi"
+PatchName=Завантаження останнього оновлення
+PatchHelp="Поточна версiя вiдображається у верхньому правому кутку екрана, остання - 4.36. На 30,06,2002 оновлення не було (i навряд чи буде)"
+DisconnectName=Вiд'єднатися вiд сервера
+DisconnectHelp="Вiд'єднається вiд поточного сервера"
+ReconnectName=З'єднатися знову
+ReconnectHelp=Пiдключитися до останнього сервера
+SuggestPlayerSetupTitle=Перевiрка iменi
+SuggestPlayerSetupText=Ваше iм'я встановлено як Player/Гравець. \n\nПерейти до екрана налаштування гравця?
+SuggestNetspeedTitle="Перевiрте швидкiсть Iнтернету"
+SuggestNetspeedText="Ви не налаштували швидкiсть Iнтернет\n\nПерейти до екрана налаштування?"
+OpenLocationName=Перейти на адресу
+OpenLocationHelp=Вкажiть адресу URL, до якої ви хочете приєднатися // URL.
+
+[UMenuAudioClientWindow]
+SoundQualityText=Якiсть звуку
+SoundQualityHelp=Поставте на Низьке, якщо у вас 32 або менше оперативної пам'ятi
+Details[0]=Низьке
+Details[1]=Високе
+MusicVolumeText=Гучнiсть музики
+MusicVolumeHelp=" "
+SoundVolumeText=Гучнiсть звуку
+SoundVolumeHelp=" "
+VoiceMessagesText=Голос
+VoiceMessagesHelp=При включеннi будете чути команди та крики гравцiв
+MessageBeepText=Сигнал повiдомлень
+MessageBeepHelp=Сигнал при отриманнi повiдомлення
+
+[UMenuWeaponPriorityListBox]
+WeaponPriorityHelp=Видiлiть та перетягнiть знаряддя вище, щоб пiдвищити його прiоритет
+
+[UMenuInputOptionsClientWindow]
+AutoAimText=Автонацiлювання
+AutoAimHelp=Вертикальне автонацiлювання
+JoystickText=Джойстик
+JoystickHelp=Використання джойстика
+SensitivityText=Почуття мишi
+SensitivityHelp="Читливiсть мишi"
+InvertMouseText=Iнв. мишi
+InvertMouseHelp="Iнвертування вертикального руху мишi"
+LookSpringText=Повернення виду
+LookSpringHelp=Пiсля вiдпускання клавiшi огляду мишею поверне вид на центр
+MouselookText=Огляд мишею
+MouselookHelp="Використовувати огляд мишею"
+MouseSmoothText=Згладжування
+MouseSmoothHelp=Обчислюється середнє мiж перемiщеннями мишi за пару кадрiв
+AutoSlopeText=Авто вигляд
+AutoSlopeHelp=Якщо заборонено огляд мишею, ця опцiя включає авто пiдстроювання виду пiд час руху сходами тощо.
+
+[UMenuMapListCW]
+DefaultText=Список карток: 
+DefaultHelp=Стандартний список карт
+CustomText=Свiй
+ExcludeCaption=Не використовуються
+ExcludeHelp="Карти, якi не використовуються при автоматичному перемиканнi"
+IncludeCaption=Використовуванi
+IncludeHelp="Карти, якi використовуються при автоматичному перемиканнi"
+
+[UMenuBotConfigClientWindow]
+BIMText=Боти
+BIMHelp=Чи будуть у вашiй грi боти
+
+[UMenuScreenshotCW]
+PlayersText=гравцiв
+
+[UMenuNewGameClientWindow]
+SkillText=Рiвень складностi:
+Skills[0]=Легкий
+Skills[1]=Середнiй
+Skills[2]=Складний
+Skills[3]=Нереальний
+SkillStrings[0]="Туристична прогулянка"
+SkillStrings[1]="Приготуйтеся, доведеться працювати"
+SkillStrings[2]="Не для слабких серцем"
+SkillStrings[3]="Бажання смертника"
+SkillHelp=Виберiть бажаний рiвень складностi
+
+[UMenuHUDConfigCW]
+HUDConfigText=Розкладка дисплея
+HUDConfigHelp="Виберiть розташування елементiв дисплея"
+CrosshairText=Вигляд прицiлу
+CrosshairHelp="Виберiть тип прицiлу"
+
+[UMenuOptionsClientWindow]
+GamePlayTab=Гра
+InputTab=Введення
+ControlsTab=Клавiшi
+AudioTab=Звук
+VideoTab=Вiдео
+NetworkTab=Мережа
+HUDTab=Гр. Дисп.
+
+[UMenuWeaponPriorityListArea]
+AutoSwitchText=Автоперекл.
+AutoSwitchHelp=При пiдняттi бiльш прiоритетної зброї здiйснюється перемикання на неї. Краще вимкнути.
+
+[UMenuMutatorCW]
+ExcludeCaption=Мутатори, що не використовуються.
+ExcludeHelp="Мутатори, якi не будуть використовуватися в цiй грi"
+IncludeCaption=Мутатори, що використовуються.
+IncludeHelp="Мутатори, якi будуть використовуватися в цiй грi"
+KeepText=Зберегти
+KeepHelp="Завжди використовувати вибранi мутатори"
+
+[UMenuTeamGameRulesCWindow]
+FFText=Вогонь по своїх:
+FFHelp="Вiдсоток пошкоджень, що завдається при стрiльбi за своїми"
+
+[UMenuToolsMenu]
+ConsoleName=Системна &консоль
+ConsoleHelp=Тiльки для просунутих
+TimeDemoName=&Статистика FPS
+TimeDemoHelp=Для вимiрювання кiлькостi кадрiв за секунду
+LogName=Показати &журнал
+LogHelp=Показати журнал гри
+
+[UMenuSlotClientWindow]
+MonthNames[0]=Сiчень
+MonthNames[1]=Лютий
+MonthNames[2]=Березень
+MonthNames[3]=Квiтень
+MonthNames[4]=Май
+MonthNames[5]=Червень
+MonthNames[6]=липень
+MonthNames[7]=Серпень
+MonthNames[8]=Вересень
+MonthNames[9]=Жовтень
+MonthNames[10]=Листопад
+MonthNames[11]=Грудень
+SlotHelp=Натиснiть, щоб активувати слот. (Збереження/Завантаження)
+
+[UMenuSaveGameClientWindow]
+CantSave=Не можна зберегти: Ви мертвi
+
+[UMenuHelpMenu]
+ContextName=Контекстна пiдказка &
+ContextHelp="Вiдображати цей рядок внизу екрана"
+EpicGamesURLName=&Сторiнка Epic Games
+EpicGamesURLHelp=Вiдвiдати сторiнку Epic Games в Iнтернетi! (www.epicgames.com, unreal.epicgames.com)
+AboutName=Про &програму
+AboutHelp="'Про програму', воно i в Африцi 'Про програму'"
+SupportURLName="Техдопомога"
+SupportURLHelp="Вирiшення проблем з грою (сайт в Iнтернетi, англiйською) unreal.epicgames.com"
+
+[UMenuLoadGameClientWindow]
+RestartText=Перезапуск
+RestartHelp=Перезапуск поточного рiвня
+
+[UMenuStartGameClientWindow]
+DedicatedText=Видiлений
+DedicatedHelp=Натиснiть, щоб запустити видiлений сервер
+ServerText=Сервер
+
+[UMenuOptionsMenu]
+PreferencesName=&Параметри
+PreferencesHelp="Параметри гри: Звук, Вiдео, Iгровий дисплей, Клавiшi, Введення тощо"
+PrioritizeName=&Зброя
+PrioritizeHelp="Тут Ви можете встановити прiоритет зброї"
+DesktopName=&Робочий стiл
+DesktopHelp="Вiдображати робочий стiл чи нi"
+AdvancedName=Тонкi налаштування
+AdvancedHelp="Глибокi налаштування движка, рекомендується лише для просунутих користувачiв, англiйською"
+PlayerMenuName=&Гравець
+PlayerMenuHelp="Налаштування iменi, вигляду та голосу гравця"
+
+[UMenuGameMenu]
+NewGameName=Нова гра
+NewGameHelp="Почати нову гру"
+LoadName=Завантаження
+LoadHelp="Завантажити збережену ранiше гру"
+SaveName=Збереження
+SaveHelp="Зберегти поточну гру"
+BotmatchName=Тренування з ботами
+BotmatchHelp="Почати тренування з ботами"
+QuitName=Вихiд
+QuitHelp="Вийти з Unreal на Unreal Engine 4.36"
+QuitTitle=Пiдтвердiть вихiд
+QuitText=Ви дiйсно хочете повернутися до цiєї нещасної реальностi?
+
+[UMenuPlayerWindow]
+WindowTitle=Налаштування гравця
+
+[UMenuBotmatchWindow]
+WindowTitle=Гра з ботами
+
+[UMenuStatsMenu]
+ViewLocalName=Локальна статистика
+ViewLocalHelp="Перегляд локальної статистики"
+ViewGlobalName=Перегляд ngWorldStats
+ViewGlobalHelp="Перегляд статистики ngWorldStats"
+GlobalPasswordName=Змiна пароля ngWorldStats
+GlobalPasswordHelp=" "
+AboutName=Довiдка по ngStats
+AboutHelp=" "
+About2Name="Довiдка по ngWorldStats"
+About2Help=" "
+
+[UMenuMutatorWindow]
+WindowTitle=Налаштування мутаторiв
+
+[UMenuMapListWindow]
+WindowTitle=Список карток
+
+[UTCreditsWindow]
+WindowTitle=Автори гри
+
+[UMenuWeaponPriorityWindow]
+WindowTitle=Зброя
+
+[UMenuOptionsWindow]
+WindowTitle=Налаштування
+
+[UMenuStartGameWindow]
+WindowTitle=Почати мережну гру
+
+[UMenuConfigIndivBotsWindow]
+WindowTitle=Налаштування ботiв
+
+[UMenuNewGameWindow]
+WindowTitle=Нова гра
+
+[UMenuLoadGameWindow]
+WindowTitle=Завантаження гри
+
+[UMenuSaveGameWindow]
+WindowTitle=Збереження гри
+
+[UMenuHelpWindow]
+WindowTitle=Допомога
+
+

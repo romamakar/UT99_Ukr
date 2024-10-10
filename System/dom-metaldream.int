@@ -1,0 +1,37 @@
+[LevelInfo0]
+Title=Металева мрiя
+IdealPlayerCount=12
+LevelEnterText=" "
+
+[ZoneInfo5]
+ZoneName=Зовнi
+
+[ZoneInfo1]
+ZoneName=Контрольна станцiя 4
+
+[ZoneInfo4]
+ZoneName=Склад
+
+[ZoneInfo2]
+ZoneName=Коридор
+
+[ControlPoint0]
+PointName=Коробки
+
+[ZoneInfo14]
+ZoneName=Контроль нафти
+
+[ControlPoint2]
+PointName=Кран
+
+[ZoneInfo3]
+ZoneName=Контрольна станцiя 2
+
+[ControlPoint1]
+PointName=Вертолiтний майданчик
+
+[LevelSummary]
+Title=Металева мрiя
+IdealPlayerCount=12
+LevelEnterText=" "
+

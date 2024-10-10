@@ -1,0 +1,33 @@
+[LevelInfo0]
+Title=NТора
+IdealPlayerCount=6-10
+LevelEnterText=Не бiйтеся, зараз почнеться!
+
+[LevelSummary]
+LevelEnterText=Не бiйтеся, зараз почнеться!
+
+[SpecialEvent0]
+Message=Варта вiдкрита!
+
+[FortStandard6]
+FortName=Вхiд до бiблiотеки
+DestroyedMessage=" вiдкритий!"
+
+[FortStandard2]
+FortName=Головний вхiд
+DestroyedMessage=вiдкритий!
+
+[FortStandard3]
+DestroyedMessage=
+
+[FortStandard0]
+DestroyedMessage=
+
+[FortStandard1]
+DestroyedMessage=
+
+[AssaultInfo0]
+ObjDesc[0]=Вийдiть iз замка, праворуч ви знайдете перемикач, який вiдкриває вхiд до бiблiотеки.
+ObjDesc[1]=У бiблiотецi знищiть два ланцюги, щоб вiдкрити шлях у сторожку у дворi
+ObjDesc[2]=У сторожцi скористайтесь перемикачем, щоб вiдкрити головний вхiд...
+ObjDesc[3]=... i обернiться через нього iз замку живим!

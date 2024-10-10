@@ -1,0 +1,43 @@
+[LevelInfo0]
+Title=Гардхен
+
+[LevelSummary]
+Title=Гардхен
+
+[ZoneInfo13]
+ZoneName=Пiдвал
+
+[ZoneInfo12]
+ZoneName=Верхнiй хол
+
+[ControlPoint2]
+PointName=Верх
+
+[ZoneInfo8]
+ZoneName=Оглядовий майданчик
+
+[ZoneInfo11]
+ZoneName=Нижнiй хол
+
+[ControlPoint0]
+PointName=Нiз
+
+[ControlPoint3]
+PointName=Центральна
+
+[ZoneInfo10]
+ZoneName=Мiсце вибуху 1
+
+[ZoneInfo9]
+ZoneName=Мiсце вибуху 2
+
+[locationid7]
+LocationName=низ
+
+[locationid6]
+LocationName=верх
+
+[locationid8]
+LocationName=центр
+
+

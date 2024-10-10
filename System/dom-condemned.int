@@ -1,0 +1,46 @@
+[LevelInfo0]
+Title=Засудження
+
+[LevelSummary]
+Title=Засудження
+
+[ZoneInfo1]
+ZoneName=на алеї
+
+[ControlPoint2]
+PointName=Бар
+
+[ControlPoint1]
+PointName=Дах
+
+[ZoneInfo0]
+ZoneName=у будiвлi
+
+[ControlPoint0]
+PointName=Гараж
+
+[ZoneInfo4]
+ZoneName=зовнi будiвлi
+
+[ScrollingMessageTexture0]
+ScrollingMessage=досвiдчений %p сьогоднi проводить матч на аренi 'Осуд'...
+
+[locationid0]
+LocationName=бiля гаражу
+
+[locationid2]
+LocationName=бар Артура
+
+[locationid1]
+LocationName=бар Артура
+
+[locationid3]
+LocationName=Дах
+
+[locationid4]
+LocationName=Дах
+
+[locationid5]
+LocationName=Дах
+
+

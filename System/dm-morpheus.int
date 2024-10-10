@@ -1,0 +1,19 @@
+[ScrollingMessageTexture2]
+ScrollingMessage=лiдирує - %lp, фрагiв - %lf
+
+[ScrollingMessageTexture0]
+ScrollingMessage=лiдирує - %lp, фрагiв - %lf
+
+[ScrollingMessageTexture3]
+ScrollingMessage=лiдирує - %lp, фрагiв - %lf
+
+[LevelSummary]
+LevelEnterText=Нiхто не стрибає з першого разу...
+
+[VacuumZone0]
+DamageString=%k довго падав...
+
+[LevelInfo0]
+LevelEnterText=Нiхто не стрибає з першого разу...
+
+

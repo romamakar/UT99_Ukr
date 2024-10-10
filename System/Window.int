@@ -1,0 +1,64 @@
+[Errors]
+Critical="Критична помилка"
+FailedConfigLoad="%s (не вдалося завантажити)"
+
+[General]
+BrowseButton="..."
+UseButton="Вибрати"
+ClearButton="Очистити"
+OkButton="OK"
+AddButton="Додати"
+EmptyButton="Очистити"
+InsertButton="Вставити"
+DeleteButton="Видалити"
+DefaultsButton="Повернути вихiднi"
+BackButton="< Назад"
+NextButton="Далi>"
+FinishButton="Готово"
+CancelButton="Скасувати"
+InstallButton="&Встановити"
+YesButton="Так"
+NoButton="Нi"
+AgreeButton="Я згоден"
+LanguagePrompt="Мова:"
+LanguageWindow="Вибiр мови"
+LogWindow="%s Log Window"
+PropNone="Нiчого не вибрано"
+PropSingle="Властивостi %s"
+PropMulti="Властивостi %s (вибрано %i)"
+InsertCdText="Будь ласка, вставте 1-й компакт-диск Unreal Tournament у ваш CD-ROM i натиснiть OK, щоб продовжити або Скасувати, щоб вийти."
+InsertCdTitle="Для запуску потрiбен оригiнальний компакт-диск"
+AdvancedOptionsTitle="Advanced Options"
+Low="Низька"
+High="Висока"
+
+[FirstRun]
+Caption="Вихiднi налаштування"
+LowMemory="Unreal визначив що у вас %i мегабайт оперативної пам'ятi. Для покращення продуктивностi, були включенi опцiї 'Низька якiсть текстур' та 'Низька якiсть звуку'. Ви можете змiнити цi налаштування в меню 'Налаштування продуктивностi'."
+NonMMX=Unreal має виявлено, що ви використовуєте не-MMX PC. Базований на цьому, звуковий playback rate має бути налаштований, щоб використовувати least CPU Power. Ви можете змiнити це налаштування в "Advanced Options / Audio" menu.
+Starting=Unreal is starting up with new settings. Якщо ви маєте будь-якi проблеми, скористайтеся статтями, що стосуються варiацiйного роздiлу 'Release Notes' в "Start" menu.
+
+[IDDIALOG_Directory]
+IDC_Directory="Вибiр мiсця встановлення"
+IDC_ChoosePrompt="Вкажiть папку для встановлення."
+IDC_PathTitle="Шлях:"
+IDC_DirectoryTitle="Папки:"
+IDC_DrivesTitle="Диск:"
+IDC_NetworkButton="Мережа"
+
+[IDDIALOG_Password]
+IDC_Password="Перевiрка пароля"
+IDC_Prompt="Будь ласка, введiть ваше iм'я та пароль."
+IDC_Name="Iм'я:"
+IDC_Password="&Пароль:"
+
+[IDMENU_NotifyIcon]
+ID_NotifyIcon="Меню"
+ID_NotifyShowLog="UnrealServer: консоль"
+ID_NotifyAdvancedOptions="Тонке налаштування"
+ID_NotifyExit="Закрити UnrealServer"
+
+[IDMENU_Log]
+ID_LogFile="Файл"
+ID_LogAdvancedOptions="Додатковi налаштування"
+ID_LogFileExit="Вихiд"

@@ -1,0 +1,30 @@
+[LevelSummary]
+LevelEnterText=Пенал пiдводного човна класу 'Листопад'
+
+[WaterZone5]
+ZoneName=у водi
+
+[ZoneInfo0]
+ZoneName=Червона база
+
+[ZoneInfo3]
+ZoneName=вхiд на базу синiх
+
+[ZoneInfo5]
+ZoneName=
+
+[ZoneInfo6]
+ZoneName=вхiд на базу червоних
+
+[ZoneInfo2]
+ZoneName=База синiх
+
+[ZoneInfo4]
+ZoneName=пенал пiдводного човна
+
+[LevelInfo0]
+Title=Листопад
+IdealPlayerCount=8-12
+LevelEnterText=Пенал пiдводного човна класу 'Листопад'
+
+

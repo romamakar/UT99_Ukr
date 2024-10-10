@@ -1,0 +1,17 @@
+[UWindowConsoleWindow]
+WindowTitle=Системна консоль
+
+[UWindowMessageBoxCW]
+YesText=Так
+NoText=Нi
+OKText=OK
+CancelText=Скасувати
+
+[UWindowSmallCloseButton]
+CloseText=Закрити
+
+[UWindowSmallCancelButton]
+CancelText=Скасувати
+
+[UWindowSmallOKButton]
+OKText=Прийняти

@@ -1,0 +1,65 @@
+[LevelInfo0]
+LevelEnterText=Захопiть пiдводну базу!
+
+[ZoneInfo5]
+ZoneName=центр
+
+[ZoneInfo3]
+ZoneName=великий шлюз
+
+[WaterZone0]
+ZoneName=пiд водою
+
+[ZoneInfo4]
+ZoneName=малий шлюз
+
+[ZoneInfo1]
+ZoneName=Пiдводна база
+
+[ZoneInfo2]
+ZoneName = командний центр
+
+[ZoneInfo7]
+ZoneName=зал
+
+[LevelSummary]
+LevelEnterText=Захопiть пiдводну базу!
+
+[SpecialEvent0]
+Message=Термiнал 1 знищено.
+
+[FortStandard0]
+FortName=Термiнал 3
+DestroyedMessage=знищений!
+
+[SpecialEvent10]
+Message=Термiнал 4 знищено.
+
+[FortStandard1]
+FortName=Термiнал 1
+DestroyedMessage=знищений!
+
+[FortStandard2]
+FortName=Термiнал 2
+DestroyedMessage=знищений!
+
+[FortStandard3]
+FortName=Термiнал 4
+DestroyedMessage=знищений!
+
+[AssaultInfo0]
+ObjDesc[0]=Знищити термiнал 1. Термiнали можуть бути знищенi в будь-якому порядку.
+ObjDesc[1]=Знищити термiнал 2. Термiнали можуть бути знищенi в будь-якому порядку.
+ObjDesc[2]=Знищити термiнал 3. Термiнали можуть бути знищенi в будь-якому порядку.
+ObjDesc[3]=Знищити термiнал 4. Термiнали можуть бути знищенi в будь-якому порядку.
+
+[ZoneInfo6]
+ZoneName=Шахта лiфта
+
+[SpecialEvent15]
+Message=Термiнал 3 знищено
+
+[SpecialEvent5]
+Message=Термiнал 2 знищено
+
+

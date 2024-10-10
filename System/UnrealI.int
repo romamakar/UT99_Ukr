@@ -1,0 +1,749 @@
+[Public]
+Object=(Name=UnrealI.DarkMatch,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealI.KingOfTheHill,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=Unreali.FlakCannon,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=Unreali.GESBioRifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=Unreali.Razorjack,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=Unreali.Rifle,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=Unreali.Minigun,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=Unreali.FemaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Жiнка 2")
+Object=(Name=Unreali.MaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Чоловiк 1")
+Object=(Name=Unreali.MaleTwo,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Чоловiк 2")
+Object=(Name=Unreali.SkaarjPlayer,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Скаардж")
+Object=(Name=Unreali.FemaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Жiнка 2")
+Object=(Name=Unreali.MaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Чоловiк 1")
+Object=(Name=Unreali.MaleTwoBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Чоловiк 2")
+Object=(Name=Unreali.SkaarjPlayerBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Скаарж")
+;Preferences=(Caption="Game Types",Parent="Advanced Options")
+;Preferences=(Caption="Dark Match",Parent="Game Types",Class=UnrealI.DarkMatch,Immediate=True)
+;Preferences=(Caption="King Of The Hill",Parent="Game Types",Class=UnrealI.KingOfTheHill,Immediate=True)
+;Preferences=(Caption="Networking",Parent="Advanced Options")
+;Preferences=(Caption="Map Lists",Parent="Networking")
+;Preferences=(Caption="DarkMatch Maps",Parent="Map Lists",Class=UnrealI.DkMapList,Immediate=True)
+
+[DeathmatchGame]
+GlobalNameChange= змiнив iм'я на 
+NoNameChange= вже використовується
+MaxedOutMessage=Сервер уже перевантажений.
+GameName=Deathmatch
+
+[DarkMatch]
+GameName=Темна...
+
+[KingOfTheHill]
+KingMessage=" новий цар гори!"
+GameName=Цар гори
+
+[TeamGame]
+NewTeamMessage=тепер у 
+TeamColor[0]=Червоний
+TeamColor[1]=Синiй
+TeamColor[2]=Зелений
+TeamColor[3]=Золотий
+GameName=Командний Deathmatch
+
+[CoopGame]
+GameName=Кооп Гра
+
+[UnrealGameInfo]
+DeathVerb= був 
+DeathPrep=, вбивця-
+DeathTerm=вбитий
+DeathArticle=  
+ExplodeMessage= був пiдiрваний
+SuicideMessage=отримав випадковий iнфаркт.
+FallMessage = залишив маленький кратер.
+DrownedMessage= забув спливти
+BurnedMessage= був спопелений
+CorrodedMessage= був покритий мулом
+HackedMessage=розрубано
+DeathMessage[0]=убитий
+DeathMessage[1]=пiдкорений
+DeathMessage[2] = задимлений
+DeathMessage[3]=зарiзаний
+DeathMessage[4]=знищений
+DeathMessage[5]=кинутий на землю
+DeathMessage[6]=уражений
+DeathMessage[7]=продiрявлений
+DeathMessage[8]=розкромсан
+DeathMessage[9]=знищений
+DeathMessage[10]=побитий
+DeathMessage[11]=уражений
+DeathMessage[12]=розбитий
+DeathMessage[13]=убитий
+DeathMessage[14]=розмазаний
+DeathMessage[15]=вибитий
+DeathMessage[16]=збитий
+DeathMessage[17]=прикриють
+DeathMessage[18]=подрiбнений
+DeathMessage[19]=нарiзаний
+DeathMessage[20]=iскромсан
+DeathMessage[21]=розiрваний
+DeathMessage[22]=пiдiрваний
+DeathMessage[23]=порваний
+DeathMessage[24]=прикриють
+DeathMessage[25]=потрошений
+DeathMessage[26]=кастрований
+DeathMessage[27]=наказаний
+DeathMessage[28]=убитий
+DeathMessage[29]=розгромлений
+DeathMessage[30]=розбитий на друзки
+DeathMessage[31]=розбитий
+DeathModifier[0]=повнiстю 
+DeathModifier[1]=досконало 
+DeathModifier[2]=абсолютно 
+DeathModifier[3]=тотально 
+DeathModifier[4]=досконало 
+MajorDeathMessage[0]=розiрвано новий
+MajorDeathMessage[1]=погано закiнчив
+MajorDeathMessage[2]=пiзнав бiль
+MajorDeathMessage[3]=
+MajorDeathMessage[4]=
+MajorDeathMessage[5]=
+MajorDeathMessage[6]=
+MajorDeathMessage[7]=
+HeadLossMessage[0]=безголовий
+HeadLossMessage[1]=безголовий
+
+[UnrealQuitMenu]
+YesSelString= [ТАК] Нi
+NoSelString= Так [НI]
+MenuTitle=Вийти?
+HelpMessage[1]=Виберiть та й натиснiть enter, щоб повернутися до вашого жалюгiдного, нiкчемного, марного життя, якщо ви не можете мати справу з НЕреальнiстю.
+MenuList[0]=A Digital Extremes/Epic Games
+MenuList[1]=Collaboration
+MenuList[2]=Game Design: James Schmalz
+MenuList[3]=Cliff Bleszinski
+MenuList[4]=Level Design: Cliff Bleszinski
+MenuList[5]=T. Elliot Cannon Pancho Eekels
+MenuList[6]=Jeremy War Cedric Fiorentino
+MenuList[7]=Shane Caudle
+MenuList[8]=Animator: Dave Carter
+MenuList[9]=Art: James Schmalz 
+MenuList[10]=Mike Leatham Artur Bialas
+MenuList[11]=Programming: Tim Sweeney Steven Polge
+MenuList[12]=Erik de Neve James Schmalz
+MenuList[13]=Carlo Vogelsang Nick Michon
+MenuList[14]=Music: Alexander Brandon
+MenuList[15]=Michiel van den Bos
+MenuList[16]=Sound Effects: Dave Ewing
+MenuList[17]=Producer for GT: Jason Schreiber
+MenuList[18]=Biz: Mark Rein Nigel Kent Craig Lafferty
+
+[DispersionPistol]
+PickupMessage=Ви отримали Дисперсiйний пiстолет
+ItemName=Дисперсiйний пiстолет
+
+[UnrealGameOptionsMenu]
+AdvancedString=Глибокi налаштування
+AdvancedHelp=Змiнити глибокi налаштування гри.
+MenuTitle=ОПЦIЇ ГРИ
+HelpMessage[1]=Призначити швидкiсть, з якою у грi йде час.
+HelpMessage[2]=Якщо iстинно, знижує кiлькiсть кровi у грi.
+MenuList[1]=Швидкiсть гри
+MenuList[2]=Менше кровi
+
+[UnrealIndivBotMenu]
+MenuTitle=Налаштування Штучного Iнтелекту
+HelpMessage[1]=Яка конфiгурацiя роботiв буде редагуватися. Використовуйте лiву та праву стрiлки для змiни.
+HelpMessage[2]=Натиснiть клавiшу enter, щоб змiнити назву цього бота.
+HelpMessage[3]=Використовуйте лiву та праву стрiлки, щоб змiнити клас цього бота.
+HelpMessage[4]=Використовуйте лiву та праву стрiлки для змiни шкiри цього бота.
+HelpMessage[5]=Визначити загальний рiвень цього робота.
+HelpMessage[6]=Виберiть, в якiй командi грає цей бот (Червона, Синя, Зелена або Золота).
+MenuList[1]=Конфiгурацiя
+MenuList[2]=Iм'я
+MenuList[3]=Клас
+MenuList[4]=Шкiра
+MenuList[5]=Визначення рiвня
+MenuList[6]=Команда
+
+[IntroNullHud]
+ESCMessage=Щоб розпочати, натиснiть ESC
+
+[UnrealFavoritesMenu]
+MenuTitle=ОБРАНI
+EditList[0]=Iм'я для сервера:
+EditList[1]=Адреса:
+HelpMessage[1]=Натиснiть клавiшу enter, щоб вiдправитися до цього сервера.  Натиснiть праву стрiлку, щоб редагувати цей запис.
+HelpMessage[2]=Натиснiть клавiшу enter, щоб вiдправитися до цього сервера.  Натиснiть праву стрiлку, щоб редагувати цей запис.
+HelpMessage[3]=Натиснiть клавiшу enter, щоб вiдправитися до цього сервера.  Натиснiть праву стрiлку, щоб редагувати цей запис.
+HelpMessage[4]= Натиснiть клавiшу enter, щоб вiдправитися до цього сервера.  Натиснiть праву стрiлку, щоб редагувати цей запис.
+HelpMessage[5]=Натиснiть клавiшу enter, щоб вiдправитися до цього сервера.  Натиснiть праву стрiлку, щоб редагувати цей запис.
+HelpMessage[6]=Натиснiть клавiшу enter, щоб вiдправитися до цього сервера.  Натиснiть праву стрiлку, щоб редагувати цей запис.
+HelpMessage[7]=Натиснiть клавiшу enter, щоб вiдправитися до цього сервера.  Натиснiть праву стрiлку, щоб редагувати цей запис.
+HelpMessage[8]=Натиснiть клавiшу enter, щоб вiдправитися до цього сервера.  Натиснiть праву стрiлку, щоб редагувати цей запис.
+HelpMessage[9]=Натиснiть клавiшу enter, щоб вiдправитися до цього сервера.  Натиснiть праву стрiлку, щоб редагувати цей запис.
+HelpMessage[10]=Натиснiть клавiшу enter, щоб вiдправитися до цього сервера.  Натиснiть праву стрiлку, щоб редагувати цей запис.
+HelpMessage[11]=Натиснiть клавiшу enter, щоб вiдправитися до цього сервера.  Натиснiть праву стрiлку, щоб редагувати цей запис.
+HelpMessage[12]=Натиснiть клавiшу enter, щоб вiдправитися до цього сервера.  Натиснiть праву стрiлку, щоб редагувати цей запис.
+
+[Translator]
+PickupMessage=Натиснiть F2, щоб активувати Унiверсальний перекладач
+NewMessage=Унiверсальний перекладач
+
+[UnrealVideoMenu]
+MenuTitle=АУДIО/ВIДЕО
+HelpMessage[1]=Визначте яскравiсть дисплея за допомогою лiвої та правої стрiлок.
+HelpMessage[2]=Грати в Unreal у вiкнi. Пам'ятайте, що перехiд у режим програмного вiдображення може прибрати високодеталiзованих дiйових осiб, якi були видимi за допомогою апаратного прискорення.
+HelpMessage[3]=Використовуйте лiву та праву стрiлки для вибору роздiльної здатностi та натиснiть клавiшу enter, щоб вибрати цю роздiльну здатнiсть.
+HelpMessage[4]=Використовуйте опцiю низькотекстурних деталей для покращення виконання.  Змiни цiєї установки будуть мати ефект при змiнi наступного рiвня.
+HelpMessage[5]=Визначте гучнiсть музики за допомогою лiвої та правої стрiлок.
+HelpMessage[6]=Визначте гучнiсть звукових ефектiв у грi за допомогою лiвої та правої стрiлок.
+HelpMessage[7]=Використовуйте опцiю низької якостi звуку для покращення виконання на машинах з 32 мегабайтами пам'ятi.  Змiни цiєї установки будуть мати ефект при наступнiй змiнi рiвня.
+MenuList[1]=Яскравiсть
+MenuList[2]=Переключити режим повного екрана
+MenuList[3]=Вибрати дозвiл
+MenuList[4]=Деталi текстури
+MenuList[5]=Гучнiсть музики
+MenuList[6]=Гучнiсть звуку
+MenuList[7]=Якiсть звуку
+LowText=Низьке
+HighText=Висока
+HelpMessage[8]=Якщо iстинно, ви будете чути голосовi повiдомлення пiд час iгор, що їх використовують.
+MenuList[8]=Голосовi Повiдомлення
+
+[UnrealMeshMenu]
+HelpMessage[4]=Змiнiть ваш клас, використовуючи лiву та праву стрiлки.
+HelpMessage[5]=Введiть пароль адмiнiстратора тут або, якщо потрiбно, пароль гри.
+MenuList[4]=Клас:
+MenuList[5]=Пароль:
+HelpMessage[6]=Натиснiть клавiшу enter, щоб розпочати гру.
+MenuList[6]=Почати гру
+
+[UnrealPlayerMenu]
+MenuTitle=Вибрати цифрове вiдображення
+HelpMessage[1]=Натиснiть клавiшу enter, щоб надрукувати своє iм'я. Обов'язково зробiть це перед входом у мережну гру.
+HelpMessage[2]=Використовуйте клавiшi зi стрiлками, щоб змiнити колiр команди (Червона, Синя, Зелена або Жовта).
+HelpMessage[3]=Змiнiть вашу шкiру, використовуючи лiву та праву стрiлки.
+MenuList[1]=Iм'я: 
+MenuList[2]=Колiр Команди:
+MenuList[3]=Шкiра:
+HelpMessage[4]=Ви можете змiнити лише ваш клас/модель при першому входi в мережну гру або на початку нової одиночної гри.
+MenuList[4]=Клас:
+
+[UnrealJoinGameMenu]
+InternetOption= Iнтернет (28.8)
+FastInternetOption=Швидкий Iнтернет (ISDN або кабельний модем)
+LANOption= Локальна мережа
+MenuTitle=ВСТУПИТИ В ГРУ
+HelpMessage[1]=Шукати локальнi сервери
+HelpMessage[2]=Вибрати сервер зi списку вибраних
+HelpMessage[3]=Натиснiть клавiшу enter, щоб надрукувати адресу сервера.  Натиснiть клавiшу enter, щоб вiдправитися на цей сервер.
+HelpMessage[4]=Встановiть швидкiсть мережi. Спробуйте 2500 для модему, 5000 для ISDN або кабельного модему, та 20000 для локальної мережi
+HelpMessage[5]=Вiдкрити WWW сторiнку списку серверiв Epic
+MenuList[1]=Знайти мiсцевi сервери
+MenuList[2]=Вибрати з вибраних
+MenuList[3]=Вiдкрити
+MenuList[4]=Швидкiсть мережi
+MenuList[5]=Iти до списку серверiв Epic
+
+[UnrealOptionsMenu]
+MenuTitle=МЕНЮ ОПЦIЙ
+HelpMessage[1]=Увiмкнути або вимкнути допомогу при вертикальному нацiлюваннi.
+HelpMessage[2]=Увiмкнути джойстик.
+HelpMessage[3]=Визначити чутливiсть мишi, або як далеко ви повиннi пересунути мишу, щоб зробити цей рух у грi.
+HelpMessage[4]=Звернути мишу по осi X. Коли iстинно, рух мишi вперед приведе до того, що ви подивiться вниз, а не вгору.
+HelpMessage[5]=Якщо iстинно, коли ви вийдете з перегляду мишею, вигляд автоматично вiдцентрується.
+HelpMessage[6]=Якщо iстинно, миша завжди використовується для перегляду вгору i вниз без необхiдностi клавiшi перегляду мишею.
+HelpMessage[7]=Якщо iстинно, поза режимом перегляду мишею ваш вигляд буде автоматично призначатися вгору та вниз на схилах та сходах.
+HelpMessage[8]=Якщо iстинно, ваш екран буде спалахувати, коли ви стрiляєте зi зброї.
+HelpMessage[9]=Виберiть хрестик посерединi екрана
+HelpMessage[10]=Виберiть, де з'являтися вашiй зброї.
+HelpMessage[11]=Якщо включено, подвiйне натискання на клавiшi руху (вперед, назад, рiвно влiво, рiвно вправо) змусить вас зробити швидкий рух, що ухиляється.
+HelpMessage[12]=Натиснiть клавiшу enter, щоб настроїти конфiгурацiю клавiатури, мишi та джойстика.
+HelpMessage[13]=Натиснiть клавiшу enter, щоб встановити черговiсть вибору зброї.
+HelpMessage[14]=Використовуйте стрiлки влiво та вправо для вибору конфiгурацiї Надголовного Дисплею.
+HelpMessage[15]=Визначити кiлькiсть пiдстрибувань пiд час руху.
+HelpMessage[16]=Вiдкрити меню конфiгурацiї розширених налаштувань.
+MenuList[1]=Автоприцiл
+MenuList[2]=Увiмкнути Джойстик
+MenuList[3]=Чутливiсть мишi
+MenuList[4]=Звернути мишу
+MenuList[5]=Авто повернення
+MenuList[6]=Завжди Дивитися мишею
+MenuList[7]=Автоматичний перегляд на ухилi
+MenuList[8]=Спалах зброї
+MenuList[9]=Хрестик
+MenuList[10]=Розмiщення зброї
+MenuList[11]=Ухилення
+MenuList[12]=Налаштувати керування
+MenuList[13]=Черговiсть зброї
+MenuList[14]=Конфiгурацiя Надголовного дисплея
+MenuList[15]=Хитання виду
+MenuList[16]=Просунутi опцiї
+
+[EndgameHud]
+Message1=Рятувальна шлюпка вийшла iз зони тяжiння планети... ледве.  Зараз її пальне скiнчилося i ви безцiльно дрейфуєте.
+Message2=Там, де багато хто помер, ви врятувалися. Ви смiєтеся з себе; стiльки всього трапилося, i так мало змiнилося.
+Message3=До посадки-аварiї, ви були укладенi в тiсному осередку.  Тепер ви знову ув'язненi у в'язницi.
+Message4=Але ви впевненi, що хтось натрапить на ваш маленький корабель... рано чи пiзно.
+Message5=А поки ви дрейфуєте i сподiваєтесь.
+Message6=Продовження Слiд...
+
+[UnrealWeaponMenu]
+MenuTitle=ПРИОРИТЕТИ
+
+[Eightball]
+PickupMessage=Ви отримали гармату
+ItemName=гармата
+
+[UnrealKeyboardMenu]
+OrString= або 
+MenuTitle=КЕРУВАННЯ	
+HelpMessage[1]=
+MenuList[1]=Пострiл
+MenuList[2]=Альтернативний пострiл
+MenuList[3]=Двигатися вперед
+MenuList[4]=Рухати назад
+MenuList[5]=Повернутися влiво
+MenuList[6]=Повернутися праворуч
+MenuList[7]=Пересунутись рiвно влiво
+MenuList[8]=Пересунутись прямо вправо
+MenuList[9]=Стрибок/Вгору
+MenuList[10]=Припасть/Вниз
+MenuList[11]=Перегляд мишею
+MenuList[12]=Активiзувати предмет
+MenuList[13]=Наступний предмет
+MenuList[14]=Попереднiй предмет
+MenuList[15]=Дивитись вгору
+MenuList[16]=Дивитись вниз
+MenuList[17]=Центрувати вигляд
+MenuList[18]=Iти
+MenuList[19]=Iти рiвно
+MenuList[20]=Наступна зброя
+MenuList[21]=Перестановити за замовчуванням
+
+[TranslatorEvent]
+M_NewMessage=Нове повiдомлення транслятора
+M_TransMessage=Повiдомлення транслятора
+
+[Flashlight]
+ExpireMessage=Батареї лiхтаря закiнчилися.
+PickupMessage=Ви пiдiбрали лiхтар
+
+[ParentBlob]
+BlobKillMessage=" "
+
+[FlakCannon]
+PickupMessage=Ви отримали Flak Cannon
+ItemName=Flak Cannon
+DeathMessage=%o було рознесено на шматки %k %w.
+
+[Rifle]
+PickupMessage=Ви отримали Rifle
+ItemName=Sniper Rifle
+DeathMessage=%k пустили кулю в голову %o.
+
+[UnrealBotConfigMenu]
+MenuTitle=BOTS
+HelpMessage[1]=Якщо iстинно, №bots визначають свiй рiвень виходячи з того, як вони грають проти гравцiв.
+HelpMessage[2]=Базовий рiвень №of bots (мiж 0 i 3).
+HelpMessage[3]=Якщо iстинно, №bots входять у гру у випадковому порядку. Якщо хибно, вони входять у конфiгурацiйному порядку.
+HelpMessage[4]=Змiнити конфiгурацiю iндивiдуальних номерiв.
+MenuList[1]=Авто Визначення рiвня
+MenuList[2]=Базовий рiвень
+MenuList[3]=Випадковий порядок
+MenuList[4]=Налаштувати iндивiдуальнi №Bots
+HelpMessage[5]=Число №bots для початку гри (макс. 15).
+HelpMessage[6]=Використовувати №bots пiд час гри з iншими людьми.
+MenuList[5]=Кiлькiсть №Bots
+MenuList[6]=№Bots у мережнiй грi
+
+[UnrealLoadMenu]
+RestartString=Почати заново 
+MenuTitle=ЗАВАНТАЖИТИ ГРУ
+
+[UnrealSlotMenu]
+MonthNames[0]=Сiчень
+MonthNames[1]=Лютий
+MonthNames[2]=Березень
+MonthNames[3]=Квiтень
+MonthNames[4]=Май
+MonthNames[5]=Червень
+MonthNames[6]=липень
+MonthNames[7]=Серпень
+MonthNames[8]=Вересень
+MonthNames[9]=Жовтень
+MonthNames[10]=Листопад
+MonthNames[11]=Грудень
+
+[ASMD]
+PickupMessage=Ви отримали ASMD
+ItemName=ASMD
+
+[UnrealMainMenu]
+HelpMessage[1]=Натиснiть клавiшу enter для змiни опцiй гри, включаючи завантаження та збереження iгор, змiну рiвня складностi та початок №BotMatch.
+HelpMessage[2]=Натиснiть клавiшу enter, щоб змiнити налаштування мережевої гри, включаючи початок або вступ у мережну гру, та змiнити вашу зовнiшнiсть, iм'я або команду.
+HelpMessage[3]=Натиснiть клавiшу enter для налаштування керування.
+HelpMessage[4]=Змiна опцiй звуку та зображення 
+HelpMessage[5]=Натиснiть клавiшу enter, щоб вийти з гри.
+HelpMessage[7]=Call TOLL FREE 1-877-4UNREAL to Order UNREAL!
+MenuList[1]=ГРА
+MenuList[2]=МЕРЕЖОВА ГРА
+MenuList[3]=ОПЦIЇ
+MenuList[4]=АУДIО/ВIДЕО
+MenuList[5]=ВИХIД
+MenuList[7]=IНФО ПРО ЗАМОВЛЕННЯ
+
+[UnrealServerMenu]
+BotTitle=№BOTMATCH
+MenuTitle=МЕРЕЖОВА ГРА
+HelpMessage[1]=Виберiть тип гри.
+HelpMessage[2]=Вибрати картку.
+HelpMessage[3]=Змiнити опцiї гри.
+HelpMessage[4]=Почати гру.
+MenuList[1]=Вибрати гру 
+MenuList[2]=Вибрати картку
+MenuList[3]=Налаштувати гру
+MenuList[4]=Почати гру
+MenuList[5]=Запустити спецiалiзований сервер
+HelpMessage[5]=Запустити спецiалiзований сервер на цiй машинi.
+
+[UnrealGameMenu]
+HelpMessage[1]=Натиснiть клавiшу enter, щоб зберегти поточну гру.
+HelpMessage[2]=Натиснiть клавiшу enter, щоб завантажити збережену гру.
+HelpMessage[3]=Виберiть рiвень складностi та почнiть нову гру.
+HelpMessage[4]=Натиснiть клавiшу enter, щоб змiнити опцiї гри.  Пам'ятайте, що ви не зможете цього зробити, якщо ви граєте у мережеву гру.
+HelpMessage[5]=Душматч проти №Bots.
+MenuList[1]=ЗБЕРIГТИ ГРУ
+MenuList[2]=ЗАВАНТАЖИТИ ГРУ
+MenuList[3]=НОВА ГРА
+MenuList[4]=ОПЦIЇ ГРИ
+MenuList[5]=BOTMATCH
+
+[Health]
+PickupMessage=Ви пiдiбрали Health Pack +
+
+[AutoMag]
+PickupMessage=Ви отримали АutoMag
+ItemName=Automag
+
+[UnrealChooseGameMenu]
+MenuTitle=ВИБIР ГРИ
+HelpMessage[1]=Виберiть, в яку гру грати.
+HelpMessage[2]=Виберiть, в яку гру грати.
+HelpMessage[3]=Виберiть, в яку гру грати.
+HelpMessage[4]=Виберiть, в яку гру грати.
+HelpMessage[5]=Виберiть, в яку гру грати.
+HelpMessage[6]=Виберiть, в яку гру грати.
+HelpMessage[7]=Виберiть, в яку гру грати.
+HelpMessage[8]=Виберiть, в яку гру грати.
+HelpMessage[9]=Виберiть, в яку гру грати.
+HelpMessage[10]=Виберiть, в яку гру грати.
+HelpMessage[11]=Виберiть, в яку гру грати.
+HelpMessage[12]=Виберiть, в яку гру грати.
+HelpMessage[13]=Виберiть, в яку гру грати.
+HelpMessage[14]=Виберiть, в яку гру грати.
+HelpMessage[15]=Виберiть, в яку гру грати.
+HelpMessage[16]=Виберiть, в яку гру грати.
+HelpMessage[17]=Виберiть, в яку гру грати.
+HelpMessage[18]=Виберiть, в яку гру грати.
+HelpMessage[19]=Виберiть, в яку гру грати.
+
+[UnrealMultiPlayerMenu]
+HelpMessage[1]=Вступити в мережну гру.
+HelpMessage[2]=Встановити та розпочати мережну гру.
+HelpMessage[3]=Налаштувати зовнiшнiсть, iм'я та iм'я команди.
+MenuList[1]=ВСТУПИТИ В ГРУ
+MenuList[2]=ПОЧАТИ ГРУ
+MenuList[3]=НАЛАШТУВАННЯ ГРАВЦЯ
+
+[UnrealHelpMenu]
+MenuTitle=HELP
+HelpMessage[1]=Вiдкрити документ щодо вирiшення конфлiктiв.
+MenuList[1]=Дозвол Конфлiктiв 
+
+[YesNoMenu]
+YesSelString=[ТАК] Нi
+NoSelString= Так [НI]
+
+[NaliFruit]
+PickupMessage=Ви пiдiбрали №Nali Healing Fruit +
+
+[Minigun]
+PickupMessage=Ви отримали №Minigun
+ItemName=№Minigun
+DeathMessage=%k %w перетворило %o на здертий шматок м'яса.
+
+[UnrealListenMenu]
+MenuTitle=LOCAL SERVERS
+HelpMessage[1]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[2]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[3]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[4]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[5]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[6]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[7]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[8]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[9]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[10]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[11]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[12]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[13]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[14]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[15]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[16]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[17]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[18]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+HelpMessage[19]=Натиснiть клавiшу enter, щоб вибрати цей сервер.
+
+[GESBioRifle]
+PickupMessage=Ви отримали №GES BioRifle
+ItemName=GES Bio Rifle
+
+[UnrealDMGameOptionsMenu]
+HelpMessage[3]=Кiлькiсть frags, що набираються лiдируючим гравцем для завершення гри.  Якщо 0, то необмежено.
+HelpMessage[4]=Межа часу (у хвилинах) до завершення гри. Якщо 0, то необмежено.
+HelpMessage[5]=Максимальна кiлькiсть дозволених у грi гравцiв.
+HelpMessage[6]=Якщо Збереження Зброї увiмкнено, зброя вiдновлюється негайно, але може бути пiдiбрана кожним гравцем лише одного разу.
+HelpMessage[7]=Налаштувати №bot game та iндивiдуальнi параметри.
+HelpMessage[8]=Вибрати стиль гри: Швидкiсть гри Хардкор швидше та зброя приносить бiльше пошкоджень, нiж нормальна. Турбо - це Хардкор iз справдi швидким пересуванням.
+HelpMessage[9]=Класично чи новий стиль (на пiдставi зброї) смертельних повiдомлень.
+MenuList[3]=Межа №Frag
+MenuList[4]=Межа часу
+MenuList[5]=Максимальна кiлькiсть гравцiв
+MenuList[6]=Збереження зброї
+MenuList[7]=Налаштувати №Bots
+MenuList[8]=Хардкор режим
+MenuList[9]=Смертельнi повiдомлення
+GameStyle[0]=Нормальний
+GameStyle[1]=Хардкор
+GameStyle[2]=Турбо
+
+[Amplifier]
+ExpireMessage=У Amplifier закiнчилася енергiя.
+PickupMessage=Ви отримали №Energy Amplifier
+
+[SearchLight]
+PickupMessage=Ви пiдiбрали №Searchlight.
+
+[SCUBAGear]
+PickupMessage=Ви пiдiбрали №SCUBA gear
+
+[UnrealNewGameMenu]
+HelpMessage[1]=Режим туриста.
+HelpMessage[2]=Готовий до деяких дiй!
+HelpMessage[3]=Не до серцевого нападу.
+HelpMessage[4]=Жага смертi.
+MenuList[1]=ЛЕГКИЙ
+MenuList[2]=СЕРЕДНIЙ
+MenuList[3]=Важкий
+MenuList[4]=НЕРЕАЛЬНИЙ
+
+[Stinger]
+PickupMessage=Ви пiдiбрали №Stinger
+ItemName=№Stinger
+
+[RazorAmmo]
+PickupMessage=Ви пiдiбрали №Razor Blades
+
+[RocketCan]
+PickupMessage=Ви пiдiбрали №12 Eightballs
+
+[ShellBox]
+PickupMessage=Ви пiдiбрали 50 куль
+
+[VoiceBox]
+PickupMessage=Ви пiдiбрали №Voice Box
+
+[UnrealSaveMenu]
+CantSave=НЕ МОЖНА ЗБЕРIГТИ ПIСЛЯ СМЕРТI
+MenuTitle=ЗБЕРIГТИ ГРУ
+
+[Seeds]
+PickupMessage=Ви отримали №Nali fruit seeds
+
+[RifleAmmo]
+PickupMessage=Ви отримали 8 Rifle rounds.
+
+[FlakBox]
+PickupMessage=Ви пiдiбрали №10 Flak Shells
+
+[Flare]
+PickupMessage=Ви отримали №flare
+
+[JumpBoots]
+ExpireMessage=Прягаючi черевики вичерпалися
+PickupMessage=Ви пiдiбрали стрибальнi черевики
+
+[WeaponPowerUp]
+PickupMessage=Ви отримали №Dispersion Pistol Powerup
+
+[Razorjack]
+PickupMessage=Ви отримали №RazorJack
+ItemName=Razorjack
+DeathMessage=%k зробив криваве мiсиво з %o за допомогою %w.
+
+[ForceField]
+M_NoRoom=Немає роботи для активного поля.
+PickupMessage=Ви пiдiбрали №Силове Поле
+
+[ASMDAmmo]
+PickupMessage=Ви пiдiбрали №ASMD core.
+
+[ShieldBelt]
+PickupMessage=Ви отримали №Shield Belt
+
+[UnrealTeamGameOptionsMenu]
+HelpMessage[10]=Вiдсотки пошкодження вiд дружнього вогню.  Пам'ятайте, що завжди отримуєте повне пошкодження вiд власної зброї.
+MenuList[10]=Шкала Дружнього Вогню
+HelpMessage[9]=Вiдсотки пошкодження вiд дружнього вогню.  Пам'ятайте, що завжди отримуєте повне пошкодження вiд власної зброї.
+MenuList[9]=Шкала Дружнього Вогню
+
+[OKMenu]
+OKString=[OK]
+
+[StingerAmmo]
+PickupMessage=Ви пiдiбрали №40 Tarydium Shards
+
+[UpgradeMenu]
+MenuList[1]=Вам потрiбна нова версiя Unreal для гри на цьому серверi. Ви хочете вiдправитися на веб-сайт Unreal за новою версiєю?
+
+[Sludge]
+PickupMessage=Ви пiдiбрали 25 кiлограмiв №Tarydium Sludge
+
+[Invisibility]
+ExpireMessage=Невидимiсть пройшла.
+PickupMessage=Ви маєте Невидимiсть
+
+[ToxinSuit]
+PickupMessage=Ви пiдiбрали №Toxin Suit
+
+[Shells]
+PickupMessage=Ви пiдiбрали №15 shells
+
+[RifleRound]
+PickupMessage=Ви отримали номер Rifle Round.
+
+[QuadShot]
+PickupMessage=Ви отримали №QuadShot
+
+[PowerShield]
+PickupMessage=Ви отримали № PowerShield
+
+[Dampener]
+ExpireMessage=Акустичний глушник закiнчився.
+PickupMessage=Ви отримали акустичний глушник
+
+[KevlarSuit]
+PickupMessage=Ви пiдiбрали №Kevlar Suit
+
+[FlakShellAmmo]
+PickupMessage="Ви отримали №flak shell."
+
+[Fell]
+Name = полеглий
+AltName=занепал
+
+[Drowned]
+Name=втоплений
+AltName=втоплений
+
+[Decapitated]
+Name=безголовий
+AltName=безголовий
+
+[Corroded]
+Name=розкладений
+AltName=покритий мулом
+
+[Clip]
+PickupMessage=Ви пiдiбрали №clip
+
+[Burned]
+Name=смажений
+AltName=смажений
+
+[SuperHealth]
+PickupMessage=Ви пiдiбрали №Super Health Pack
+
+[Bandages]
+PickupMessage=Ви отримали трохи №bandages +
+
+[AsbestosSuit]
+PickupMessage=Ви пiдiбрали азбестовий костюм
+
+[Armor]
+PickupMessage=Ви отримали №Assault Vest
+
+[UnrealOrderMenu]
+OrderText[0]=Безкоштовна версiя Unreal, що ви маєте багато played, є тiльки дрiбним варiатом того, що звiльнить вас, коли ви збираєтеся на повну версiю з Unreal.
+OrderText[1]=У США та Канадi телефонує TOLL-FREE 1-877-4UNREAL (1-877-486-7325) до Order Unreal NOW.
+OrderText[2]=З повною версiєю Unreal you get:
+OrderText[3]=- Over 30 incredible single player levels
+OrderText[4]=- 11 Specially designed multiplayer maps
+OrderText[5]=- All ten weapons будь-який з 2 першими способами i деякi з особливими словами too!  
+OrderText[6]=- Over 30 Unreal creatures to encounter
+OrderText[7]=- Discover a multitude of new inventory items
+OrderText[8]=- Середня рiзниця в Iнтернетi, мiсцевої областi мережi i гравцiв у свiтi Бат-матч play: Darkmatch, Deathmatch, King of the Hill, Team play and Cooperative
+OrderText[9]=- Choose from 6 different player models and a large variety of model skins.
+OrderText[11]=Ви можете отримати функцiональний ** Beta version of Unreal Editor:
+OrderText[12]=- Probably the easiest-to-use 3D level design tool ever created!
+OrderText[13]=- Uses Constructive Solid Geometry - make rooms by simply cutting blocks out of solid shapes
+OrderText[14]=- Дозволяє користувачам iмпортувати свої власнi тканини, об'єкти, музичнi i звуковi ефекти, використовуючи промисловi файли форматiв таких WAV, DXF, BMP etc.
+OrderText[15]=- Створити вашi новi maps або modify ours to your liking
+OrderText[16]=- Includes unrealScript повнiстю integrated object-oriented programming language we've used до створення the majority of unreal gameplay.
+OrderText[17]=- Distribute вашi мапи безкоштовно на Iнтернетi для iнших to play
+OrderText[19]=And you'll має повний Unreal Server and Internet play capability
+OrderText[20]=- Run your own dedicated Unreal Server
+OrderText[21]=- Be a non-dedicated server за допомогою iнших гравцiв у грi ви будете грати
+OrderText[22]=- Залишити вашi власнi Unreal Lobby рiвнiв з links до iнших Unreal Servers and World Wide Web sites* that act like 3D web pages
+OrderText[23]=* Web linking from Unreal levels requires those accessing the level to have un Unreal-supported web browser.
+OrderText[24]=Ви можете купити нереальний у вашому локальному програмному забезпеченнi, або орiєнтувати його безпосередньо з Epic Games. Тут ви знайдете прямо з Epic... 
+OrderText[25]=Ви можете брати credit cards orders безпосередньо з нашого веб-сайту за допомогою нашої надiйної ордерної сторiнки на http://www.epicgames.com/UnrealOrders  
+OrderText[26] = USA / Canada
+OrderText[27]=Unreal is $39.95 US dollars includes shipping & handling
+OrderText[29]=Ар ордер вiд нашої надiйної ордерної сторiнки на http://www.epicgames.com/UnrealOrders
+OrderText[30]=United Kingdom & Europe
+OrderText[32]=Other Countries
+OrderText[34]=Our Online Partners
+OrderText[35]=Check out the web sites and Unreal game servers offered by these outstanding online partners:
+OrderText[37]=Люди, якi беруть участь у всiх нових рiвнях розповсюдження до Unreal.
+OrderText[38]=WON.NET - World Opponent Network є приємною мiрою для скидання в FREE Unreal Deathmatch over the Internet. З IE4.0 або Netscape 4.0, 'one-button' пiдтримує FREE fragging awaits you at http://www.won.net/unreal.
+OrderText[39]=Join growing Unreal community via level building contests, message boards, links, low ping times, новi skins i рiвнiв i FREE online play... it's Unreal on WON.
+OrderText[41]=Wireplay є поточно operating в Europe and Australia.  For more information visit http:// www.wireplay.com/unreal
+OrderText[43] = http://www.heat.net - free kick-ass Internet gaming.
+OrderText[44]=AT&T WorldNet - Play Unreal on AT&T's GameHub server--over a T3 trunk line entirely на AT&T WorldNet's backbone - промiщаючи швидкий i надiйний гаманець для вас.
+OrderText[45]=www.gamehub.net/unreal GameHub - ви можете скористатися Iнтернет-програмою: чати, електронна пошта, онлайн-iгри магазини, тури та верхнi multiplayer онлайн-iгри.
+OrderText[46]=GameSpy 3D є Internet Service Browser.  Це crawls all over the net and finds you the best servers to play Unreal on: ones with the fastest connection to your machine.
+OrderText[47]=Just fire it up, pick a game you want to play, double-click, and wham!  You're kicking деякi Internet butt!  http://www.gamespy.com for more information.
+OrderText[48]=Order Cool Unreal Merchandise 
+OrderText[49]=Check out http://www.epicgames.com/UnrealOrders for information on some of cool unreal gear, що може бути спрямований безпосередньо з Epic Games. Ви можете отримати шкарпетки, шорти, кнопки гриль, шпильки, постер i бiльше на дуже причетнi цiни. 
+OrderText[50]=Special Offers 
+OrderText[51]=From time to time Epic Games можуть бути особливими офiсами, якi можуть бути з'єднанi з Unreal software products and/or Unreal merchandise. Будь-ласка до check http://www.unreal.com для введення в хвилину iнформацiї та цiнування.  
+MenuTitle=IНФОРМАЦIЯ ПРО ЗАМОВЛЕННЯ
+
+[UnrealHUD]
+IdentifyName=Iм'я
+IdentifyHealth=Здоров'я
+
+[Queen]
+NameArticle=""
+
+[Warlord]
+NameArticle=""
+
+[UnrealCoopGameOptions]
+Difficulties[0]=Легка
+Difficulties[1]=Середня
+Difficulties[2]=Важка
+Difficulties[3]=Нереальна
+HelpMessage[3]=Встановлення рiвня вмiння.
+MenuList[3]=Складнiсть
+
+[naliplayer]
+MenuName="№Nali"
+
+[SkaarjPlayer]
+MenuName=Скаарж
+
+[MaleOne]
+MenuName=Чоловiк 1
+
+[FemaleTwo]
+MenuName="Жiнка 2"
+
+[MaleTwo]
+MenuName=Чоловiк 2
+

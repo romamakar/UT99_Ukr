@@ -1,0 +1,86 @@
+[Language]
+Language=Українська
+LangId=9
+SubLangId=1
+
+[Public]
+Object=(Name=Core.HelloWorldCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="File System",Parent="Advanced",Class=Core.System,Immediate=True)
+
+[Errors]
+Unknown="Невiдома помилка"
+Aborted="Перервано"
+ExportOpen="Помилка %s: неможливо вiдкрити файл '%s'"
+ExportWrite="Помилка %s: неможливо записати файл '%s'"
+FileNotFound="Неможливо знайти файл '%s'"
+ObjectNotFound="Неможливо знайти об'єкт '%s %s.%s'"
+PackageNotFound="Неможливо знайти файл пакету '%s'"
+PackageResolveFailed="Неможливо розпiзнати пакетне iм'я"
+FilenameToPackage="Неможливо перетворити iм'я файлу '%s' на iм'я пакета"
+Sandbox="Пакет '%s' недоступний у цiй областi даних"
+PackageVersion="Пакет '%s' невiдомої версiї"
+FailedLoad="Неможливо завантажити '%s': %s"
+ConfigNotFound="Неможливо знайти '%s у файлi конфiгурацiї"
+LoadClassMismatch="%s - не дочiрнiй клас %s.%s"
+NotDll="'%s - не пакет DLL; експорт '%s' неможливий"
+NotInDll="Неможливо знайти '%s в '%s.dll"
+FailedLoadPackage="Невдале завантаження пакета: %s"
+FailedLoadObject="Неможливо завантажити '%s %s.%s': %s"
+TransientImport="Iмпортовано нерезидентний об'єкт: %s"
+FailedSavePrivate="Збереження неможливо %s: Граф пов'язаний iз зовнiшнiм об'єктом %s"
+FailedImportPrivate="Неможливо iмпортувати об'єкт %s %s"
+FailedCreate="%s %s не виявлено для створення"
+FailedImport="Неможливо знайти %s у файлi '%s'"
+FailedSaveFile="Помилка збереження файлу '%s': %s"
+SaveWarning="Помилка збереження %s"
+NotPackaged="Об'єкт не упакований: %s %s"
+NotWithin="Об'єкт %s %s створений у %s замiсть %s"
+Abstract="Неможливо створити об'єкт %s: клас %s абстрактний"
+NoReplace="Неможливо замiнити %s з %s"
+NoFindImport="Неможливо знайти файл '%s для iмпорту"
+ReadFileFailed="Неможливо прочитати файл '%s для iмпорту"
+SeekFailed="Помилка пошуку файлу"
+OpenFailed="Помилка вiдкриття файлу"
+WriteFailed="Помилка запису у файл"
+ReadEof="Читання пiсля закiнчення файлу"
+IniReadOnly="Файл %s захищений вiд запису; неможливо зберегти параметри"
+UrlFailed="Неможливо запустити URL"
+Warning="Попередження"
+Question="Питання"
+OutOfMemory="Не вистачає вiртуальної пам'ятi. Звiльнiть бiльше мiсця на первинному жорсткому диску i збiльште файл пiдкачування."
+History="Iсторiя"
+Assert="Невдача у з'єднаннi: %s [Файл:%s] [Лiнiя: %i]"
+Debug="Невдача налагодження: %s [Файл:%s] [Лiнiя: %i]"
+LinkerExists="Компонувальник для '%s вже iснує"
+BinaryFormat="Файл '%s мiстить данi, що не розпiзнаються"
+SerialSize="%s: Послiдовна розбiжнiсть розмiру: Отримано %i, очiкувалося %i"
+ExportIndex="Поганий експортний iндекс %i/%i"
+ImportIndex="Поганий iмпортний iндекс %i/%i"
+Password="Пароль не розпiзнаний"
+Exec="Невiдома команда"
+BadProperty="'%s': Погана або пропущена властивiсть '%s'"
+MisingIni="Пропущений файл .ini: %s"
+
+[Query]
+OldVersion="Файл %s був збережений у попереднiй версiї, яка не сумiсна з даною. Читання може не вдатися i призвести до зависання. Ви хочете спробувати в будь-якому випадку?"
+Name="Iм'я:"
+Password="Пароль:"
+PassPrompt="Введiть ваше iм'я та пароль:"
+PassDlg="Iдентифiкацiя"
+Overwrite="Файл '%s' повинен бути скоригований. Бажаєте перезаписати iснуючу версiю?"
+
+[Progress]
+Saving="Збереження файлу %s..."
+Loading="Завантаження файлу %s..."
+Closing="Закриття"
+
+[General]
+Product=Unreal
+Engine="Рух Unreal"
+Copyright="Авторськi права 1999 Epic Games, Inc."
+True="Iстина"
+False="Брехня"
+None="Нiчого"
+Yes="Так"
+No="Нi"

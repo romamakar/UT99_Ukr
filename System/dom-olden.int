@@ -1,0 +1,29 @@
+[LevelInfo0]
+Title=Стародавнiсть
+IdealPlayerCount=4-6
+
+[ControlPoint1]
+PointName=Нижня
+
+[ControlPoint2]
+PointName=Верхня
+
+[ControlPoint0]
+PointName=Середня
+
+[TranslatorEvent0]
+Message=" "
+
+[LevelSummary]
+Title=Стародавнiсть
+IdealPlayerCount=4-6
+
+[ZoneInfo2]
+ZoneName=внизу
+
+[ZoneInfo0]
+ZoneName=на мiстках
+
+[ZoneInfo1]
+ZoneName=нагорi
+

@@ -1,0 +1,1896 @@
+[Public]
+Object=(Name=BotPack.DeathMatchPlus,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=BotPack.TeamGamePlus,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=BotPack.Assault,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=BotPack.Domination,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=BotPack.CTFGame,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=BotPack.LastManStanding,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=BotPack.TMale1Bot,Class=Class,MetaClass=BotPack.Bot,Description="Чоловiк Команда")
+Object=(Name=BotPack.TMale1,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Чоловiк Команда")
+Object=(Name=BotPack.TMale2Bot,Class=Class,MetaClass=BotPack.Bot,Description="Чоловiк Солдат")
+Object=(Name=BotPack.TMale2,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Чоловiк Солдат")
+Object=(Name=BotPack.TFemale1Bot,Class=Class,MetaClass=BotPack.Bot,Description="Жiнка Коммандо")
+Object=(Name=BotPack.TFemale1,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Жiнка Коммандо")
+Object=(Name=BotPack.TFemale2Bot,Class=Class,MetaClass=BotPack.Bot,Description="Жiнка Солдат")
+Object=(Name=BotPack.TFemale2,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Жiнка Солдат")
+Object=(Name=BotPack.TBoss,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Бос")
+Object=(Name=BotPack.TBossBot,Class=Class,MetaClass=BotPack.Bot,Description="Бос")
+Object=(Name=BotPack.VoiceMaleOne,Class=Class,MetaClass=BotPack.VoiceMale,Description="Чоловiк Один")
+Object=(Name=BotPack.VoiceFemaleOne,Class=Class,MetaClass=BotPack.VoiceFemale,Description="Жiнка Один")
+Object=(Name=BotPack.VoiceMaleTwo,Class=Class,MetaClass=BotPack.VoiceMale,Description="Чоловiк Два")
+Object=(Name=BotPack.VoiceFemaleTwo,Class=Class,MetaClass=BotPack.VoiceFemale,Description="Жiнка Два")
+Object=(Name=BotPack.VoiceBoss,Class=Class,MetaClass=BotPack.VoiceBoss,Description="Робот")
+Object=(Name=BotPack.Enforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Енфорсер")
+Object=(Name=BotPack.DoubleEnforcer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Подвiйний Енфорсер")
+Object=(Name=BotPack.Translocator,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Транслокатор")
+Object=(Name=BotPack.ImpactHammer,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Могутнiй Молот")
+Object=(Name=BotPack.Minigun2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Кулемет")
+Object=(Name=BotPack.PulseGun,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Iмпульсна Гармата")
+Object=(Name=BotPack.Ripper,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Збудник")
+Object=(Name=BotPack.ShockRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Шокова Рушниця")
+Object=(Name=BotPack.SniperRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Снайперська Гвинтiвка")
+Object=(Name=BotPack.UT_BioRifle,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Бiо Гармата")
+Object=(Name=BotPack.UT_Eightball,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Ракетниця")
+Object=(Name=BotPack.UT_FlakCannon,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Уламкова Гармата")
+Object=(Name=BotPack.WarHeadLauncher,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Збавник")
+Object=(Name=BotPack.Chainsaw,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Бензопила")
+Object=(Name=BotPack.InstaGibDM,Class=Class,MetaClass=Engine.Mutator,Description="Гiпершок,Битва на суперпотужних шокових рушницях.")
+Object=(Name=BotPack.PulseArena,Class=Class,MetaClass=Engine.Mutator,Description="Iмпульс-Арена,Тiльки iмпульснi гармати.")
+Object=(Name=BotPack.FlakArena,Class=Class,MetaClass=Engine.Mutator,Description="Арена Осколкiв,Тiльки осколковi гармати.")
+Object=(Name=BotPack.RocketArena,Class=Class,MetaClass=Engine.Mutator,Description="Арена Ракет,Тiльки ракетницi.")
+Object=(Name=BotPack.ShockArena,Class=Class,MetaClass=Engine.Mutator,Description="Шок-Арена,Тiльки шоковi гармати.")
+Object=(Name=BotPack.SniperArena,Class=Class,MetaClass=Engine.Mutator,Description="Арена Снайперiв,Тiльки снайперськi гвинтiвки.")
+Object=(Name=BotPack.ChainsawMelee,Class=Class,MetaClass=Engine.Mutator,Description="М'ясорубка, у всiх бензопили.")
+Object=(Name=BotPack.NoRedeemer,Class=Class,MetaClass=Engine.Mutator,Description="Без Спасителя,У грi немає Спасителя.")
+Object=(Name=BotPack.NoPowerups,Class=Class,MetaClass=Engine.Mutator,Description="Не аптечок,Немає бронежилетiв, ультраушкоджень, невидимостi, мегаздоров'я")
+Object=(Name=BotPack.LowGrav,Class=Class,MetaClass=Engine.Mutator,Description="Низька гравiтацiя")
+Object=(Name=BotPack.Stealth,Class=Class,MetaClass=Engine.Mutator,Description="Всi невидимi")
+Object=(Name=BotPack.FatBoy,Class=Class,MetaClass=Engine.Mutator,Description="Жирний, жирний!")
+Object=(Name=BotPack.InstantRockets,Class=Class,MetaClass=Engine.Mutator,Description="Миттєвi ракети,Ракетниця не може бути заряджена безлiччю ракет.")
+Object=(Name=BotPack.JumpMatch,Class=Class,MetaClass=Engine.Mutator,Description="Матч стрибкiв,Всi стрибають дуже високо.")
+Object=(Name=BotPack.TDMDefaultMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Стандартнi картки")
+Object=(Name=BotPack.TDMLargeMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Великi карти")
+Object=(Name=BotPack.TDMMediumMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Середнi карти")
+Object=(Name=BotPack.TDMSmallMapList,Class=Class,MetaClass=Botpack.TDMmaplist,Description="Маленькi карти")
+Object=(Name=BotPack.ASDefaultMapList,Class=Class,MetaClass=Botpack.ASMapList,Description="Стандартнi картки")
+Object=(Name=BotPack.DOMDefaultMapList,Class=Class,MetaClass=Botpack.DOMMapList,Description="Стандартнi картки")
+Object=(Name=BotPack.CTFDefaultMapList,Class=Class,MetaClass=Botpack.CTFMapList,Description="Стандартнi картки")
+Object=(Name=BotPack.TDKDefaultMapList,Class=Class,MetaClass=Botpack.TDKMapList,Description="Стандартнi картки")
+Preferences=(Caption="UTDeathmatch",Parent="Game Types",Class=Botpack.DeathmatchPlus,Immediate=True)
+Preferences=(Caption="UTTeamGame",Parent="Game Types",Class=Botpack.TeamGamePlus,Immediate=True)
+Preferences=(Caption="CTF",Parent="Game Types",Class=Botpack.CTFGame,Immediate=True)
+Preferences=(Caption="Assault",Parent="Game Types",Class=Botpack.Assault,Immediate=True)
+Preferences=(Caption="Domination",Parent="Game Types",Class=Botpack.Domination,Immediate=True)
+Preferences=(Caption="LastManStanding",Parent="Game Types",Class=Botpack.LastManStanding,Immediate=True)
+
+[ChallengeHUD]
+VersionMessage=Версiя
+PlayerCountString=Iдеальна для:
+MapTitleString=""
+AuthorString=""
+MapTitleString2=Мапа:
+AuthorString2=Автор:
+RankString=Ранг:
+SpreadString=Перевага:
+IdentifyName=Iм'я:
+IdentifyHealth=Здоров'я:
+IdentifyCallsign=Позивний:
+LiveFeed="Вигляд вiд "
+
+[DeathMatchPlus]
+TourneyMessage=Чекаємо на iнших гравцiв.
+WaitingMessage1=Чекаємо на сигнали готовностi.
+WaitingMessage2=(Натиснiть на вогонь, щоб сказати, що готовий)
+ReadyMessage=Ти готовий!
+NotReadyMessage=Ти не готовий
+CountDownMessage=" секунд до початку гри"
+StartMessage=Матч розпочався!
+GameEndedMessage=Виграє матч
+SingleWaitingMessage=Натиснiть Вогонь для початку.
+gamegoal=вбивств - i ти виграв.
+NoNameChange=" вже використовується."
+OvertimeMessage=Час вийшов. Режим раптової смертi!
+GameName=Deathmatch
+
+[TournamentGameInfo]
+DeathMessage[0]=убитий
+DeathMessage[1]=пiдкорений
+DeathMessage[2] = задимлений
+DeathMessage[3]=зарiзаний
+DeathMessage[4]=знищений
+DeathMessage[5]=кинутий на землю
+DeathMessage[6]=уражений
+DeathMessage[7]=продiрявлений
+DeathMessage[8]=розкромсан
+DeathMessage[9]=знищений
+DeathMessage[10]=побитий
+DeathMessage[11]=уражений
+DeathMessage[12]=розбитий
+DeathMessage[13]=убитий
+DeathMessage[14]=розмазаний
+DeathMessage[15]=вибитий
+DeathMessage[16]=збитий
+DeathMessage[17]=прикриють
+DeathMessage[18]=подрiбнений
+DeathMessage[19]=нарiзаний
+DeathMessage[20]=iскромсан
+DeathMessage[21]=розiрваний
+DeathMessage[22]=пiдiрваний
+DeathMessage[23]=порваний
+DeathMessage[24]=прикриють
+DeathMessage[25]=потрошений
+DeathMessage[26]=кастрований
+DeathMessage[27]=наказаний
+DeathMessage[28]=убитий
+DeathMessage[29]=розгромлений
+DeathMessage[30]=розбитий на друзки
+DeathMessage[31]=розбитий
+DeathModifier[0]=повнiстю
+DeathModifier[1]=досконало
+DeathModifier[2]=абсолютно
+DeathModifier[3]=тотально
+DeathModifier[4]=досконало
+MajorDeathMessage[0]=розiрвано новий
+MajorDeathMessage[1]=погано закiнчив
+MajorDeathMessage[2]=пiзнав бiль
+HeadLossMessage[0]=безголовий
+HeadLossMessage[1]=безголовий
+DeathVerb=" був "
+DeathPrep=",вбивця - "
+DeathTerm=вбитий
+DeathArticle=""
+ExplodeMessage=" був пiдiрваний."
+SuicideMessage="отримав випадковий iнфаркт."
+FallMessage="трохи впав."
+DrownedMessage="забув вийти на повiтря."
+BurnedMessage=" був спопелений."
+CorrodedMessage=" був покритий мулом."
+HackedMessage=" розрубано."
+MortarMessage=" зловив."
+MaleSuicideMessage=" - суїцидал. Самогубство - не вихiд."
+FemaleSuicideMessage="закiнчила життя самогубством."
+
+[ParentBlob]
+BlobKillMessage=""
+
+[CTFGame]
+StartUpMessage=" "
+gamegoal=захоплених прапорiв - i ви виграли
+GameName=Захоплення прапора
+
+[TeamGamePlus]
+StartUpTeamMessage=Твоя команда
+TeamChangeMessage=Використовуйте Установки->Змiнити команду для змiни команди.
+TeamColor[0]=Червона
+TeamColor[1]=Синя
+TeamColor[2]=Зелена
+TeamColor[3]=Золота
+StartUpMessage=Працюй iз напарниками проти iнших команд
+GameName=Командний Deathmatch
+
+[Assault]
+AttackMessage=Вiзьми ворожу базу!
+DefendMessage=Захистiть свою базу вiд ворога!
+TieMessage=Нiчого!
+WinMessage=Перемога!
+ObjectivesMessage=Натиснiть F3 для перегляду завдання
+DefenderSuccess=команда захистила базу
+StartUpMessage=" "
+GameEndedMessage=команда завоювала базу
+GameName=Assault
+TeamPrefix=""
+
+[ControlPoint]
+PointName=Позицiя
+
+[TournamentPlayer]
+spreenote[0]=на шляху вбивства!
+spreenote[1]=розбушувався!
+spreenote[2]=панує
+spreenote[3]=брутально розриває всiх!
+spreenote[4]=просто найкращий
+spreenote[5]=набув тебе
+spreenote[6]=має знайти справжнiх противникiв
+spreenote[7]=- БОГ!
+
+[Domination]
+StartUpMessage=Захопи та утримуй контрольнi точки
+gamegoal=крапок для виграшу
+GameName=Domination
+
+[FortStandard]
+FortName=Атакуй цiль
+DestroyedMessage=Було знищено!
+
+[TrainingCTF]
+SoundLengths[0]=15
+SoundLengths[1]=11
+SoundLengths[2]=9
+SoundLengths[3]=6
+SoundLengths[4]=11
+SoundLengths[5]=5
+SoundLengths[6]=6
+SoundLengths[7]=6
+SoundLengths[8]=6
+SoundLengths[9]=8
+SoundLengths[10]=13
+SoundLengths[11]=8
+SoundLengths[12]=8
+SoundLengths[13]=5
+SoundLengths[14]=25
+SoundLengths[15]=11
+SoundLengths[16]=9
+SoundLengths[17]=9
+SoundLengths[18]=11
+SoundLengths[19]=11
+SoundLengths[20]=8
+SoundLengths[21]=13
+SoundLengths[22]=9
+SoundLengths[23]=12
+SoundLengths[24]=10
+SoundLengths[25]=8
+SoundLengths[26]=9
+TutMessage[0]="Ласкаво просимо у тренування гри Захопи Прапор. Цей пiдручник покаже вам основи та правила гри. У нас також є пiдручники з гри Душматч, грi Панування та грi Напад"
+TutMessage[1]=Давайте почнемо вивчення екрана. Гра "Захопи Прапор" додає кiлька елементiв, про якi ви повиннi знати.
+TutMessage[2]=Колiр значкiв на екранi вказує колiр вашої команди. Якщо вашi значки на екранi червонi, то ви належите командi ЧЕРВОНИХ.
+TutMessage[3]=Синiй колiр дисплея вказує на вашу приналежнiсть командi СИНИХ.
+TutMessage[4]=Iконки двох прапорiв показують статус червоного та синього прапорiв. Це дозволяє отримувати швидке уявлення про перебiг бою.
+TutMessage[5]=Ми обговоримо значення iконки статусу кожного прапора.
+TutMessage[6]=Кiлькiсть, що знаходиться лiворуч вiд iконки прапора - це окуляри команди.
+TutMessage[7]=Тепер давайте поглянемо на елементи екрана, якi з'явилися в режимi гри Захопи Прапор.
+TutMessage[8]=Гра Захопи Прапор вiдображає iнформацiю на екранi аналогiчно стандартнiй для Unreal.
+TutMessage[9]=Лiва колонка списку показує окуляри та гравцiв ЧЕРВОНИХ, а права колонка списку показує окуляри та гравцiв СИНIХ.
+TutMessage[10]=Ваше iм'я та початковi окуляри у списку лiворуч. Над вашим iм'ям знаходиться назва команди. Поточний рахунок команди записується праворуч вiд iменi команди.
+TutMessage[11]=Коли у грi Захопи Прапор гравець несе прапор, його iм'я у списку позначається точкою.
+TutMessage[12]=Побачивши точку бiля свого гравця, ви розумiєте, що його треба захистити. Бачачи точку навпроти ворога, ви знаєте, кого треба атакувати.
+TutMessage[13]=Тепер настав час для вивчення правил гри Захопи Прапор.
+TutMessage[14]=У грi Захопи Прапор можна користуватися транслокатором. Вiн працює так само, як i в грi панування, але з однiєю поганою особливiстю. Вам не дозволять перемiститися разом iз прапором, ви просто залишите його там, звiдки ви почали перемiщатися. Це запобiгає перемiщенню на базу одразу пiсля захоплення прапора – так було б нецiкаво.
+TutMessage[15]=У кожнiй картi гри Захопи Прапор є бази синiх i червоних. Це база ЧЕРВОНИХ. База СИНIХ далi коридором. Кожна база має свiй прапор.
+TutMessage[16]=Попереду знаходиться червоний прапор. Мета гри Захопи Прапор – це захопити прапор ворожої команди, але не давати захопити свiй.
+TutMessage[17]=Давайте спробуємо. Добiгайте до бази СИНИХ та захопiть їх прапор. По дорозi захоплюйте все обладнання та зброю, що трапилося.
+TutMessage[18]=Чудово! Тепер у вас є ворожий прапор. Миготливе жовте повiдомлення нагадає вам, що для того, щоб заробити очки, вам потрiбно принести прапор на свою базу.
+TutMessage[19]=Статус iконки СИНIХ змiнився. Тепер вона показує, що гравець ЧЕРВОНИХ має їхнiй прапор. У СИНИХ проблеми.
+TutMessage[20]=Донесiть прапор до вашої бази i доторкнiться до свого прапора, щоб отримати очки.
+TutMessage[21]=Класна робота! Ви отримали ворожий прапор i набрали очки вашiй командi. Неважко, правда? 
+TutMessage[22]=Тепер буде важче. Через кiлька секунд я викину двох синiх ботiв, i одного червоного вам на допомогу.
+TutMessage[23]=Залишилася лише одна iконка, про яку треба розповiсти. Якщо гравець упустить прапор, не добiгши до своєї бази, то iконка команди змiниться на iконку зi стрiлкою вниз. 
+TutMessage[24]=Якщо ви побачите прапор вашої команди на землi, пiсля того, як ви вбили ворога, який його нiс, торкнiться прапора, i вiн автоматично повернеться на базу.
+TutMessage[25]=Це кiнець Пiдручника гри Захопи Прапор. Дозвольте менi випустити кiлька роботiв для тренування. Гарного полювання!
+TutMessage[26]=Вiтаємо! Ви пiдтвердили звання найгiднiшого гравця у грi Захопи Прапор. Тепер настав час взяти участь у турнiрi.
+SingleWaitingMessage=" "
+GameName=Тренування: Захопи прапор
+
+[TrainingDM]
+SoundLengths[0]=14
+SoundLengths[1]=13
+SoundLengths[2]=7
+SoundLengths[3]=10
+SoundLengths[4]=14
+SoundLengths[5]=12
+SoundLengths[6]=14
+SoundLengths[7]=3
+SoundLengths[8]=10
+SoundLengths[9]=7
+SoundLengths[10]=12
+SoundLengths[11]=8
+SoundLengths[12]=8
+SoundLengths[13]=8
+SoundLengths[14]=14
+SoundLengths[15]=15
+SoundLengths[16]=28
+SoundLengths[17]=13
+SoundLengths[18]=16
+SoundLengths[19]=8
+SoundLengths[20]=5
+SoundLengths[21]=7
+SoundLengths[22]=12
+SoundLengths[23]=8
+TutMessage[0]=Ласкаво просимо до Пiдручника з гри Душматч. Гра Душматч це такий спорт, в якому ви повиннi боротися за перевагу у вбивствi. Мета гри – знищити всiх на своєму шляху.
+TutMessage[1]=Кожного разу, вбивши ворога, ви отримуєте очко, зване "фрагом" iгровою мовою. Ви можете бачити кiлькiсть фрагiв на екранi злiва. Наприкiнцi гри виграє той, хто має найбiльше очок.
+TutMessage[2]=Пам'ятайте, якщо ви вибухнете або впадете в лаву, ви втратите фраг.
+TutMessage[3]=Давайте навчимося деяким основам руху. Хороший гравець у гру Душматч завжди рухається, тому що в мiшень, що рухається, важче потрапити.
+TutMessage[4]="Клавiша вперед – це рух вперед, клавiша назад – вiдповiдно назад.
+TutMessage[5]=Ходiння боком - дуже важлива рiч у грi, тому що ви можете рухатися з боку в бiк без повороту голови, що дає вам перевагу, тому що ви не втрачаєте мети з поля зору. Давайте спробуємо рухатися боком прямо зараз.
+TutMessage[6]="Ще один дуже важливий елемент руху - це стрибки. Стрибки дозволяють потрапити туди, куди ви не можете забратися, або перестрибувати небезпечнi мiсця. Спробуйте натиснути клавiшу стрибка i пострибайте по мiсцевостi."
+TutMessage[7]=Чудово.
+TutMessage[8]=Тепер ми вивчимо Огляд Мишею. Покрутiть мишею та вiдчуйте, як змiнюється вигляд. Ось так можна дивитися в сторони та повертатися, це називається Огляд Мишею.
+TutMessage[9]=Спробуйте повернутись навколо себе кiлька разiв за допомогою мишi, злiва направо та навпаки, та огляньте поле бою.
+TutMessage[10]=Добре. Ви також можете дивитись вертикально, щоб побачити, що над вами i що у вас пiд ногами. У грi Душматч вороги будуть нападати на вас з усiх бокiв, тому тримайте очi вiдкритими.
+TutMessage[11]=Якщо ви вiдчуваєте, що повертаєтеся занадто швидко, ви можете запросто змiнити чутливiсть мишi в меню Налаштування.
+TutMessage[12]=Давайте трохи повчимося. Пам'ятайте, єдиний спосiб виграти гру Душматч – це вбити всiх, тiєю зброєю, яку ви зберете.
+TutMessage[13]=Я вiдкрию вам доступ до деяких видiв зброї, давайте їх пiдберемо i попрактикуємося на мiшенi.
+TutMessage[14]="Вiдмiнно, тепер ми озброєнi. Зброя, яку ви тримаєте, називається "Шокова Рушниця". У неї, як i будь-якої iншої зброї в грi, є два режими стрiлянини. Давайте спробуємо пострiляти. Щоб вистрiлити, натиснiть клавiшу Вогонь ."
+TutMessage[15]="Дуже добре. Шокова Рушниця рознесе мiшень на шматки. У грi у всiєї зброї є iнший режим стрiлянини. Натиснiть клавiшу альтернативного вогню для того, щоб вистрiлити кулькою плазми у вашого ворога."
+TutMessage[16]=Добре! Альтернативний вогонь Шокової Рушницi рухається повiльнiше, зате б'є сильнiше. Вам вирiшувати, яким режимом користуватися в ситуацiї, що виникла. Iнодi ви можете нести бiльше, нiж один вид зброї. Ви щойно поклали "Енфорсер" у свiй багаж. Кожна зброя має вiдповiдний номер, який можна бачити внизу екрана. У Енфорсера – номер два. Натиснiть цю цифру, щоб перейти до нього. Якщо ви захочете, ви можете перейти назад на Шокову Рушницю, натиснувши його номер.
+TutMessage[17]=Добре, тепер ви знаєте, як мiняти зброю в бою. Вся зброя в грi - це зброя, що стрiляє, виняток становить лише одне - "Могутнiй Молот". Натиснiть один, щоб перейти на нього. 
+TutMessage[18]=Могутнiй Молот - це зброя ближнього бою. Для того, щоб користуватися ним, потрiбно стояти до супротивника дуже близько, iнакше ви не зможете завдати будь-якої шкоди. Зате якщо Могутнiй Молот наздоганяє супротивника, вiн майже завжди вбиває його. Натиснiть та утримуйте Вогонь, щоб зарядити Могутнiй Молот.
+TutMessage[19]=Тепер бiжiть до Налi, якого я щойно випустила. Коли ви наблизитесь до нього, Могутнiй Молот рознесе його на шматочки.
+TutMessage[20]=Погляньте на цi останки! Чудова робота.
+TutMessage[21]=Тепер ми розноситимемо стацiонарнi мiшенi. Розстрiляйте три бочки, щоб продовжити.
+TutMessage[22]=Вiдмiнна стрiлянина. Нинi буде складнiше. Зараз я випущу ворога, яким буде людина, можете на ньому попрактикуватись. Вам потрiбно буде набрати три фраги щоб закiнчити навчання. Успiхiв!
+TutMessage[23]=Вiтаємо! Ви довели, що ви найдостойнiший гравець у гру Душматч. Тепер настав час участi у турнiрi з Душматчу.
+TutMessage4Parts[0]=Клавiша вперед
+TutMessage4Parts[1]= - це рух уперед, клавiша назад
+TutMessage4Parts[2]= - вiдповiдно. Клавiша влiво
+TutMessage4Parts[3]=- це рух боком налiво, клавiша вправо
+TutMessage4Parts[4]= - це, як ви, напевно, здогадалися, рух боком праворуч.
+TutMessage6Parts[0]=Ще один дуже важливий елемент руху – це стрибки. Стрибки дозволяють потрапити туди, куди ви не можете забратися, або перестрибувати небезпечнi мiсця. Спробуйте натиснути клавiшу стрибка
+TutMessage6Parts[1]= i пострибайте мiсцевiстю.
+TutMessage14Parts[0]=Добре, тепер ми озброєнi. Зброя, яку ви тримаєте, називається "Шокова Рушниця". У нього, як i будь-якої iншої зброї у грi, є два режими стрiлянини. Спробуймо пострiляти. Щоб вистрiлити, натиснiть клавiшу Вогонь
+TutMessage14Parts[1]=" "
+TutMessage15Parts[0]=Дуже добре. Шокова Рушниця рознесе мету на шматки. У грi у всiєї зброї є iнший режим стрiлянини. Натиснiть клавiшу альтернативного вогню
+TutMessage15Parts[1]=для того, щоб вистрiлити кулею плазми у вашого ворога.
+SingleWaitingMessage=" "
+GameName=Тренування: Душматч
+
+[RatedMatchDMTUT]
+BotNames[0]="Слейн"
+Bio[0]="Слейн"
+
+[TrainingDOM]
+SoundLengths[0]=13
+SoundLengths[1]=7
+SoundLengths[2]=8
+SoundLengths[3]=8
+SoundLengths[4]=1
+SoundLengths[5]=8
+SoundLengths[6]=10
+SoundLengths[7]=6
+SoundLengths[8]=6
+SoundLengths[9]=11
+SoundLengths[10]=10
+SoundLengths[11]=13
+SoundLengths[12]=5
+SoundLengths[13]=5
+SoundLengths[14]=11
+SoundLengths[15]=2
+SoundLengths[16]=10
+SoundLengths[17]=11
+SoundLengths[18]=10
+SoundLengths[19]=10
+SoundLengths[20]=9
+TutMessage[0]=Ласкаво просимо до тренування гри Панування. Цей пiдручник покаже вам основи та правила гри. У нас також є пiдручники з гри Душматч, грi Захопи Прапор, та грi Напад.
+TutMessage[1]=Давайте почнемо з того, якi елементи гра Панування додає на екран .
+TutMessage[2]=Гра Панування збiльшує кiлькiсть iконок злiва на головному екранi.
+TutMessage[3]=Як ви бачите, на навчальнiй картi є двi контрольнi точки. Ми коротко розповiмо про функцiї контрольних точок.
+TutMessage[4]=" "
+TutMessage[5]=Кожна контрольна точка на картi має власне iм'я. Цi називаються Альфа та Гамма.
+TutMessage[6]=Iконка поруч iз точкою показує її статус та належнiсть. Перш нiж пояснити роботу iконок, розповiмо правила гри Панування.
+TutMessage[7]=У грi панування кожна команда намагається захопити та утримати контрольнi точки.
+TutMessage[8]=Кожнi 5 секунд командi дається 1 очко за кожну контрольну точку.
+TutMessage[9]=Це контрольна точка. Сiрий символ Х показує, що жодна команда не контролює це мiсце. Торкнiться символу, i будете контролювати це мiсце. Зробiть це прямо зараз.
+TutMessage[10]=Добре. Тепер ваша команда контролює це мiсце. Форма та колiр цiєї контрольної точки змiнюються залежно вiд знака та кольору команди.
+TutMessage[11]=Погляньте на статус iконки контрольної точки. Iконка точки Гамма змiнилася, якщо її контролює ваша команда. У грi панування за iконками ви швидко визначаєте стан точок.
+TutMessage[12]=Тепер знайдiть на картi та вiзьмiть пiд контроль точку Альфа, щоб закрiпити ваше Панування на цiй картi.
+TutMessage[13]=Чудово, тепер ви контролюєте всi точки на картi.
+TutMessage[14]=Кожна команда повинна захопити якнайбiльше точок на картi. Чим бiльше точок команда контролюватиме, тим бiльше у неї буде очок, i тим швидше вони додаватимуться.
+TutMessage[15]=Цей пристрiй називається 'Транслокатор'. Вiн потрiбний вам для швидкого перемiщення з однiєї точки до iншої. Натиснiть на Вогонь для випуску Транслокатора.
+TutMessage[16]=Тепер модуль на пiдлозi.  Якщо ви натиснете кнопку альтернативного вогню, то будете телепортованi до модуля. Вiдiйдiть вiд модуля та натиснiть альтернативний вогонь.
+TutMessage[17]=Добре, тепер ви повертаєтеся до модуля. Якщо ви активуєте модуль, потiм можете переключити зброю i пiзнiше повернутися до транслокатора, який ви зможете активувати в будь-який час.
+TutMessage[18]=Якщо ви бачите ворожий модуль транслокатора, ви можете вистрiлити ним i зруйнувати. Перемiщення до зруйнованого транслокатора буде для ворога смертельним.
+TutMessage[19]=Настав час для перевiрки. Я виставлю проти вас двох роботiв, а вам дам одного в помiчники. Виграє та команда, котра першою набере двадцять очок. Успiхiв!
+TutMessage[20]=Вiтаємо! Ви довели, що ви найдостойнiший гравець у гру Панування. Тепер настав час перейти до турнiру.
+StartUpMessage=" "
+SingleWaitingMessage=" "
+GameName=Тренування: Панування
+
+;[TournamentPickup]
+;M_Activated= активiзовано
+;M_Selected= обраний
+;M_Deactivated= деактивовано
+
+[TournamentPickup]
+M_Activated=""
+M_Selected=""
+M_Deactivated=""
+
+[TournamentGameReplicationInfo]
+HumanString=*Людина*
+CommanderString=*Командир*
+SupportString=пiдтримує
+DefendString=захищає
+AttackString=атакує
+HoldString=утримує
+FreelanceString=у вiльному польотi
+
+[TeamScoreBoard]
+TeamName[0]="Команда червоних"
+TeamName[1]="Команда синiх"
+TeamName[2]="Команда зелених"
+TeamName[3]="Команда золотих"
+TeamExt="Команда:"
+OrdersString="Накази:"
+InString="Мiсце:"
+
+[TournamentScoreBoard]
+MapTitle="на картi"
+Author="Автор:"
+Restart=Ти мертвий. Натиснiть Вогонь для вiдродження!
+Ended=Гра закiнчена.
+Continue="Натиснiть Вогонь для продовження!"
+ElapsedTime="Минуло часу:"
+RemainingTime="Залишилося часу:"
+FragGoal="Фрагм лiмiт:"
+TimeLimit="Лiмiт часу:"
+PlayerString=Гравець
+FragsString=Вбивств
+DeathsString=Смертi
+PingString=Пiнг
+TimeString="Час"
+FPHString="У/Ч"
+
+[ChallengeBotInfo]
+Skills[0]=Новачок(0)
+Skills[1]=Середнiй(1)
+Skills[2]=Навчений(2)
+Skills[3]=Дослiдний(3)
+Skills[4]=Експерт(4)
+Skills[5]=Майстер(5)
+Skills[6]=Супермен(6)
+Skills[7]=Бог(7)
+
+[ChallengeTeamHUD]
+OrderNames[0]=Захищати
+OrderNames[1]=Чекати
+OrderNames[2]=Атакувати
+OrderNames[3]=Наступай
+OrderNames[4]=Дiй за бажанням
+OrderNames[5]=Покажи
+OrderNames[10]=Нападай
+OrderNames[11]=Дiй за бажанням
+
+[ChallengeVoicePack]
+LeaderSign[0]=Червоний Лiдер
+LeaderSign[1]=Синiй Лiдер
+LeaderSign[2]=Зелений Лiдер
+LeaderSign[3]=Золотий Лiдер
+
+[LastManStanding]
+StartUpMessage=Скiльки ти проживеш?
+GameName=Останнiй герой
+
+[CTFMessage]
+ReturnBlue=повертає синiй прапор.
+ReturnRed=повертає червоний прапор.
+ReturnedBlue=Блакитний прапор повернуто.
+ReturnedRed=Червоний прапор повернуто.
+CaptureBlue=захопив синiй прапор. Червона команда набирає очки!
+CaptureRed=захопив червоний прапор. Синя команда набирає очки!
+DroppedBlue=упустив синiй прапор.
+DroppedRed=упустив червоний прапор.
+HasRed=придбав червоний прапор.
+HasBlue=придбав синiй прапор.
+
+[VacuumZone]
+DamageString=%o розчинився у вакуумi.
+
+[CTFMessage2]
+YouHaveFlagString=Ти захопив прапор, повертайся на базу!
+EnemyHasFlagString=Ворог захопив твiй прапор, поверни його!
+
+[TrainingAS]
+SoundLengths[0]=14
+SoundLengths[1]=14
+SoundLengths[2]=16
+SoundLengths[3]=9
+SoundLengths[4]=9
+SoundLengths[5]=17
+SoundLengths[6]=10
+SoundLengths[7]=11
+SoundLengths[8]=13
+SoundLengths[9]=13
+SoundLengths[10]=13
+TutMessage[0]=Ласкаво просимо до програми тренування гри Напад. Цей пiдручник навчить вас основ та правил гри. Ще є й пiдручники з гри Душматч, гри Панування та гри Захопiть Прапор.
+TutMessage[1]=Перша рiч, яку ви побачите перед входом у гру, це великий цифровий екран лiворуч на дисплеї. Це лiчильник, вiн вiдраховує секунди до закiнчення гри. Час для цiєї гри критичний.
+TutMessage[2]=Гра складається з двох команд, кожна з яких має свою мету. Ваше завдання – проникнути на базу ворога та знищити кiлька ключових позицiй. Якщо ви не встигнете зробити це за вiдведений час, ви програєте.
+TutMessage[3]=Протистояча команда - це захищаються. Їхнє завдання запобiгти проникненню та захистити ключовi позицiї.
+TutMessage[4]=Якщо вам вдасться виконати роль атакуючого, потiм вам доведеться грати роль того, хто захищає протягом такого ж часу.
+TutMessage[5]=Пояснюю, якщо у вас є двадцять хвилин, щоб виконати завдання, i ви виконуєте його за десять, то гра перезапуститься i у вас буде лише десять хвилин, щоб захистити свою базу. Чим бiльше часу у вас займе атака, тим довше вам доведеться захищати свою базу.
+TutMessage[6]=Кожна карта є унiкальною. Вам може знадобитися деякий час, щоб вивчити її як у ролi нападаючого, так i в ролi захищаючого.
+TutMessage[7]=На початку кожного бою ви можете переглянути карту в режимi спостереження. Огляньте позицiї противника i з'ясуйте все мiсцезнаходження зброї, оскiльки вона знадобиться.
+TutMessage[8]=Коли ви граєте з ботами, ви можете скористатися "меню наказiв", щоб налаштувати їхню поведiнку. Натискаючи клавiшу М, ви отримуєте доступ до меню, щоб налаштувати поведiнку ботiв.
+TutMessage[9]=Мета цiєї навчальної мiсiї- прорватися на основу противника i знищити прототип танка. Я протиставлю вам двох ботiв, якi спробують вас зупинити, а вам дам одного в помiчники.
+TutMessage[10]=Деякi заряди вибухiвки були встановленi в поглибленнях стiн бiля ворожої бази. Користуючись зброєю, пiдривайте їх з великої вiдстанi. Використовуйте дiрки у стiнах пiсля вибуху, щоб проникнути на ворожу базу та знищити танк.
+TutMessage[11]=Остерiгайтеся ворожих ботiв, що охороняють базу, та плазмових гармат. Успiхiв!
+TutMessage[12]=Вiтаємо! Ви успiшно пройшли мiсiю та знищили танк. Тепер пора пiднятися на одну сходинку вгору.
+SingleWaitingMessage=" "
+GameName=Тренування: Напад
+
+[TBoss]
+MenuName=Джефф
+
+[TBossBot]
+MenuName=Джефф
+
+[DeathMessagePlus]
+KilledString="вбито. Вбивця-"
+
+[TournamentHealth]
+PickupMessage="Взяв аптечку +"
+
+[ut_shieldbelt]
+PickupMessage=Взяв бронежилет
+ItemName=Бронежилет
+
+[ScrollingMessageTexture]
+HisMessage=Його
+HerMessage=Її
+
+[TeamCannon]
+PostKillMessage=Бив убитий автогарматою!
+MenuName=автопушка
+NameArticle=""
+
+[lmsscoreboard]
+VictoryGoal=Залишайся останнiм живим!
+FragsString=Життя
+
+[UT_Eightball]
+WeaponDescription=Класифiкацiя: Важка балiстична зброя\n\nОсновний вогонь: утримуйте кнопку вогню для накопичення та вистрiлювання одночасно до шести ракет.\n\nАльтернативний вогонь: гранати. Також можна вистрiлити одночасно до шести снарядiв. Прийом: Якщо тримати ракетницю нацiленим на ворога протягом кiлькох секунд, наступна ракета буде самонавiдною.
+DeathMessage=%o - в шматки! %k не розлучається зi своєю Ракетницею.
+PickupMessage=Ти придбав Ракетницю
+ItemName=Ракетниця
+
+[enforcer]
+DoubleName=Подвiйний Енфорсер
+WeaponDescription=Класифiкацiя: Легкий пiстолет\n\nОсновний вогонь: Точний, але повiльний, миттєвого влучення.\n\nАльтернативний вогонь: Ганстерський режим, вдвiчi швидше i вдвiчi менш точно.\n\nПрийом: Знайди другий для стрiльби двома .
+DeathMessage=%o нагадує друшляк, його продiрявив %k, використовуючи %w.
+PickupMessage=Ти знайшов другий Енфорсер!
+ItemName=Енфорсер
+
+[Translocator]
+WeaponDescription=Класифiкацiя: Пристрiй телепортацiї\n\nОсновний вогонь: Запуск модуля доставки..\n\nАльтернативний вогонь. Якщо натиснеш вогонь пiд час активiзацiї транслокатора альтернативним вогнем, то пiсля телепортацiї у тебе в руках буде остання обрана зброя.
+DeathMessage=%o розiрвано на м'ясо! %k постарався.
+PickupMessage=Ти взяв Транслокатор
+ItemName=Транслокатор
+
+[ShockRifle]
+WeaponDescription=Класифiкацiя: Енергетична рушниця\n\nОсновний вогонь: Миттєвий промiнь лазера.\n\nАльтернативний вогонь: Великi, повiльнi кулi плазми.\n\nПрийом: Пострiл по кульах плазми звичайним плазмовим пострiлом викликає великий плазмовий пострiл.
+DeathMessage=%o засмажився. Шеф-кухар - %k з шоковою рушницею.
+PickupMessage=Ти отримав Шокову Рушницю
+ItemName=Шокова Рушниця
+
+[PulseGun]
+WeaponDescription=Класифiкацiя: Плазмова зброя\n\nОсновний вогонь: Швидкi кулi плазми середнього розмiру.\n\nАльтернативний вогонь: 100-метрова блискавка.\n\nПрийом: Якщо утримаєш блискавку спрямованої на людину кiлька секунд - вона мертва.
+MessageNoAmmo=" - не вистачає плазми."
+DeathMessage=%o захлинувся плазмою з iмпульсної гармати. Вбивця - %k.
+PickupMessage=Отримав Iмпульсну гармату
+ItemName=Iмпульсна гармата
+
+[WarheadLauncher]
+WeaponDescription=Класифiкацiя: Ядерна вибухiвка\n\nОсновний вогонь: Випускає повiльний, але суперпотужний заряд з величезним радiусом ураження.\n\nАльтернативний вогонь: Ручне керування польотом снаряда. Вогонь - пiдiрвати його. Прийом: Пам'ятай, що пiд час керування ти сидиш на мiсцi.
+DeathMessage=%o квантизований. Герой зi Збавителем - %k.
+PickupMessage=Ти отримав Спасителя
+ItemName=Врятувач
+
+[SniperRifle]
+WeaponDescription=Класифiкацiя: Дальнобiйна балiстична зброя\n\nОсновний вогонь: Високоенергетична куля. \n\nАльтернативний вогонь: Восьмиразове збiльшення.\n\nПрийом: Вiдмiнно пiдходить для великих вiдстаней!
+DeathMessage=%o зловив кулю з гвинтiвки. Снайпер - %k.
+PickupMessage=Отримав Снайперську Гвинтiвку
+ItemName=Снайперська Гвинтiвка
+
+[ImpactHammer]
+WeaponDescription=Класифiкацiя: Зброя ближнього бою\n\nОсновний вогонь: Доторкнися до ворога при натиснутому курку.\n\nАльтернативний вогонь: Вмiє випускати снаряди.\n\nПрийом: Вистрiли в землю пiд час стрибка, щоб стрибнути по стрибку.
+DeathMessage=%k розтрощив ворога. Бiдолашний %o!
+PickupMessage=Ти отримав Могутнiй Молот
+ItemName=Могутнiй Молот
+
+[UT_FlakCannon]
+WeaponDescription=Класифiкацiя: Важка шрапнель\n\nОсновний вогонь: Стрiляє шматками гарячого металу.\n\nАльтернативний вогонь: граната зi шрапнеллю.\n\nПрийом: найкориснiше в ближньому бою.
+DeathMessage=%o було розiрвано. Рвач - %k.
+PickupMessage=Ти отримав Осколкову Гармату
+ItemName=Уламкова Гармата
+
+[ut_biorifle]
+WeaponDescription=Класифiкацiя: Токсична рушниця\n\nОсновний вогонь: Середньошвидкiсний випуск бiовiдходiв Таридiуму.\n\nАльтернативний вогонь: При утриманнi клавiшi буде випущений набагато бiльший об'єм вiдходiв, що розпадається i прилипає до стiнок.\n.
+DeathMessage=%o розчинився в зеленiй гидотi. %k крутий.
+PickupMessage=Ти отримав Бiо Гармату
+ItemName=Бiо Гармата
+
+[ripper]
+WeaponDescription=Класифiкацiя: Балiстична рiжуча зброя\n\nОсновний вогонь: Рикошетнi титановi диски середньої швидкостi.\n\nАльтернативний вогонь: Повiльнi вибуховi диски.\n\nПрийом: Цiлься в шию.
+DeathMessage="%k - потрошитель. %o втратив шматок м'яса."
+PickupMessage=Ти маєш Потрошитель
+ItemName=Розбiжник
+
+[minigun2]
+WeaponDescription=Класифiкацiя: Кулемет\n\nОсновний вогонь: Швидкий потiк куль.\n\nАльтернативний вогонь: Вдвiчi швидше, але вдвiчi менш акуратно.\n\nПрийом: Альтернативний вогонь хороший у ближньому бою, але пожирає.
+DeathMessage=%k перетворив ворога на решето своїм кулеметом. %o просто розiрваний на шматки.
+PickupMessage=Ти взяв Мiнiган
+ItemName=Мiнiган
+
+[Scuba]
+PickupMessage=Ти отримав Акваланг
+ItemName=Акваланг
+
+[CHEOLHUD]
+ESCMessage=Натиснiть ESC для продовження...
+
+[PressureZone]
+DamageString=%o був роздавлений, %k постарався.
+
+[CHNullHUD]
+ESCMessage=Натиснiть ESC для початку...
+
+[UDamage]
+PickupMessage="Ти отримав Пiдсилювач Пошкоджень"
+ItemName=Пiдсилювач пошкоджень
+
+[AssaultHUD]
+IdentifyAssault="Нападай на цiль!!"
+
+[UnrealCTFScoreboard]
+FragGoal=Лiмiт захоплень:
+
+[MultiKillMessage]
+DoubleKillString=Подвiйне вбивство!
+TripleKillString=Потрiйне вбивство!
+MultiKillString=Множинне вбивство!
+UltraKillString=Супервбивства!!
+MonsterKillString=ВСIХ РОЗОРВУ! Я Монстр!
+
+[DecapitationMessage]
+DecapitationString=Влучно!!!
+
+[KillerMessagePlus]
+YouKilled=Ви вбили
+ScoreString=Рахунок:
+
+[VoiceMaleTwo]
+NameTime[0]=0.960000
+NameTime[1]=1.100000
+NameTime[2]=1.020000
+NameTime[3]=0.990000
+AckString[0]=Зрозумiло
+AckString[1]=Все ясно
+AckString[2]=Наказ отримано
+AckTime[0]=0.780000
+AckTime[1]=0.810000
+AckTime[2]=0.980000
+FFireString[0]=Стрiляєш по своїх!
+FFireString[1]=Дивися, куди стрiляєш, iдiот!
+FFireAbbrev[1]=Урод, по кому палишь?!
+TauntString[0]="Таня нахилилася-в жопi сокира, влучно стрiляє iндiанець Єгор!"
+TauntString[1]="Оргазм!"
+TauntString[2]="Вiдсмоктуй у бегемота!"
+TauntString[3]="Чiпси-це кльово!"
+TauntString[4]="Гори, гори, моя зiрка!"
+TauntString[5]="За маму Джану!"
+TauntString[6]="Помри, сука!"
+TauntString[7]="Як не пощастило яблуку, як вам пощастило!"
+TauntString[8]="Йiїха!"
+TauntString[9]="Це вам не бабам сиськи м'яти!"
+TauntString[10]="Пiздець пiдкрався непомiтно..."
+TauntString[11]="Мiшок гiвна!"
+TauntString[12]="А ля гер кома ля гер!"
+TauntString[13]="Ну че, хто на мене, в натурi!"
+TauntString[14]="Я пiд вогнем!"
+TauntString[15]="Барисливо"
+TauntString[16]="Ги-ги-ги"
+TauntString[17]="Ну ти потрапив!"
+TauntString[18]="Наступний!"
+TauntString[19]="Доктора менi, лiкарi!"
+TauntString[20]="Убiк, сисечник!"
+TauntString[21]="Мета знищена"
+TauntString[22]="Кого ще нагнути?"
+TauntString[23]="I дивляться сумно дiвки з кущiв!"
+TauntString[24]="Лежи i не рухайся."
+TauntAbbrev[22]="Кому ще впендюрити?"
+OrderString[0]=Захищати базу.
+OrderString[1]=Тримати цю позицiю.
+OrderString[2]=В атаку!
+OrderString[3]=Прикрийте мене.
+OrderString[4]=Дiюємо за планом.
+OrderString[10]=Захопити їхнiй прапор!
+OrderString[11]=Знайти та знищити.
+OrderAbbrev[0]=Захист
+OrderAbbrev[2]=Атака
+OrderAbbrev[4]=Вiльний полiт.
+OtherString[0]=База не прикрита!
+OtherString[1]=Хтось повернiть наш прапор!
+OtherString[2]=Прапор у мене!
+OtherString[3]=Я прикриваю.
+OtherString[4]=Я поранений!
+OtherString[5]=Наших б'ють!
+OtherString[6]=Мене атакують!
+OtherString[7]=Тримати цю точку
+OtherString[8]=Я повернув наш прапор
+OtherString[9]=Я на позицiї.
+OtherString[10]=Тримайся.
+OtherString[11]=Контрольна точка захоплена.
+OtherString[12]=Тут несуть ворожого прапора!
+OtherString[13]=Менi потрiбна пiдтримка.
+OtherString[14]=Наближається!
+OtherString[15]=Я прикриваю.
+OtherString[16]=Мета знищена.
+OtherString[17]="Доктора менi, лiкарi!"
+OtherAbbrev[1]=Повернiть прапорець!
+OtherAbbrev[2]=У мене прапор
+OtherAbbrev[3]=Прикриваю.
+OtherAbbrev[6]=Атакують!
+OtherAbbrev[8]=Наш прапор.
+OtherAbbrev[9]=На позицiї.
+OtherAbbrev[11]=Точка захоплена.
+OtherAbbrev[12]=Тут ворожий несуч
+OtherAbbrev[15]=Прикриваю.
+
+[VictimMessage]
+YouWereKilledBy=" "
+KilledByTrailer="убив тебе!"
+NoF8FemaleKilledByTrailer="вбила тебе!"
+
+[DeathMatchMessage]
+OvertimeMessage=Час закiнчився. Увiмкнено режим раптової смертi!
+GlobalNameChange=змiнив iм'я на
+NoF8FemaleGlobalNameChange=змiнила iм'я на
+NewTeamMessage=тепер у командi пiд назвою
+
+[VoiceBoss]
+NameTime[0]=0.960000
+NameTime[1]=1.100000
+NameTime[2]=1.020000
+NameTime[3]=0.990000
+AckString[0]=Зрозумiло       
+AckString[1]=Все ясно      
+AckString[2]=Наказ отримано
+AckString[3]=Буде зроблено 
+AckTime[0]=0.780000
+AckTime[1]=0.810000
+AckTime[2]=0.980000
+AckTime[3]=0.980000
+FFireString[0]=Стрiляєш по своїх!           
+FFireString[1]=Дивися, куди стрiляєш, iдiот!
+FFireAbbrev[0]=Урод, по кому палишь?!        
+TauntString[0]="Схилiться!"
+TauntString[1]="Помри, людина!"
+TauntString[2]="Мета знищена!"
+TauntString[3]="Ти помер надто легко!"
+TauntString[4]="Безкорисний!"
+TauntString[5]="Бiйся мене"
+TauntString[6]="Ти опущений"
+TauntString[7]="Ти застарiв"
+TauntString[8]="Я альфа та омега!"
+TauntString[9]="Бiжи, людина!"
+TauntString[10]="Пiди з дороги"
+TauntString[11]="Я чудовий"
+TauntString[12]="Любай мене"
+TauntString[13]="Бум!"
+TauntString[14]="Мiй дiм"
+TauntString[15]="Наступний"
+TauntString[16]="Гори, крихта"
+TauntString[17]="Хто ще хоче?"
+TauntString[18]="Має бути боляче"
+TauntString[19]="Я пiд вогнем"
+TauntAbbrev[2]="Мета"
+TauntAbbrev[8]="Альфа та Омега"
+OrderString[0]=Захищай базу.
+OrderString[1]=Тримай цю позицiю.
+OrderString[2]=Атакуй базу.
+OrderString[3]=Прикрий мене.
+OrderString[4]=Атака вiдповiдно до плану.
+OrderString[10]=Захопи їх прапор.
+OrderString[11]=Шукай i вбивай.
+OrderAbbrev[0]=Захист
+OrderAbbrev[2]=Атака
+OrderAbbrev[4]=Вiльний полiт.
+OtherString[0]=База не прикрита!
+OtherString[1]=Хтось повернiть наш прапор!
+OtherString[2]=У мене є прапор.
+OtherString[3]=Я прикриваю.
+OtherString[4]=Мене пiдбили!
+OtherString[5]=Людина загинула!
+OtherString[6]=Мене атакують!
+OtherString[7]=" "
+OtherString[8]=У мене є наш прапор.
+OtherString[9]=Я на позицiї.
+OtherString[10]=Тримайся.
+OtherString[11]=Контрольна точка захоплена.
+OtherString[12]=Несути ворожого прапора тут.
+OtherString[13]=Менi потрiбна пiдтримка.
+OtherString[14]=Iдуть!
+OtherString[15]=Я прикриваю.
+OtherString[16]=Мета знищена.
+OtherAbbrev[1]=Поверни прапор!
+OtherAbbrev[2]=У мене є прапор.
+OtherAbbrev[3]=Прикриваю.
+OtherAbbrev[6]=Атакують!
+OtherAbbrev[8]=У мене є наш прапор.
+OtherAbbrev[9]=На позицiї.
+OtherAbbrev[11]=Контрольна точка захоплена.
+OtherAbbrev[12]=Тут ворожий несуч
+OtherAbbrev[15]=Прикриваю.
+
+[VoiceMaleOne]
+NameTime[0]=0.960000
+NameTime[1]=1.100000
+NameTime[2]=1.020000
+NameTime[3]=0.990000
+AckString[0]=Зрозумiло
+AckString[1]=Все ясно
+AckString[2]=Наказ отримано
+AckString[3]=Буде зроблено
+AckTime[0]=0.780000
+AckTime[1]=0.810000
+AckTime[2]=0.980000
+AckTime[3]=0.980000
+FFireString[0]=Стрiляєш по своїх!           
+FFireString[1]=Дивися, куди стрiляєш, iдiот!
+FFireAbbrev[1]=Урод, по кому палишь?!        
+TauntString[0]="Жери це!"
+TauntString[1]="Сподобалося?"
+TauntString[2]="Так, сука!"
+TauntString[3]="Бум!"
+TauntString[4]="Гори, крихiтко!"
+TauntString[5]="Потанцюємо?"
+TauntString[6]="Помри, сука!"
+TauntString[7]="Невдаха"
+TauntString[8]="Я розiп'яв його!"
+TauntString[9]="Це було жахливо"
+TauntString[10]="Приємно"
+TauntString[11]="О, так!"
+TauntString[12]="Тiльки що я розiрвав його!"
+TauntString[13]="Молокосос!"
+TauntString[14]="Йййиихааа!!!"
+TauntString[15]="Вiдсмоктай!"
+TauntAbbrev[12]="Розiрвало!"
+OrderString[0]=Захищай базу.
+OrderString[1]=Тримай цю позицiю.
+OrderString[2]=Атакуй базу.
+OrderString[3]=Прикрий мене.
+OrderString[4]=Атака вiдповiдно до плану.
+OrderString[10]=Захопи їх прапор.
+OrderString[11]=Шукай i вбивай.
+OrderAbbrev[0]=Захист
+OrderAbbrev[2]=Атака
+OrderAbbrev[4]=Вiльний полiт.
+OtherString[0]=База не прикрита!
+OtherString[1]=Хтось повернiть наш прапор!
+OtherString[2]=У мене є прапор.
+OtherString[3]=Я прикриваю.
+OtherString[4]=Мене пiдбили!
+OtherString[5]=Людина загинула!
+OtherString[6]=Мене атакують!
+OtherString[7]=" "
+OtherString[8]=У мене є наш прапор.
+OtherString[9]=Я на позицiї.
+OtherString[10]=Тримайся.
+OtherString[11]=Контрольна точка захоплена.
+OtherString[12]=Несути ворожого прапора тут.
+OtherString[13]=Менi потрiбна пiдтримка.
+OtherString[14]=Iдуть!
+OtherString[15]=Я прикриваю.
+OtherString[16]=Мета знищена.
+OtherAbbrev[1]=Поверни прапор!
+OtherAbbrev[2]=У мене є прапор.
+OtherAbbrev[3]=Прикриваю.
+OtherAbbrev[6]=Атакують!
+OtherAbbrev[8]=У мене є наш прапор.
+OtherAbbrev[9]=На позицiї.
+OtherAbbrev[11]=Контрольна точка захоплена.
+OtherAbbrev[12]=Тут ворожий несуч
+OtherAbbrev[15]=Прикриваю.
+
+[TMale2]
+MenuName=Солдат
+
+[TMale2Bot]
+MenuName=Солдат
+
+[ut_jumpboots]
+ExpireMessage=Дiя антигравiтацiйних черевикiв закiнчується
+PickupMessage=Ти взяв антигравiтацiйнi черевики
+ItemName=Антигравiтацiйнi Черевики
+
+[ChainSaw]
+WeaponDescription=Класифiкацiя: Зброя ближнього бою\n\nОсновний вогонь: Тримай кнопку вогню та пили ворогiв.\n\nАльтернативний вогонь: Пили купу ворогiв, тримаючи пилку горизонтально.\n\nПрийом: Бензопилу дуже добре чути,
+DeathMessage=%o був по-звiрячому запиляний. Дякую тобi, м'ясник %k.
+PickupMessage=П'ять рокiв не бачив таку штуку
+ItemName=Бензопила
+
+[VoiceFemaleOne]
+NameTime[0]=0.890000
+NameTime[1]=0.940000
+NameTime[2]=0.810000
+NameTime[3]=0.930000
+AckString[0]=Зрозумiло
+AckString[1]=Все ясно
+AckString[2]=Наказ отримано
+AckTime[0]=0.520000
+AckTime[1]=0.750000
+AckTime[2]=0.930000
+FFireString[0]=Стрiляєш по своїх!
+FFireString[1]=Дивися, куди стрiляєш, iдiот!
+FFireAbbrev[1]=Урод, по кому палишь?!
+TauntString[0]="Жри це!"
+TauntString[1]="Молокосос!"
+TauntString[2]="Потрапила!"
+TauntString[3]="Має бути боляче!"
+TauntString[4]="Комусь ще?"
+TauntString[5]="Бум!"
+TauntString[6]="Гори, крихiтко!"
+TauntString[7]="Помри, сука!"
+TauntString[8]="Ти вiдсмоктування!"
+TauntString[9]="Сподобалося?"
+TauntString[10]="Йiїха!..."
+TauntString[11]="Невдах!"
+TauntString[12]="О, так!"
+TauntString[13]="Ну ти потрапив!"
+TauntString[14]="Сидiти"
+TauntString[15]="Я щойно його замочила!"
+TauntString[16]="Вибачте"
+TauntString[17]="Розiйдiть"
+TauntString[18]="Лежи i не рухайся."
+TauntString[19]="Молокосос!"
+TauntString[20]="Посмажимо!"
+TauntString[21]="Потанцюємо!"
+TauntAbbrev[3]="Мабуть, боляче"
+TauntAbbrev[4]="Хтось ще?"
+TauntAbbrev[15]="Рознесла його"
+TauntAbbrev[16]="Вибачте"
+OrderString[0]=Захищай базу.
+OrderString[1]=Тримай цю позицiю.
+OrderString[2]=Атакуй базу.
+OrderString[3]=Прикрий мене.
+OrderString[4]=Атака вiдповiдно до плану.
+OrderString[10]=Захопи їх прапор.
+OrderString[11]=Шукай i вбивай.
+OrderAbbrev[0]=Захист
+OrderAbbrev[2]=Атака
+OrderAbbrev[4]=Вiльний полiт.
+OtherString[0]=База не прикрита!
+OtherString[1]=Хтось повернiть наш прапор!
+OtherString[2]=У мене є прапор.
+OtherString[3]=Я прикриваю.
+OtherString[4]=Мене пiдбили!
+OtherString[5]=Один загинув!
+OtherString[6]=Мене атакують!
+OtherString[7]=" "
+OtherString[8]=У мене є наш прапор.
+OtherString[9]=Я на позицiї.
+OtherString[10]=Тримайся.
+OtherString[11]=Контрольна точка захоплена.
+OtherString[12]=Несути ворожого прапора тут.
+OtherString[13]=Менi потрiбна пiдтримка.
+OtherString[14]=Iдуть!
+OtherString[15]=Я прикриваю.
+OtherString[16]=Мета знищена.
+OtherAbbrev[1]=Поверни прапор!
+OtherAbbrev[2]=У мене є прапор.
+OtherAbbrev[3]=Прикриваю.
+OtherAbbrev[6]=Атакують!
+OtherAbbrev[8]=У мене є наш прапор.
+OtherAbbrev[9]=На позицiї.
+OtherAbbrev[11]=Контрольна точка захоплена.
+OtherAbbrev[12]=Тут ворожий несуч
+OtherAbbrev[15]=Прикриваю.
+
+[VoiceFemaleTwo]
+NameTime[0]=0.890000
+NameTime[1]=0.940000
+NameTime[2]=0.810000
+NameTime[3]=0.930000
+AckString[0]=Зрозумiло
+AckString[1]=Все ясно
+AckString[2]=Наказ отримано
+AckTime[0]=0.520000
+AckTime[1]=0.750000
+AckTime[2]=0.930000
+FFireString[0]=Стрiляєш по своїх!
+FFireString[1]=Дивися, куди стрiляєш, iдiот!
+FFireAbbrev[1]=Урод, по кому палишь?!
+TauntString[0]="Жри це!"
+TauntString[1]="Молокосос!"
+TauntString[2]="Потрапила!"
+TauntString[3]="Має бути боляче!"
+TauntString[4]="Спробуй гармату бiльше!"
+TauntString[5]="Бум!"
+TauntString[6]="Гори, крихiтко!"
+TauntString[7]="Помри, сука!"
+TauntString[8]="Занадто легко"
+TauntString[9]="Сподобалося?"
+TauntString[10]="Ти вiдсмоктування!"
+TauntString[11]="Невдах!"
+TauntString[12]="О, так!"
+TauntString[13]="Пороби без вежi!"
+TauntString[14]="Йййiха!"
+TauntString[15]="Солодко!"
+TauntString[16]="Хтось ще?"
+TauntString[17]="Сосунок!"
+TauntString[18]="Лежи i не рухайся."
+TauntString[19]="Вчися цiлитися"
+TauntString[20]="Помри!"
+TauntString[21]="Мiшок лайна!"
+TauntString[22]="Наступний"
+TauntString[23]="Побачимося"
+TauntString[24]="Мiй дiм!"
+TauntString[25]="Мета знищена"
+TauntString[26]="Барисливо"
+TauntAbbrev[13]="Вiдiрвись"
+TauntAbbrev[16]="Ще?"
+OrderString[0]=Захищай базу.
+OrderString[1]=Тримай цю позицiю.
+OrderString[2]=Атакуй базу.
+OrderString[3]=Прикрий мене.
+OrderString[4]=Атака вiдповiдно до плану.
+OrderString[10]=Захопи їх прапор.
+OrderString[11]=Шукай i вбивай.
+OrderAbbrev[0]=Захист
+OrderAbbrev[2]=Атака
+OrderAbbrev[4]=Вiльний полiт.
+OtherString[0]=База не прикрита!
+OtherString[1]=Хтось повернiть наш прапор!
+OtherString[2]=У мене є прапор.
+OtherString[3]=Я прикриваю.
+OtherString[4]=Мене пiдбили!
+OtherString[5]=Один загинув!
+OtherString[6]=Мене атакують!
+OtherString[7]=" "
+OtherString[8]=У мене є наш прапор.
+OtherString[9]=Я на позицiї.
+OtherString[10]=Тримайся.
+OtherString[11]=Контрольна точка захоплена.
+OtherString[12]=Несути ворожого прапора тут.
+OtherString[13]=Менi потрiбна пiдтримка.
+OtherString[14]=Iдуть!
+OtherString[15]=Я прикриваю.
+OtherString[16]=Мета знищена.
+OtherAbbrev[1]=Поверни прапор!
+OtherAbbrev[2]=У мене є прапор.
+OtherAbbrev[3]=Прикриваю.
+OtherAbbrev[6]=Атакують!
+OtherAbbrev[8]=У мене є наш прапор.
+OtherAbbrev[9]=На позицiї.
+OtherAbbrev[11]=Контрольна точка захоплена.
+OtherAbbrev[12]=Тут ворожий несуч
+OtherAbbrev[15]=Прикриваю.
+
+[TMale1]
+MenuName=Чоловiк Команда
+
+[TMale1Bot]
+MenuName=Чоловiк Команда
+
+[TDarkMatch]
+GameName=Турнiр Даркматч
+
+[KillingSpreeMessage]
+EndSpreeNote=" зупинив свою бурхливу дiяльнiсть. Припинив її"
+EndSelfSpree = виглядав непогано, поки не вбив сам себе
+EndFemaleSpree = виглядала непогано, поки не вбила сама себе
+spreenote[0]=почав серiю вбивств
+spreenote[1]=розбушувався
+spreenote[2]=панує
+spreenote[3]=неостановим
+spreenote[4]=подiбний до Бога
+
+[UT_invisibility]
+ExpireMessage=Невидимiсть закiнчується.
+PickupMessage=Взяв невидимiсть
+ItemName=Невидимiсть
+
+[Miniammo]
+PickupMessage=Ти пiдiбрав 50 куль
+ItemName=Великi кулi
+
+[ControlPointMessage]
+ControlPointStr=Контрольна точка
+ControlledBy=контролює
+TeamStr=""
+ClaimedStr=""
+
+[TFemale1]
+MenuName=Коммандо (дружин)
+
+[TFemale1Bot]
+MenuName=Коммандо (дружин)
+
+[BulletBox]
+PickupMessage=Коробка куль для рушниць
+ItemName=Коробка куль для рушниць.
+
+[TFemale2]
+MenuName=Солдат жiнка
+
+[TFemale2Bot]
+MenuName=Солдат жiнка
+
+[AssaultScoreboard]
+AssaultCondition=Атакуй базу!
+FragGoal=Лiмiт рахунку:
+
+[FirstBloodMessage]
+FirstBloodString=пролив першу кров
+
+[Commander]
+MenuName=Командир
+
+[ShockCore]
+PickupMessage=Ти пiдiбрав шокове ядро
+ItemName=Шокове Ядро
+
+[doubleenforcer]
+ItemName=Подвiйний Енфорсер
+
+[LMSOutMessage]
+OutMessage=пропав
+
+[TimeMessage]
+TimeMessage[0]=залишилося 5 хвилин
+TimeMessage[2]=залишилося 3 хвилини
+TimeMessage[3]=залишилося 2 хвилини
+TimeMessage[4]=залишилося 1 хвилина
+TimeMessage[5]=залишилося 30 секунд
+TimeMessage[6]=залишилося 10 секунд
+TimeMessage[7]=9...
+TimeMessage[8]=8...
+TimeMessage[9]=7...
+TimeMessage[10]=6...
+TimeMessage[11]=залишилося 5 ...
+TimeMessage[12]=4...
+TimeMessage[13]=3...
+TimeMessage[14]=2...
+TimeMessage[15]=1...
+
+[armor2]
+PickupMessage=Ти отримав бронежилет
+ItemName=Ти отримав бронежилет
+
+[SuperShockRifle]
+DeathMessage=%o був пiдсмажений. Шеф-кухар - %k.
+PickupMessage=Взяв Гiпершокову рушницю
+ItemName=Гiпершокова рушниця
+
+[bioammo]
+PickupMessage=Ти взяв бiопатрони
+ItemName=Бiопатрони
+
+[RocketPack]
+PickupMessage=Взяв пачку ракет
+
+[BladeHopper]
+PickupMessage=Ти пiдiбрав диски для Потрошителя
+ItemName=Диски
+
+[ThighPads]
+PickupMessage=Захист на ноги
+ItemName=Захист на ноги
+
+[DominationScoreboard]
+FragGoal=Лiмiт очок:
+
+[flakammo]
+PickupMessage=Пiдбрав 10 осколкових зарядiв
+ItemName=Уламковi заряди.
+
+[SuperShockCore]
+PickupMessage=Ти пiдiбрав Розширене шокове ядро
+ItemName=Розширене шокове ядро
+
+[PAmmo]
+PickupMessage=Ти взяв iмпульсний заряд
+ItemName=Iмпульсний заряд
+
+[RifleShell]
+PickupMessage=Отримав патрон для рушницi
+ItemName=патрон для рушницi
+
+[HealthVial]
+PickupMessage="Бульбашка здоров'я +"
+ItemName=Бульбашка здоров'я
+
+[HealthPack]
+PickupMessage="Велика аптечка +"
+ItemName=Велика аптечка
+
+[EClip]
+PickupMessage=Пiдiбрав магазин
+
+[ChallengeDMP]
+GameName=Душматч
+
+[RatedTeamInfoS]
+TeamName=Розкiт Грому
+TeamBio="'Розкiт Грома' зараз найбiльш популярний. Точно розраховуючи баланс сили та стилю, вони завжди змiтають опонента, i в той же час чудово виглядають."
+;class
+BotClassifications[0]=Воїн
+BotClassifications[1]=Воїн
+BotClassifications[2]=Воїн
+BotClassifications[3]=Вбивця-хiмiк
+BotClassifications[4]=Воїн
+BotClassifications[5]=Воїн
+BotClassifications[6]=Воїн
+BotClassifications[7]=Воїн
+;names
+BotNames[0]=Отелло
+BotNames[1]=Азур
+BotNames[2]=Арiс
+BotNames[3]=Малькольм
+BotNames[4]=Рiкер
+BotNames[5]=Аннака
+BotNames[6]=Тамiка
+BotNames[7]=Рiанна
+;iнформацiя
+BotBio[0]="Колишнiй агент торгової компанiї Цiрон, Отелло став безстрашним бiйцем пiсля таємничої смертi його дружини"
+BotBio[1]="Народилася в неймовiрно багатiй сiм'ї, Азур навчалася у найкращих бiйцiв свого часу. Бiоiнженернi операцiї проведенi в кращих клiнiках збiльшили її здiбностi до краю досконалостi."
+BotBio[2]="Коли була пiлот-снайпер, Арiс непогано зарекомедувала себе на полi бою своєю майстернiстю i рухливiстю, отримавши мiсце в командi 'Розкiт Грому'."
+BotBio[3]="Кращий витвiр концерну FenTech - Малькольм є воїном, покращеним за допомогою бiоiнженерних операцiй та стероїдiв. Адреналiновi стимулятори, синаптичнi каталiзатори та iмпульснi регулятори були використанi для того, щоб створити цю надлюдську машину вбивств."
+BotBio[4]="Рiкер - ходяча енциклопедiя з тактики та стилiв ведення бою. Постiйний пошук нових тактичних ходiв дозволив йому виграти безлiч нагород за творчу iмпровiзацiю."
+BotBio[5]="Її сестра, шахтар, загинула через некомпетентнiсть адмiнiстрацiї Лiандрi на планетi Вулкан 32. Вона приєдналася до 'Розкату Грому' щоб допомогти їм виграти Турнiр i таким чином пред'явити своєрiдний судовий позов корпорацiї i змусити їх платити за смерть рiдної сестри."
+BotBio[6]="Тамiка була кинута матiр'ю в ранньому вiцi i вона виросла в будинку повному чоловiкiв де жорстоке поводження та постiйнi образи загартували її. Жорстока за характером, вона є завзятим суперником, схильний до знищення учасникiв-чоловiкiв."
+BotBio[7]="Опис невiдомий."
+
+[RatedTeamInfo1]
+TeamName=Залiзна Охорона
+TeamBio="Цей загiн елiтних воїнiв-ветеранiв колись служив особистими охоронцями контробандисту зброї Джихану Нiну. Пiсля його вбивства, Залiзна Охорона, що залишилася без роботи, вважала Турнiр iдеальною ареною для вивiльнення своєї агресiї."
+;class
+BotClassifications[0]=Воїн Залiзної Охорони
+BotClassifications[1]=Воїн Залiзної Охорони
+BotClassifications[2]=Воїн Залiзної Охорони
+BotClassifications[3]=Воїн Залiзної Охорони
+BotClassifications[4]=Воїн Залiзної Охорони
+BotClassifications[5]=Воїн Залiзної Охорони
+BotClassifications[6]=Залiзна Охорона
+BotClassifications[7]=Залiзна Охорона
+;names
+BotNames[0]=Харлiн
+BotNames[1]=Рiлiса
+BotNames[2]=Джонсон
+BotNames[3]=Лаурен
+BotNames[4]=Брок
+BotNames[5]=Шуан
+BotNames[6]=Ранкiн
+BotNames[7]=Сара
+;iнформацiя
+BotBio[0]="Харлiн - вiдомий боєць iз пристойним польовим досвiдом. Приєднався до Залiзної Охорони пiсля того, як Десантний загiн 'Шторм' Нового Уряду Землi вбили його сiм'ю пiд час придушення обурень."
+BotBio[1]="Мало що вiдомо про причини, з яких Рiлiса вступила до лав Залiзної Охорони. Майже кожен, хто перебуває в Залiзнiй Вартi має привiд для боротьби проти Лiандрi та Нового Уряду Землi, але вона нiчого не говорила нiкому з товаришiв по командi вiдколи приєдналася до них."
+BotBio[2]="Джонсон був найнятий на чорному ринку рабiв для служiння Нiну. Силен i витривалий."
+BotBio[3]="Лаурен вважається коханкою Джихана Нiна. Пiдозрюючи, що в його смертi винна Корпорацiя Лiандрi, вона приєдналася до Залiзної Охорони, щоб розкрити правду."
+BotBio[4]="Його бойовi здiбностi поступаються тiльки його зовнiшньому вигляду. Коли вiн не спокушає дiвчат вiн на аренi, з плазмовим кулеметом в руках."
+BotBio[5]="Шуанн чудово вмiє звертатися зброєю i сняражением. Її посаду в Залiзнiй Охоронi - технiк i зброярi."
+BotBio[6]="Ранкiн залишив володiння Джихана Нiна у пошуках нового успiху в битвi. Вiн чудовий, здатний воїн з рiзким характером."
+BotBio[7]="Сара все своє життя присвятила захисту iнших. Її служба у Нiну залежала вiд його пiдтримки партизанiв зовнiшнiх свiтiв, якi чинили опiр Новому Уряду Землi. Тепер, коли вiн загинув, вона продовжує боротися з Лiандрi у своїй смертельнiй грi."
+
+[RatedTeamInfo3]
+TeamName=Поглиначi кровi
+TeamBio="Поглиначi кровi, органiзацiя найманцiв i колишнiх вiйськових фахiвцiв шукають слави та удачi. Їхня мета - виграти Турнiр щоб отримати приз - майже безмежне багатство та владу."
+;class
+BotClassifications[0]=Лiдер рiверiв
+BotClassifications[1]=Рiвер
+BotClassifications[2]=Рiвер
+BotClassifications[3]=Рiвер
+BotClassifications[4]=Рiвер
+BotClassifications[5]=Рiвер
+BotClassifications[6]=Рiвер
+BotClassifications[7]=Рiвер
+;names
+BotNames[0]=Кiла
+BotNames[1]=Борис
+BotNames[2]=Марiана
+BotNames[3]=Луфор
+BotNames[4]=Джейсi
+BotNames[5]=Рамiрез
+BotNames[6]=Таня
+BotNames[7]=Грейвс
+;iнформацiя
+BotBio[0]="Кила була спiймана пiсля п'яти рокiв розшукiв i погонь на просторi 13 зiркових систем. Обвинувачена в органiзацiї одного з найбiльших повстань шахтарiв (Свiт Грiна) в iсторiї, вона була змушена брати участь у Турнiрi щоб вижити."
+BotBio[1]="Борис, колишнiй службовець Сил Захисту Землi, залишив поле бою пiд час сутички на Iо (супутник Юпiтера). Незабаром захоплений, вiн був засуджений до вищого покарання - смертi вiд рук Ксана Крiгора"
+BotBio[2]="На вiдмiну вiд бiльшостi членiв органiзацiї Поглиначi кровi, Марiана повнiстю вiдвела Новому Уряду Землi всi чотири роки. По закiнченнi цих чотирьох рокiв вона була демобiлiзована з невеликою компенсацiєю. Вона вважає, що уряд i Лiандрi повиннi їй."
+BotBio[3]="Луфор провiв 20 рокiв як спецiалiст iз секретних операцiй. Заарештований службою безпеки НПЗ пiд час рейду. Вiдчуваючи себе ошуканим вiн почав боротися проти уряду, який його створив."
+BotBio[4]="Джейсi - технiчний спецiалiст органiзацiї. Вона використовує свою вiдмiнну вiйськову пiдготовку обслуговування та оцiнки обладнання."
+BotBio[5]="Мало що вiдомо про Рамiреза крiм того, що вiн приголомшливий снайпер, оскiльки його бiографiя повнiстю засекречена."
+BotBio[6]="Таня виконує роль свого роду розвiдника органiзацiї 'Поглиначi кровi' на змаганнях. Їх успiх не тiльки в їх досвiдi але i в заздалегiдь продуманих дiях."
+BotBio[7]="Грейвс залишив службу безпеки НПЗ пiсля того, як його почали пiдозрювати у надмiрному застосуваннi насильства. Тепер вiн застосовує це насильство в Турнiрi."
+
+[RatedTeamInfo2]
+TeamName=Чорний Легiон
+TeamBio="Потужна команда найманих убивць Некрiс, яка бажає перемогти в Турнiрi. Бiйцi Чорного Легiону вважають, що знищивши Хана Крiгора, корумпованого Турнiру, вони можуть захопити управлiння над операцiями Лiандрi."
+;class
+BotClassifications[0]=Вбивця
+BotClassifications[1]=Вбивця
+BotClassifications[2]=Некромант
+BotClassifications[3]=Вбивця
+BotClassifications[4]=Вбивця
+BotClassifications[5]=Вбивця
+BotClassifications[6]=Некромант
+BotClassifications[7]=Вбивця
+;names
+BotNames[0]=Крiс
+BotNames[1]=Крагот
+BotNames[2]=Фрiлiс
+BotNames[3]=Малакай
+BotNames[4]=Вiссi
+BotNames[5]=Некрос
+BotNames[6]=Малiс
+BotNames[7]=Грайл
+;iнформацiя
+BotBio[0]="Крiс, як i Вiссi, отримує задоволення вiд руйнування. Але, на вiдмiну вiд своєї сестри по кровi, вона менш схильна впадати в раж берсерка. Вона вiддає перевагу зброї дальньої дистанцiї i тихiй тактицi."
+BotBio [1] = " Вiдомий як " Зоряний вбивця " , Крагот - жахливий найманий вбивця таємного товариства Фейдеров.
+BotBio[2]="Лiдер вищого рiвня, Фрейлiс - досвiдчений i вмiлий воїн. Вона добре розбирається в команднiй тактицi i завжди буде саме там, де команда найбiльше її потребуватиме."
+BotBio[3]="Малакай бореться заради слави i руйнування. Як i бiльшiсть Некромантiв, вiн вiрить що кожне почуття, кожна особливiсть божественного болю, призначенi для того, щоб ними насолоджуватися."
+BotBio[4]="Отримуючи задоволення тiльки вiд заподiяння болю iншим, Вiссi знищує своїх суперникiв iз невгасаючим запалом."
+BotBio[5]="Некрос є Майстром Чорного легiону. Кожен Майстер Некромантiв виконує роль свого роду чорного капелана, що пiдвищує мораль всього загону."
+BotBio[6]="Малiс - саме втiлення ненавистi. Якби за нею так ретельно не стежив Некроф, вона б озброїлася i на своїх побратимiв."
+BotBio[7]="Грайл, найосвiченiший член Легiону, тихо чекає свого часу, щоб захопити владу в Легiонi."
+
+[RatedTeamInfo5]
+TeamName=Веном
+TeamBio="Веном - елiтний загiн воїнiв i спортсменiв. Усi воїни цього загону - жiнки i вони б'ються лише заради власного задоволення."
+;class
+BotClassifications[0]=Воїн
+BotClassifications[1]=Воїн
+BotClassifications[2]=Воїн
+BotClassifications[3]=Воїн
+BotClassifications[4]=Вбивця-хiмiк
+BotClassifications[5]=Воїн
+BotClassifications[6]=Воїн
+BotClassifications[7]=Воїн
+;names
+BotNames[0]=Асена
+BotNames[1]=Силiя
+BotNames[2]=Сарена
+BotNames[3]=Тара
+BotNames[4]=Занна
+BotNames[5]=Ловелас
+BotNames[6]=Ксира
+BotNames[7]=Пекла
+;iнформацiя
+BotBio[0]="Асена бореться тiльки заради самого матчу. У неї гостре око i її розум сфокусований на перемозi. Вона навряд чи повiдає комусь з її команди, але щось веде її тiльки до перемоги."
+BotBio[1]="Силiя бореться для самовдосконалення. Вона уявляє собi Турнiр, як найбiльший стандарт фiзичної досконалостi, що коли-небудь iснував i хоче вiдповiдати йому."
+BotBio[2]="Нiкому з її соратниць невiдомо, що Сарена - результат експерименту Нового Уряду Землi з повного контролю над розумом. Вона бореться не з власної волi, а з встановлення уряду."
+BotBio[3]="Тара, атлет нової ери. Вона сильна, швидка i кмiтлива. Вона однаково володiє будь-якою зброєю Турнiру, а також непогано знає всi його дисциплiни."
+BotBio[4]="Занна, прототип хiмiчно-посиленого воїна створеного FenTech Incorporated. Її неймовiрна фiзична сила та витривалiсть досягається за рахунок постiйного використання синаптичних каталiзаторiв та ендорфiнiв."
+BotBio[5]="Ловелас залишила свiт корпорацiї в прагненнi знайти нове застосування своїм фiзичним якостям. Вона вивчає бойовi мистецтва i тактику пiд керiвництвом Силiї."
+BotBio[6]="Ксiра вважає себе свого роду супергероєм. Воює в Турнiрi на знак опору полiтицi придушення Нового Уряду Землi."
+BotBio[7]="Опис невiдомий"
+
+[RatedTeamInfo4]
+TeamName=Сталь та Плоть
+TeamBio="Тiльки чоловiки допускаються в команду 'Сталь i Плоть'. Квiтесенцiя людських м'язiв i губчастих металiв, 'Сталь i Плоть' звеличує мiць i силу перед iншими чеснотами."
+;class
+BotClassifications[0]=Воїн
+BotClassifications[1]=Воїн
+BotClassifications[2]=Воїн
+BotClassifications[3]=Воїн
+BotClassifications[4]=Воїн
+BotClassifications[5]=Воїн
+BotClassifications[6]=Воїн
+BotClassifications[7]=Воїн
+;names
+BotNames[0]=Слейн
+BotNames[1]=Менвелл
+BotNames[2]=Крегор
+BotNames[3]=Брюс
+BotNames[4]=Аркон
+BotNames[5]=Рольф
+BotNames[6]=Арнольд
+BotNames[7]=Лугар
+;iнформацiя
+BotBio[0]="Слейн - засновник команди 'Сталь i Плоть'. Вiн розумiє, що успiх його команди завдячує не стiльки фiзичнiй силi її воїнiв, скiльки її 'рестлiнговому' стилю, який так подобається глядачам."
+BotBio[1]="Менвелл - найсильнiший воїн у командi. Вiн використовує свiй власний набiр бiохiмiчних удосконалень для того, щоб постiйно пiдтримувати свої можливостi на максимальному рiвнi."
+BotBio[2]="Крегор є класичний приклад крутого хлопця. Вижив у кiлькох Турнiрах, вiн добре знає арени i вважається найдосвiдченiшим воїном своєї команди."
+BotBio[3]="Брюс бiльше думає про стиль нiж про дiї. Вiн цiлком може стати посеред бою перед найближчою голокамерою i прокоментувати те, що вiдбувається."
+BotBio[4]="Аркон залишив службу безпеки Нового Уряду Землi пiсля того, як йому було запропоновано мiсце в командi. Вiн нiколи не любив Армiю i вiдсутнiсть у Турнiрi будь-яких правил йому дуже до душi."
+BotBio[5]="Рольф найслабший воїн команди, але за стандартами звичайної людини неймовiрно мiцний. Недолiк грубої сили вiн заповнює великою швидкiстю i прискоренням."
+BotBio[6]="Арнольд - колишнiй каскадер, який став тепер воїном Турнiру. Вiн постiйно шукає найкривавiше мiсце на аренi i Турнiр повнiстю задовольняє його потреби."
+BotBio[7]="Опис невiдомий"
+
+[LadderDOM]
+MapTitle[0]=Навчання
+MapTitle[1]=Руїни
+MapTitle[2]=Сад
+MapTitle[3]=Склеп
+MapTitle[4]=Спалювання вугiлля
+MapTitle[5]=Шестiрнi
+MapTitle[6]=Плавка свинцю
+MapTitle[7]=Старовинний
+MapTitle[8]=Могила Сесмара
+MapTitle[9]=Металева мрiя
+MapDescription[0]="Це навчальна мiсiя, де ви можете навчитися правил i основ гри Панування. Перевiрте свої навички на не тренованих ворогах, перш нiж ви перейдете до турнiру."
+MapDescription[1]="Багато бандитських сутичок, що вiдбулися саме в цьому районi, пiдтвердили репутацiю мiських нетрiв, як кривавого поля бою. Керiвники Лiандрi очiкують, що проведенi в цьому мiсцi будуть не менш жорстокими, правда тепер, як матчi Панування."
+MapDescription[2]="Щойно вiдбудованi лабораторiї Гхардхен з випробування вибухових речовин, мають двi випробувальнi камери. На жаль, одним iз iнвесторiв виявився агент про нерухомiсть Турнiру Лiандрi, i лабораторiї Гхардхен вiдiйшли до Лiандрi."
+MapDescription[3]="Одна з кiлькох спроекованих саме пiд Турнiр арен, ця, витримана в стилi стародавнiх руїн, була побудована легендарним майстром Турнiру Кiлбрагхом як особиста тренувальна база. Пiсля його смертi, ця арена вiдiйшла до Лiандрi, яка використовує її за повною програмою ."
+MapDescription[4]="Пiсля безлiчi зламаних нiг i кiлькох потонулих у лавi працiвникiв, Ливарна Синдер була остаточно закрита i виставлена на аукцiон, де була звичайно ж куплена агентом з нерухомостi Турнiру."
+MapDescription[5]="Новий курс мирних перетворень Нового Уряду Землi висловився у великiй кiлькостi занедбаних армiйських будiвель. Арена Гiрболт колись була пiдземним сховищем озброєння та рiзного iнвентарю."
+MapDescription[6]="Закинута плавильня - чудове мiсце для матчу. У деяких мiсцях можна потрапити в розплавлений свинець, так що рухайтеся акуратно, якщо Ви хочете дiяти ефективно."
+MapDescription[7]="Храм, священний для раси яка побудувала його, але не для Лiандрi. Пiсля того як його виявили на вершинi гори над ареною Нескiнченна Печера, Лiандрi просто перетворила його ще на одну арену."
+MapDescription[8]="Незважаючи на протести по всьому свiту, ця iсторична пам'ятка тепер належить Лiандрi. Джерл Лiандрi, Президент гiрничодобувної корпорацiї Лiандрi сказав: 'Ми придбали це мiсце, щоб люди могли бачити високоякiснi культурнi подiї. Меншого нам не потрiбно''.
+MapDescription[9]="Ця арена Господа - колишня морська нафтовидобувна вежа. Вона розташована неподалiк дивного метеорологiчного феномена бiля пiвнiчного краю Нової Землi. Використовуйте архiтектуру цiєї арени по максимуму, щоб обiграти суперника."
+
+[LadderDM]
+MapTitle[0]=Навчання
+MapTitle[1]=Забуття
+MapTitle[2]=Вiрнiсть
+MapTitle[3]=Реактор
+MapTitle[4]=Турбiна
+MapTitle[5]=Кодекс мудростi
+MapTitle[6]=Тиск
+MapTitle[7]=Трикутний метал
+MapTitle[8]=Галеон Коос
+MapTitle[9]=Станцiя Зет
+MapTitle[10]=Барiкада
+MapTitle[11]=Лiандрi
+MapTitle[12]=Телепорт
+MapTitle[13]=Транспортер
+MapDescription[0]="Це навчальна мiсiя, де ви можете ознайомитися з основами i правилами гри Душматч. Перевiрте свої навички на не тренованих ворогах, перш нiж ви перейдете до турнiру."
+MapDescription[1]="IТВ Забуття - один iз озброєних транспортних кораблiв Лiандрi. Його завдання перевозити нових учасникiв через гiперпростiр з Палат Посвяти на їх першi змагання на Землi. Але мало хто з бiйцiв знає, що цей корабель сам по собi арена."
+MapDescription[2]="Джерл Лiандрi купив цей старий гараж, як можливий склад покидькiв для його, тодi ще тiльки розвивається, Лiандрi Мiнiнг. Тепер, Лiандрi, вже корпорацiя, перетворила його на арену. Незважаючи на свою простоту, ця арена бiльш смертельна, нiж нетрi мiста, де вона знаходиться.
+MapDescription[3]="Опитування громадської думки проведенi корпорацiєю показали, що бiльшiсть глядачiв Турнiру волiють дивитися бої в реальних мiсцях. Цей конвертований плазмовий реактор саме з таких. в портал у пiдлозi, що вiдкривається пострiлом в один iз iндикаторiв, що свiтяться на пiдлозi."
+MapDescription[4]="Колишня гiдроелектростанцiя придбана для перетворення на арену Турнiру. Має вузькi коридори, що нав'язують високий темп гри, ця арена хороша тiльки для тих гравцiв, якi розумiють, що бiгти або ховатися вiд смертi немає сенсу."
+MapDescription[5]="Арена Кодекс мудростi колись була неймовiрним джерелом знань для тих хто шукав їх по всiй галактицi. Останнє мiсце у всiй галактицi, де можна було знайти рiдкiснi, стародавнi книги в їхнiй початковiй, друкованiй формi. Так було до тих коли при проведеннi ремонту, робiтники не натрапили на шар лави, Бiблiотека була закрита i продана Лiандрi для потреб Турнiру за непридатною цiною."
+MapDescription[6]="'Мишоловка' - традицiя, перевiрена часом i так улюблена глядачами Турнiру. Досить багато арен Турнiру пропонують подiбнi 'iнтерактивнi' мишоловки. Наприклад, та ж арена Анубiс."
+MapDescription[7]="Колишня плавильня Лiандрi, цей комплекс, любовно званий 'дробилкою', по праву вважається учасниками однiєї з найкривавiших арен Турнiру, нарiвнi з Гiдростанцiєю.
+MapDescription[8]="Аборигени свiту Коос живуть у водi, тому було складно знайти бiльш вiдповiдну арену, нiж цей древнiй транспортний галеон."
+MapDescription[9]="Ця арена була побудована спецiально для проведення на нiй боїв Турнiру. Багатоповерховi зали та темнi, затишнi мiсця забезпечують високу видовищнiсть боїв. Це особиста арена для тренувань Ксана Крiгора, розташована високо над вiдродженим Нью-Йорком, що розкинувся внизу."
+MapDescription[10]="Таємничий древнiй замок невiдомої iнопланетної раси ширяє над вiчною грозою. Барикади Орiона - це неймовiрно небезпечна арена, вузькi коридори внизу, i небезпека зiрватися на поверхнi."
+MapDescription[11]="Колишнiй гiрничодобувний комбiнат Лiандрi, розташований у розломi земної кори недалеко вiд Мехiко. Фазовi iоннi щити захищають вiд високої температури та тиску - основних проблем шахт, розташованих у лiтосферi."
+MapDescription[12]="Цей нафтопереробний завод є чудово збалансованою ареною. Його багаторiвневiсть змушує гравцiв завжди бути уважними."
+MapDescription[13]="Цей гiрський монастир у Непалi був побудований ченцями Нiпi, щоб уникнути моральної деградацiї. Це безтурботне та гарне мiсце колись використовувалося для медитацiї. Тепер корпорацiя Лiандрi придбала його через чудовi умови для проведення матчiв."
+
+[LadderCTF]
+MapTitle[0]=Навчання
+MapTitle[1]=Лабораторiя Нiвен
+MapTitle[2]=Зустрiлися свiти
+MapTitle[3]=Нескiнченна печера
+MapTitle[4]=Станцiя Корет
+MapTitle[5]=Кинути рукавичку
+MapTitle[6]=Авангард
+MapTitle[7]=Остання команда
+MapTitle[8]=Море лави
+MapTitle[9]=Листопад
+MapDescription[0]="Це навчальна мiсiя, де ви можете ознайомитися з основами та правилами гри Захопи Прапор. Перевiрте свої навички на не тренованих ворогах, перш нiж ви перейдете до турнiру."
+MapDescription[1]="Експериментальний ядерний реактор, занедбаний пiсля визнання проекту невигiдним. Високий рiвень радiацiї та витiк вiдходiв сприяють боротьбi учасникiв Турнiру за виживання."
+MapDescription[2]="Цей древнiй астероїд був перетворений на арену Турнiру. Грати тут дуже небезпечно через гравiтацiйнi вiдхилення, ну i звичайно ж, через снайперiв команди суперникiв."
+MapDescription[3]="Руїни залишенi невiдомою расою, отриманi вiддiленням Ксенобiологiї Копрорацiї Лiандрi для вивчення i розкопок. Виявилося, що це 'дуже цiнне i видовищне мiсце проведення матчiв', як сказав комiтет Турнiру, пiсля того як 17 археологiв ксенобiологiчного пiдроздiлу розбилися або у ."
+MapDescription[4]="Побудоване в товщi однiєї з гiр мiсяця Корет, це мiсце колись було перевалочним пунктом на шляху вiд орбiтального причалу Iнтерстеллар, що знаходиться на стацiонарнiй орбiтi мiсяця i дослiдницькою станцiєю Зето, розташованої на iншому боцi мiсяця, у вiчних льодах.
+MapDescription[5]="Не всi арени є переробленими пiд нове призначення нерухомiстю Лiандрi. Арена 'Рукавичка' одна з небагатьох арен, спецiально спроектованих для матчiв Турнiру, витримана в стародавньому стилi. Ця арена була спецiально спроектована пiд проведення командних iгор."
+MapDescription[6]="Неперервнi зливи Вандарона 3 дають небезпiдставний привiд вважати цю планету наймокришим мiсцем у галактицi. Цей аванпост дуже нелюбимий солдатами за вiддаленiсть, тiсноту i луну вiчного дощу, що зводить з розуму."
+MapDescription[7]="Остання команда - повнiстю функцiонуючий завод з переробки ядерних вiдходiв, що належить, звичайно ж, Корпорацiї Лiандрi. Архiтектура цього заводу дозволяє йому бути так само iдеальною ареною для матчiв Турнiру з дисциплiни Захоплення Прапора. Простора iндустрiальна архiтектура разом з має на увазi гру, засновану на високiй реакцiї, якщо Ви i Ваша команда плануєте перемогти."
+MapDescription[8]="Цей киплячий свiт обертається на дуже низькiй орбiтi навколо надщiльного газового гiганта. Пiд дiєю сильної гравiтацiї кора планети розвалилася. На кожен матч гравцям видаються спецiальнi гравiтацiйнi пояси."
+MapDescription[9]="Тут матч проходить навколо списаного ядерного пiдводного човна класу 'Листопад' пришвартованого в пiдземному пеналi. Ця релiквiя, що залишилася з часiв першої холодної вiйни, зберегла кулеметнi гнiзда та вiдмiннi захиснi позицiї, що дозволять здобути перемогу."
+
+[LadderChal]
+MapTitle[0]=Фобос
+MapTitle[1]=Морфео
+MapTitle[2]=Буря
+MapTitle[3]=Гiпервибух
+MapDescription[0]="Фобос - покинута космiчна станцiя, яка знаходиться мiж Марсом i його супутником Фобосом, на честь якого вона названа. Таке мiсцезнаходження станцiї є причиною хаотичного обертання. На щастя гравiтацiйнi генератори працюють досить добре, щоб забезпечити швидкий ритм матчу."
+MapDescription[1]="Корпорацiя Лiандрi знайшла приголомшливу арену на даху щойно побудованого суперхмарочоса Галаксаскрапер. Завдяки останньому слову науки - надмiцним матерiалам, цi три будiвлi досягли неймовiрної висоти в 12 миль (майже 19 з половиною кiлометрiв). i знижена сила тяжiння Землi забезпечують хорошу перевiрку фiзичної пiдготовки учасникiв i навiть їх вмiння дiяти у екстремальних условиях."
+MapDescription[2]="Корпорацiя Лiандрi, у спробi покрити фiнансовi втрати вiд наукової станцiї на арктичному мiсяцi Корет, перетворила цей, вмерзлий на льоду аванпост, на арену Турнiру."
+MapDescription[3]="Завдяки технологiї магнiтного антивакуумного резонансу, учасники щогли можуть боротися зовнi космiчного корабля-арени Ксана 'Гiперприскорення' протягом тривалого перiоду часу. Але незважаючи на це будьте дуже уважнi, одна помилка i ви вiдправитеся у вiдкритий космос. "
+
+[LadderAS]
+MapTitle[0]=Навчання
+MapTitle[1]=Фрегат
+MapTitle[2]=Висока швидкiсть
+MapTitle[3]=Вежа
+MapTitle[4]=Лабiринт
+MapTitle[5]=Дно океану
+MapTitle[6]=Оперлорд Операцiя
+MapDescription[0]="Це навчальна мiсiя, де ви можете ознайомитися з основами та правилами гри Напад. Перевiрте свої навички на не тренованих ворогах, перш нiж ви перейдете до турнiру."
+MapDescription[1]="Старий земний фрегат, вiдреставрований СС Вiкторi ще придатний до плавання. Двоконтурна система захисту не дозволить загарбникам застосувати зброю для того щоб розчистити вихiд з бухти шляхом блокування капiтанського мiстка. Але, якщо буде порiджений гiдрокомпресор автоматично вiдкриється, в "
+MapDescription[2]="Бажаючи розважити публiку, Лiандрi переробила цей високошвидкiсний (320 км/год) поїзд пiд потреби Турнiру. Цього разу учасникам доведеться так само не впасти з поїзда. Дiставайте попкорн i насолоджуйтесь видовищем!"
+MapDescription[3]="Цей древнiй замок, розташований у висогiр'ї Румунiї, був куплений Ксаном Крiгором в якостi особистої тренувальної бази для його опонентiв, якi сподiваються стати кращими з кращих i зруйнувати його. Атакуюча команда повинна вийти iз замку через головнi ворота, зруйнувавши головну лебiдку в бiблiотецi i вiдкрити ворота використовуючи важiль у сторожцi, команда, що захищається, тим часом повинна запобiгти їх втечу."
+MapDescription[4]="У пiднiжжя гiр тропiчної планети Зевс 6 лежить фортеця Мазон, що здається неприступною твердинею. глибоко в надрах фортецi знаходиться гiгантський кристал рiдкiсного i вибухонебезпечного елемента Таридiума. Кристал висить мiж двома великими електродами над озером надпроводом
+MapDescription[5]="Унiверситети по всьому свiту збирали грошi на будiвництво пiдводного центру - Донна Станцiя 5, призначеного для глибоководних дослiджень. Кошти майже вийшли коли корпорацiя Лiандрi прийшла на 'допомогу'. Джерл Лiандрi, президент корпорацiї, сказав: 'Якщо ми не Чи зможемо забезпечити освiту для наших дiтей, що стане з цим свiтом?'
+MapDescription[6]="Органiзатори Турнiру вирiшили, що вiдтворення умов, ймовiрно, найжорстокiшої вiйни на Землi забезпечить неймовiрно видовищну гру. Штурм пляжiв Номандiї пiд час другої свiтової був обраний через неймовiрну кiлькiсть перешкод, з якими довелося зiткнутися атакуючiй сторонi. Захист пляжу , так само не стане легким заняттям."
+
+[RatedTeamInfo6]
+TeamName=Темна Фаланга
+TeamBio="Темна Фаланга повнiстю складається iз заслужених вiйськових фахiвцiв. Всi вони добре зарекомендували себе в ходi найжорсткiшої вiйни зi Скаарджами i тепер шукають слави та пошани в Турнiрi."
+;class
+BotClassifications[0]=Лiдер Темної Фаланги
+BotClassifications[1]=Темна Фаланга
+BotClassifications[2]=Темна Фаланга
+BotClassifications[3]=Темна Фаланга
+BotClassifications[4]=Темна Фаланга
+BotClassifications[5]=Темна Фаланга
+BotClassifications[6]=Темна Фаланга
+BotClassifications[7]=Темна Фаланга
+;names
+BotNames[0]=Iванiя
+BotNames[1]=Фархам
+BotNames[2]=Микита
+BotNames[3]=Горн
+BotNames[4]=Ганна
+BotNames[5]=Вiтман
+BotNames[6]=Лiраш
+BotNames[7]=Микола
+;iнформацiя
+BotBio[0]="Iванiа - воїн самоучка, що приєднався до Темної Фаланги, коли вона почула iсторiю Горна про його життєвий шлях на Неуровiзiон. Ця iсторiя її так зачепила, що вона вирiшила приєднатися, до команди щоб боротися разом з Горном."
+BotBio[1]="Фархам боровся в рядах Сил Захисту Землi пiд час 'Семиденної Облоги', Найважчого моменту для Землi пiд час вiйни. Вiн сам пiдiрвав лiнкор 'Круджхлок' класу Sjri'ith Скаарджей."
+BotBio[2]="Микита чудово вмiє збирати та обслуговувати тижне озброєння та вибухових пристроїв. Вона обслуговує арсенал Темної Фаланги."
+BotBio[3]="Горн був харизматичним бiйцем доки його обличчя не було понiвечене до невпiзнанностi в ходi 'Семиденної Облоги'. Не маючи можливостi вiдновити його вигляд, медичнi фахiвцi вiдновили його почуття, iмплантувавши йому високочутливi сенсори."
+BotBio[4]="Коли була вiдповiдальною особою за виконання таємних операцiй Нового Уряду Землi, Анна була звiльнена пiсля проведення кiлькох, особливо жорстоких мiсiй. Тепер вона хоче перемогти Ксана i повернути свiй обов'язок Лiандрi та НПЗ."
+BotBio[5]="Вiтман колишнiй Нео-Коп з аванпоста Глоск, який вирiшив змiнити анархiю вуличного патрулювання на органiзований хаос Турнiру. Його досвiд вуличних боїв робить його бiйцем Турнiру свiтового рiвня та гiдним суперником."
+BotBio[6]="Лiраш залишила сили Нео-Копов Глоска разом з Вiтманом. Вона служила пiд його початком протягом п'яти рокiв i збирається продовжити битися в будь-якому матчi, де Вiтман бере участь."
+BotBio[7]="Опис невiдомий."
+
+[RatedMatchDM9]
+;names
+BotNames[0]=Арiс
+BotNames[1]=Блейк
+BotNames[2]=Генiс
+BotNames[3]=Крiс
+BotNames[4]=Азур
+;class
+BotClassifications[0]=Солдат
+BotClassifications[1]=Борець
+BotClassifications[2]=Грабувальник
+BotClassifications[3]=Некромант
+BotClassifications[4]=Злочинець
+;iнформацiя
+Bio[0]="Aрис, колишнiй польовий командир 12-го Механiзованого Iмперiалу. Була вiдiбрана для участi в Турнiр пiсля того, як пiд час бою за Аванпост 'Орiон', в рукопашнiй сутичцi вбила 8 Скаарджiв енергетичним ножем."
+Bio[1]="Блейк повернувся i вiн прагне помститися. Вперше коли ви його обiграли, йому пристойно не вистачало вмiння, але тепер вiн вважає, що може обiйти Вас. Покажiть де раки зимують."
+Bio[2]="Генiс взяв своє iм'я на честь древнього завойовника. Вiн оголосив себе 'Правителем схiдних просторiв', що прийшов для створення нової Iмперiї. Насправдi ж вiн дрiбний злодiй засуджений до участi в Турнiрi за його злочини."
+Bio[3]="Крiс поки ще не покинула Турнiр. Некроманти наполегливi i небезпечнi i вона не виняток. Будьте обережнi, вона тепер набагато сильнiша нiж ранiше."
+Bio[4]="Азур вiдслужила на Марсi шiсть довгих рокiв з причин, якi зараз вважаються секретними. Нещодавно її перевели для участi в Турнiрi, але жоднi записи про її ранню бiографiю недоступнi."
+
+[RatedMatchDM8]
+;names
+BotNames[0]=Дамаскус
+BotNames[1]=Дарл
+BotNames[2]=Ганна
+BotNames[3]=Гiлфред
+BotNames[4]=Тажери
+;class
+BotClassifications[0]=Вбивця
+BotClassifications[1]=Божевiльний
+BotClassifications[2]=Мирний
+BotClassifications[3]=Шахтар
+BotClassifications[4]=Мирний
+;iнформацiя
+Bio[0]="Осиротiлий вiдразу пiсля народження, це безсердечний вбивця провiв роки на вулицi, навчаючись своєму мистецтву i втрачаючи останнi емоцiї. 'Змiненi' без особливих проблем зламали його волю, i тепер вiн служить їх iнтересам. Тепер, позбавлений будь-яких почуттiв, Дамаскус - невгамовна бойова машина.
+Bio[1]="Турнiр практикує полiтику 'ми не питаємо - ви не розповiдаєте' по вiдношенню до рiзноманiтних стимуляторiв i вiдомо Дарл часто зловживає цими речовинами. з вiдбiйним молотком.
+Bio[2]="Анна - колишнiй цирковий акробат, була змушена взяти участь у Турнiрi через брак грошей i не можна сказати, що вона була особливо щаслива з цього приводу. Вона вiддає перевагу Потрошителю, оскiльки використовуючи альтернативний режим вогню можна жонглювати опонентами."
+Bio[3]="Його колишнiй наймач - Корпорацiя Лiандрi обманом змусила його брати участь у Турнiрi. У цього нещасного колишнього шахтаря немає практично жодних шансiв на перемогу в Турнiрi. Вiн пiшов у вiдчай з головою i пiде на все, щоб убити свого супротивника, незважаючи на ушкодження.
+Bio[4]="Пiймана та продана в рабство, Тажерi влаштувала зухвалу втечу i пiзнiше була знайдена полiцiєю Нового Уряду Землi, де її змусили до участi в Турнiрi. У неї мало турнiрного досвiду i вона буде щаслива знайти хоча б якусь зброю. "
+
+[RatedMatchDM7]
+;names
+BotNames[0]=Хiджiнкс
+BotNames[1]=Ксолерас
+BotNames[2]=Кадавер
+;class
+BotClassifications[0]=Секретний: L9
+BotClassifications[1]=Кат
+BotClassifications[2]=Некро-вбивця
+;iнформацiя
+Bio[0]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+Bio[1]="Колишнiй грецький публiчний кат в 'тривалiй вiдпустцi' вiд 'сiмейної справи', Ксолерас має репутацiю абсолютної переваги над своїми опонентами. Вмiючи вiдмiнно рухатися навiть по вузьких виступах i володiючи чудовим зором, вiн рiдко упускає можливiсть винести. "
+Bio[2]="Дослiдний, нещадний вбивця знає кожен закуток, мiсцезнаходження кожної зброї на будь-якiй аренi. Його агресивна здатнiсть контролювати арени Турнiру перетворює будь-який матч зi змагання на полювання."
+
+[RatedMatchDM6]
+;names
+BotNames[0]=Архон
+BotNames[1]=Нiкi
+BotNames[2]=Ворон
+BotNames[3]=Барт
+;class
+BotClassifications[0]=Божевiльний
+BotClassifications[1]=Мирний
+BotClassifications[2]=Злочинець
+BotClassifications[3]=Економiст
+;iнформацiя
+Bio[0]="Архон - безжальний вбивця, i нiщо iнше. У нього явно не все гаразд з головою...отримуючи задоволення вiд болю та страждань. Ймовiрно це найнеприємнiший суперник з тих, що тобi зустрiнуться."
+Bio[1]="Виявляється, багатi громадянськi здатнi купити право на участь у Турнiрi. Комiтет Лiандрi у справах Турнiру не дуже любить допускати в матчi 'нормальних' цивiльних, тому вони недостатньо хорошi для того, щоб матч був цiкавим."
+Bio[2]="Злочинцi зазвичай стають iдеальними бiйцями Турнiру. Вибухонебезпечне поєднання розпачу та ненавистi до в'язницi, що пробуджується тривалим ув'язненням у камерi, знаходить вихiд у матчах Турнiру."
+Bio[3]="Не те щоб гiрше адвокатiв, економiсти просто сильнiше 'дiстають'. Лiандрi з'ясувала, що глядачi витратять пристойнi грошi, щоб подивитися як економiсти та подiбнi їм борються за своє життя."
+
+[RatedMatchDM5]
+;names
+BotNames[0]=Аркос 24
+BotNames[1]=Вiссi
+BotNames[2]=Крагос
+;class
+BotClassifications[0]=Божевiльний
+BotClassifications[1]=Некромант
+BotClassifications[2]=Фейдер
+;iнформацiя
+Bio[0]="Бiографiя Аркоса невiдома, його пам'ять стерта пiд час пiдготовки до Турнiру в Лiандрi. Тепер, будучи членом 'Спотворених', вiн виконує волю Ксана Крiгора без жодних питань."
+Bio[1]="Багато воїнiв Некромантiв - жiнки. Вiдомi як 'Дiви Вiйни', вони безстрашно борються, вiддаючи перевагу багнетам жорстокої форми та енергетичним мечам. Вiссi - вiйськовополонена, змушена брати участь у Турнiрi в обмiн на власне життя."
+Bio[2]="Ще один Некромант у цьому матчi, Крагот є членом секретного товариства Фейдерiв. Фейдери, братство найманих убивць i шанувальникiв культу Судного Дня, оголосили свого роду партизанську вiйну Землi."
+
+[RatedMatchDM4]
+BotNames[0]=Люсiннi
+BotClassifications[0]=Мирний
+Bio[0]="Вижила в аварiї транспорту IСВ-Кран, Люсiннi була змушена дивитися, як її друзi та решта екiпажу загинули вiд страшної зброї скаарджiв - зап'ясткових лез. Її i ще трьох людей, що вижили, врятували через два роки. цi два роки змусила її взяти участь у Турнiрi, щоб побороти своїх внутрiшнiх демонiв i змусити їх мовчати через власну смерть.
+
+[RatedMatchDM3]
+;names
+BotNames[0]=Слейн
+BotNames[1]=Аннака
+BotNames[2]=Калi
+BotNames[3]=Лексiнгтон
+;class
+BotClassifications[0]=Солдат
+BotClassifications[1]=Пiдривник
+BotClassifications[2]=Злочинець
+BotClassifications[3]=Стрiлок
+;iнформацiя
+Bio[0]="Слейн боровся в рядах 47-го Механiзованого Iмперiалу пiд час першого вторгнення Некромантiв. Вiн є заслуженим ветераном сучасних бойових дiй. Хоча його вмiння переважно тактичного плану, вiн так само вмiє чудово справлятися з будь-якою зброєю."
+Bio[1]="Нiколи не посилайте чоловiка робити жiночу роботу. Аннака - першокласний експерт-вибухотехнiк. Вона спланувала бiльше 20 таємних пiдривних операцiй проти Скаарджей менш нiж за рiк i є радником Нового Уряду Землi в комiсiї 'Мокрих Справ' з передислокування зброї пiхоти."
+Bio[2]="Багато борцiв Турнiру - злочинцi, дана можливiсть купити свободу присутня в кровi. Те, в чому вони вiдчувають недолiк у загальному обiгу, заповнюється ними в їх числах."
+Bio[3]="Надзвичайно благородний воїн, Лексiнгтон вiдомий тим, що тiльки використовує пiстолети, щоб боротися з. Вiн розглядає себе вище Турнiру i волiє взяти участь у традицiйному поєдинку. Його мета легендарна, i вiн стає двiчi смертельний, коли вiн має два пiстолета.
+
+[RatedMatchDM2]
+BotNames[0]=Кламенс
+BotNames[1]=Крiс
+BotClassifications[0]=Солдат
+BotClassifications[1]=Некромант
+Bio[0]="Кламенс був вигнаний iз збройних сил Нового Уряду Землi пiсля грубої непокори офiцеру. Йому глибоко начхати на оточуючих i битися нещадно."
+Bio[1]="Представник iнопланетної раси пiд назвою 'Некроманти', Крiс має своєрiдну 'темну' красу. Будьте обережнi, оскiльки за цiєю темною красою, ховається ще темнiший розум."
+
+[RatedMatchDM13]
+;names
+BotNames[0]=Ванесса
+BotNames[1]=Довiї
+BotNames[2]=Лiб
+BotNames[3]=Дрiмакус
+;class
+BotClassifications[0]=Божевiльний
+BotClassifications[1]=Солдат
+BotClassifications[2]=Фейдер
+BotClassifications[3]=Воїн
+;iнформацiя
+Bio[0]="Душевна хвороба Ванесси є її рятiвником, допомагаючи їй прорубуватись крiзь сотнi воїнiв i бiйцiв i дозволивши дiйти до цiєї стадiї Турнiру."
+Bio[1]="Довiє чудовий снайпер. Вона дивиться через прицiл на всiх, у тому числi i на Вас."
+Bio[2]="Лiандрi вважає, що Лiб вiдповiдає за операцiї Фейдерiв в секторi Сонця. Пiдозрюється в 543 полiтичних вбивствах з максимальною жорстокiстю."
+Bio[3]="На вiдмiну вiд бiльшостi учасникiв Турнiру, Дрiмакус пiднявся на цей ступiнь Турнiру пройшовши крiзь сито безлiчi вiдбiркових турнiрiв i перемiгши у вiдбiркових змаганнях серед любителiв. Вiн дуже досвiдчений i здiбний воїн."
+
+[RatedMatchDM12]
+;name
+BotNames[0]=Арiс
+BotNames[1]=Нiкi
+BotNames[2]=Айс Вiссель
+BotNames[3]=Варктус
+BotNames[4]=Ендрю
+BotNames[5]=То Каттер
+;class
+BotClassifications[0]=Солдат
+BotClassifications[1]=Мирний
+BotClassifications[2]=Спецiалiст
+BotClassifications[3]=Божевiльний
+BotClassifications[4]=Злочинець
+BotClassifications[5]=Злочинець
+;iнформацiя
+Bio[0]="Хоча ви вже один раз перемогли Арiс, вона перемогла у втiшному фiналi i повернулася до сiтки Турнiру"
+Bio[1]="Трьома переконливими перемогами на минулому надiлi, Нiккi дiйсно довела, що багатi громадянськi можуть дiйсно показати хорошу гру. Вона швидко вчиться i повернулася щоб показати Вам кiлька нових прийомiв."
+Bio[2]="Айс Вiссель, це кодове iм'я Джесса Дейвiса, фахiвця свiтового класу з бойових дiй в областях наднизьких температур. Здатний самотужки вижити протягом декiлькох тижнiв пiд шаром снiгу, вiн навчився повнiстю контролювати тiло i розум."
+Bio[3]="Варктуса так просто не зупиниш. Його тактика грубої сили i зневага до свого самопочуття виражаються в його швидкому просуваннi турнiрними сходами Турнiру."
+Bio[4]="Ендрю засуджений на 30-рiчний висновок за комп'ютерний злом баз даних Лiандрi. Вiн чудовий програмiст i хакер. Просто це саме той хлопець якого небезпечно занадто довго тримати в клiтцi через високу ймовiрнiсть втечi."
+Bio[5]="Справжнє iм'я невiдоме, То Каттер - вiдомий гангстер. Захоплений пiд час сутички з силами Нового Уряду Землi на пiвднi Вiдродженого Нью-Йорка; вiдразу стало зрозумiло, що йому доведеться брати участь у Турнiрi."
+
+[RatedMatchDM11]
+;names
+BotNames[0]=Ванесса
+BotNames[1]=Рас
+BotNames[2]=Джейсi
+BotNames[3]=Фуйго
+;class
+BotClassifications[0]=Божевiльний
+BotClassifications[1]=Воїн
+BotClassifications[2]=Мирний
+BotClassifications[3]=Злочинець
+;iнформацiя
+Bio[0]="Ванесса була спрямована на лiкування у вiцi 12 рокiв пiсля вбивства своїх батькiв i брата. Лiкування її так i не виправило, так що вона - ще той псих. Вона просто обожнює пiдривати опонентiв на шматки за допомогою точно пущеної ракети ."
+Bio[1]="Рас бiльше машина, нiж людина. Зiбраний наново iз запасних частин i те що залишилося з його мозку пiсля випадку на орбiтальної станцiї Зiрка Землi 1. Його неврiвноваженiсть робить iз нього чудового вiйна."
+Bio[2]="Джейсi - колишнiй каскадер. Зрозумiвши, що вона може застосувати свої навички в Турнiрi, вона стала ще одним з його незлiченних учасникiв. Вона чудово володiє будь-якою зброєю."
+Bio[3]="Колишнiй охоронець вiдомої спiвачки Флабелини Ксiон. Пiсля того як його визнали винним у її страшному вбивствi, єдиним виходом для нього став Лiандрi Турнiр. Його прiзвисько 'Спiвак'."
+
+[RatedMatchDM10]
+;names
+BotNames[0]=Ботанiка
+BotNames[1]=Реа
+BotNames[2]=Довiї
+BotNames[3]=Барктус
+BotNames[4]=Деслок
+;class
+BotClassifications[0]=Злочинець
+BotClassifications[1]=Спецiалiст
+BotClassifications[2]=Солдат
+BotClassifications[3]=Божевiльний
+BotClassifications[4]=Воїн
+;iнформацiя
+Bio[0]="Замiсть публiчної страти за вироком Марсiанського тюремного трибуналу, Ботанiка вiддав перевагу участi в Турнiрi. З бiльш нiж 11 жорстокими вбивствами на його рахунку, Ботанiка без проблем адаптувався до умов матчiв Турнiру."
+Bio[1]="Колишнiй польовий командир Нового Уряду Землi та спецiалiст з енергетичних видiв зброї, Реа не вперше вiдстоюватиме своє життя. Вона любить плазмову гвинтiвку за точнiсть, але так само непогано володiє й iншими видами сучасної зброї."
+Bio[2]="Народжена на борту крейсера IВВ Циран-Вега i вихованих рiвнинах захопленої планети Скаарджей Скрат, Довiєнiя є високодосвiдченою вiйною. Вона знає арени Турнiру краще, нiж її однолiтки i швидко навчається на полi бою."
+Bio[3]="Барктус - класичний божевiльний. Увiйшовши в раж берсерка, вiн швидше з криком порве супротивника на шматки голими руками, нiж атакує здалеку. Якщо ж йому доводиться використовувати зброю, вiн вiддає перевагу Осколковiй Гарматi через її неймовiрну ефективнiсть у ближньому. бою."
+Bio[4]="Деслок - одноклановець Дримакуса. Хоча вiн i слабший нiж одноклановець, Деслок є цiлком непоганим бiйцем i може завдати чимало проблем."
+
+[RatedMatchDM1]
+BotClassifications[0]=Бой, що починає.
+BotNames[0]="Блейк"
+Bio[0]="Маловiдомий початкiвець, Блейк довго бився щоб потрапити в Турнiр. Незважаючи на те, що йому бракує технiчної i тактичної досконалостi. Швидше за все це найслабший суперник з тих хто зустрiнеться Вам в Турнiрi."
+
+[RatedMatchChal4]
+BotNames[0]="Ксан"
+BotClassifications[0]=Переможець турнiру
+Bio[0]="Особистiсть i походження невiдомi. Ходять рiзнi чутки про те хто або що таке Ксан. Найбiльш популярний з них свiдчить, що це людина, яка очолює Лiандрi i витратила частину свого незлiченного стану на створення найкращого бойового скафандра з будь-коли iснували. , щоб утримати звання переможця Турнiру."
+
+[RatedMatchChal3]
+;names
+BotNames[0]="Вектор"
+BotNames[1]="Енiгма"
+BotNames[2]="Тенсор"
+BotNames[3]="Силiкон"
+BotNames[4]="Катод"
+;class
+BotClassifications[0]=Кiборг
+BotClassifications[1]=Кiборг
+BotClassifications[2]=Кiборг
+BotClassifications[3]=Кiборг
+BotClassifications[4]=Кiборг
+;iнформацiя
+Bio[0]="Кiборг, що пiдпорядковується Ксану Крiгору, член загону 'Спотворених', що борються для розваги їх власника."
+Bio[1]="Кiборг, що пiдпорядковується Ксану Крiгору, член загону 'Спотворених', що борються для розваги їх власника."
+Bio[2]="Кiборг, що пiдпорядковується Ксану Крiгору, член загону 'Спотворених', що борються для розваги їх власника."
+Bio[3]="Кiборг, що пiдпорядковується Ксану Крiгору, член загону 'Спотворених', що борються для розваги їх власника."
+Bio[4]="Кiборг, що пiдпорядковується Ксану Крiгору, член загону 'Спотворених', що борються для розваги їх власника."
+
+[RatedMatchChal2]
+;names
+BotNames[0]="Дивiзор"
+BotNames[1]="Тенсор"
+BotNames[2]="Катод"
+BotNames[3]="Функшн"
+;class
+BotClassifications[0]=Кiборг
+BotClassifications[1]=Кiборг
+BotClassifications[2]=Кiборг
+BotClassifications[3]=Кiборг
+;iнформацiя
+Bio[0]="Кiборг, що пiдпорядковується Ксану Крiгору, член загону 'Спотворених', що борються для розваги їх власника."
+Bio[1]="Кiборг, що пiдпорядковується Ксану Крiгору, член загону 'Спотворених', що борються для розваги їх власника."
+Bio[2]="Кiборг, що пiдпорядковується Ксану Крiгору, член загону 'Спотворених', що борються для розваги їх власника."
+Bio[3]="Кiборг, що пiдпорядковується Ксану Крiгору, член загону 'Спотворених', що борються для розваги їх власника."
+
+[RatedMatchChal1]
+;names
+BotNames[0]="Вектор"
+BotNames[1]="Катод"
+BotNames[2]="Матриця"
+BotNames[3]="Силiкон"
+BotNames[4]="Дивiзор"
+;class
+BotClassifications[0]=Кiборг
+BotClassifications[1]=Кiборг
+BotClassifications[2]=Кiборг
+BotClassifications[3]=Кiборг
+BotClassifications[4]=Кiборг
+;iнформацiя
+Bio[0]="Кiборг, що пiдпорядковується Ксану Крiгору, член загону 'Спотворених', що борються для розваги їх власника."
+Bio[1]="Кiборг, що пiдпорядковується Ксану Крiгору, член загону 'Спотворених', що борються для розваги їх власника."
+Bio[2]="Кiборг, що пiдпорядковується Ксану Крiгору, член загону 'Спотворених', що борються для розваги їх власника."
+Bio[3]="Кiборг, що пiдпорядковується Ксану Крiгору, член загону 'Спотворених', що борються для розваги їх власника."
+Bio[4]="Кiборг, який пiдпорядковується Ксану Крiгору, член загону 'Спотворених', що борються для розваги їх власника."
+
+[Ladder]
+Titles[0]=Нетренований(0)
+Titles[1]=Рядовий(1)
+Titles[2]=Середнiй(2)
+Titles[3]=Крутий(3)
+Titles[4]=Боєць(4)
+Titles[5]=Майстер(5)
+Titles[6]=Чемпiон(6)
+
+[ServerInfo]
+ServerInfoText="Серверна iнформацiя"
+ContactInfoText="Контактна iнформацiя"
+NameText="Iм'я:"
+AdminText="Адмiн."
+EMailText="Email"
+UnknownText="Незв."
+MOTD="Фраза дня"
+ServerStatsText="Статистика сервера"
+GamesHostedText="Iгри:"
+FragsLoggedText="Вбивства:"
+VictimsText="Жертви:"
+GameStatsText="Статистика гри"
+GameTypeText="Тип гри:"
+PlayersText="Гравцiв:"
+FragsText="Усього вбивств:"
+TopPlayersText="Найкращi [Вбивства на годину]"
+BestNameText="Iм'я"
+BestFPHText="Кращ. [У/Ч]"
+BestRecordSetText="Рекорд"
+BotText="Боти"
+
+[ServerInfoCTF]
+FlagsCapturedText="Захоплено прапори:"
+
+// GOTY Edition
+[LadderDMGOTY]
+MapTitle[7]=Таємний храм
+MapTitle[8]=Трикутний метал
+MapTitle[9]=Арена
+MapTitle[10]=Галеон Коос
+MapTitle[11]=Станцiя Зет
+MapTitle[12]=Шрапнель
+MapTitle[13]=Лiандрi
+MapTitle[14]=Телепорт
+MapTitle[15]=Транспортер
+MapDescription[7]="Налi, стародавня раса iстот з 4 руками, побудувала цей таємний храм, щоб у таємницi поклонятися своїм богам коли їх планета - На-Палi була окупована iншою iнопланетною расою - войовничими Скааржами. замок i систематично знищили всiх, хто в ньому знаходився."
+MapDescription[8]="Колишня плавильня Лiандрi, цей комплекс, любовно званий 'дробилкою', по праву вважається учасниками однiєї з найкривавiших арен Турнiру, нарiвнi з Гiдростанцiєю.
+MapDescription[9]="Ця маленька арена призначена для перевiрки нових фаворитiв Чемпiонату в дуелi вiч-на-вiч."
+MapDescription[10]="Аборигени свiту Коос живуть у водi, тому було складно знайти бiльш вiдповiдну арену, нiж цей древнiй транспортний галеон."
+MapDescription[11]="Ця арена була побудована спецiально для проведення на нiй боїв Турнiру. Багатоповерховi зали i темнi, затишнi мiсця забезпечують високу видовищнiсть боїв. Це особиста арена для тренувань Ксана Крiгора, розташована високо над вiдродженим Нью-Йорком, що розкинувся внизу."
+MapDescription[12]="Координатори Чемпiонату просто люблять покинутi i вигорiшнi плавильнi, заводи, склади через природний простiр i небезпечнi архiтектурнi особливостi. Оскiльки початкове iм'я цього згорiлого заводу було забуте, учасники матчiв дали цiй аренi своє, досить моторошне їм
+MapDescription[13]="Колишнiй гiрничодобувний комбiнат Лiандрi, розташований у розломi земної кори недалеко вiд Мехiко. Фазовi iоннi щити захищають вiд високої температури та тиску - основних проблем шахт, розташованих у лiтосферi."
+MapDescription[14]="Цей нафтопереробний завод є чудово збалансованою ареною. Його багаторiвневiсть змушує гравцiв завжди бути уважними."
+MapDescription[15]="Цей гiрський монастир у Непалi був побудований ченцями Нiпi, щоб уникнути моральної деградацiї. Це безтурботне та гарне мiсце колись використовувалося для медитацiї. Тепер корпорацiя Лiандрi придбала його через чудовi умови для проведення матчiв."
+
+[LadderCTFGOTY]
+MapTitle[10]=Гiдростанцiя
+MapTitle[11]=Орбiтальна
+MapDescription[10]="Ця гiгантська гiдроелекторстанцiя ранiше давала електроенергiя для колонiй на Везувiусi 9. Так тривало доти поки якийсь таємничий вiрус не викосив населення цих колонiй, заодно з персоналом електростанцiї. Тепер, через кiлька рокiв, Лiандрi офiцiйно оголосила для проведення матчiв (поняття 'безпечно' досить вiдносно у розумiннi представникiв Лiандрi)."
+MapDescription[11]="Може здатися, що ця симетрична космiчна станцiя цiлком у робочому станi, проте повної функцiональностi вона так i не досягла, коли з'ясувався величезний брак коштiв через нечесних постачальникiв i неуважну адмiнiстрацiю. Як i слiд було очiкувати, чуйнi агентом з нерухомостi Чемпiон вловили ситуацiю i скупили станцiю за непряму цiну для включення її до програми Чемпiонату."
+
+[RatedTeamInfo7]
+TeamName=Червоний кiготь
+TeamBio="Новий Уряд Землi визнав перевагу воїнiв-Скаарждiв у ролi бойової машини ще з часiв найжорстокiших воєн з расою Скаарджей. Скаарждi-Гiбриди стали результатом схрещування ДНК людини i Скаарджа, проведеного в ходi секретних вiйськових генетичних дослiджень. Чемпiонату, то вони стануть основною силою в наземних операцiях.
+BotNames[0]=Домiнатор
+BotNames[1]=Берсеркер
+BotNames[2]=Вартовий
+BotNames[3]=Девастатор
+BotNames[4]=Пестiленс
+BotNames[5]=Плагуе
+BotClassifications[0]="Класифiковано: L9"
+BotClassifications[1]="Класифiковано: L9"
+BotClassifications[2]="Класифiковано: L9"
+BotClassifications[3]="Класифiковано: L9"
+BotClassifications[4]="Класифiковано: L9"
+BotClassifications[5]="Класифiковано: L9"
+BotBio[0]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+BotBio[1]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+BotBio[2]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+BotBio[3]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+BotBio[4]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+BotBio[5]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+
+[RatedMatchDM9G]
+BotNames[0]=Рiппер
+BotNames[1]=Локве
+BotClassifications[0]="Класифiковано: L9"
+BotClassifications[1]=Некро-вбивця
+Bio[0]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+Bio[1]=Вважають що Локве вiдповiдальний за 6 принаймнi бомбардування захисних споруд Нового Земного Уряду минулого мiсяця.
+
+[RatedMatchDM7G]
+BotNames[0]=Домiнатор
+BotNames[1]=Бiтал
+BotNames[2]=Скрiлакс
+BotNames[3]=Рiппер
+BotNames[4]=Берсеркер
+BotClassifications[0]="Класифiковано: L9"
+BotClassifications[1]="Класифiковано: L9"
+BotClassifications[2]="Класифiковано: L9"
+BotClassifications[3]="Класифiковано: L9"
+BotClassifications[4]="Класифiковано: L9"
+Bio[0]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+Bio[1]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+Bio[2]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+Bio[3]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+Bio[4]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+
+[RatedTeamInfo8]
+TeamName="Залiзний череп"
+TeamBio="Новий Уряд Землi визнав перевагу воїнiв-Скаарждiв у ролi бойової машини ще з часiв найжорстокiших воєн з расою Скаарджей. Скаарждi-Гiбриди стали результатом схрещування ДНК людини i Скаарджа, проведеного в ходi секретних вiйськових генетичних дослiджень. Чемпiонату, то вони стануть основною силою в наземних операцiях.
+BotNames[0]=Рiппер
+BotNames[1]=Бiтал
+BotNames[2]=Фароx
+BotNames[3]=Скрiлакс
+BotNames[4]=Ансракс
+BotNames[5]=Ентропi
+BotClassifications[0]="Класифiковано: L9"
+BotClassifications[1]="Класифiковано: L9"
+BotClassifications[2]="Класифiковано: L9"
+BotClassifications[3]="Класифiковано: L9"
+BotClassifications[4]="Класифiковано: L9"
+BotClassifications[5]="Класифiковано: L9"
+BotBio[0]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+BotBio[1]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+BotBio[2]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+BotBio[3]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+BotBio[4]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+BotBio[5]="Профiль недоступний. Потрiбен рiвень доступу не нижче L9."
+

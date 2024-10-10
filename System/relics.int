@@ -1,0 +1,28 @@
+[Public]
+Object=(Name=Relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="Релiкт: Регенерацiя,Магiчний релiкт, який надiляє здатнiстю набувати +10 здоров'я кожну секунду.")
+Object=(Name=Relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="Релiкт: Захист,Магiчний релiкт, який знижує збиток до 60%.")
+Object=(Name=Relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Релiкт: Швидкiсть,Магiчний релiкт, який надiляє володаря надлюдською швидкiстю та рефлексами.")
+Object=(Name=Relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="Релiкт: Сила,Магiчний релiкт, який надiляє аномальною силою.")
+Object=(Name=Relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="Релiкт: Вiдновлення,Цей релiкт вiдновить вас пiсля смертi")
+Object=(Name=Relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Релiкт: Помста,Цей релiкт покаже хто тебе вбив.")
+
+[RelicInventory]
+PickupMessage=Ти пiдiбрав порожнiй Релiкт.
+
+[RelicRedemptionInventory]
+PickupMessage=Ти пiдiбрав Релiкт вiдновлення!
+
+[RelicStrengthInventory]
+PickupMessage=Ти пiдiбрав Релiкт сили!
+
+[RelicDeathInventory]
+PickupMessage=Ти пiдiбрав Релiкт помсти!
+
+[RelicDefenseInventory]
+PickupMessage=Ти побрав Релiкт захисту!
+
+[RelicSpeedInventory]
+PickupMessage=Ти пiдiбрав Релiкт швидкостi!
+
+[RelicRegenInventory]
+PickupMessage=Ти пiдiбрав Релiкт регенерацiї!

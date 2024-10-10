@@ -1,0 +1,33 @@
+[LevelInfo0]
+Title=Могила Сесмара
+
+[ZoneInfo3]
+ZoneName=Зовнi
+
+[ZoneInfo0]
+ZoneName=Колонна зала
+
+[ZoneInfo5]
+ZoneName=Червоний хрест
+
+[ZoneInfo4]
+ZoneName=Синiй хрест
+
+[ZoneInfo2]
+ZoneName=коридори
+
+[ZoneInfo1]
+ZoneName=коридори
+
+[ControlPoint3]
+PointName=Колонна зала
+
+[ControlPoint0]
+PointName=Синiй хрест
+
+[ControlPoint1]
+PointName=Червоний хрест
+
+[LevelSummary]
+Title=Могила Сесмара
+

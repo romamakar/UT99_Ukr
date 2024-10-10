@@ -1,0 +1,38 @@
+[LevelInfo0]
+Title=Зберiгачi
+IdealPlayerCount=6-12
+
+[FortStandard0]
+FortName=Мiст через лаву
+DestroyedMessage=перетятий!
+
+[AssaultInfo1]
+ObjDesc[0]=Вистрiлiть по запалу, щоб запалити його та пiдiрвати дверi.
+ObjDesc[1]=Прорвiться до платформи, пiднiмiться на нiй до пульта керування дверима ангара та активуйте його.
+ObjDesc[2]=Коли дверi вiдчиняться, знищiть прототип танка пострiлом у гармату.
+
+[AssaultInfo0]
+ObjDesc[0]=Вистрiлiть по запалу, щоб запалити його та пiдiрвати дверi.
+ObjDesc[1]=Прорвiться до платформи, пiднiмiться на нiй до пульта керування дверима ангара та активуйте його.
+ObjDesc[2]=Коли дверi вiдчиняться, знищiть прототип танка пострiлом у гармату.
+
+[AssaultInfo2]
+ObjDesc[0]=Вистрiлiть по запалу, щоб запалити його та пiдiрвати дверi.
+ObjDesc[1]=Прорвiться до платформи, пiднiмiться на нiй до пульта керування дверима ангара та активуйте його.
+ObjDesc[2]=Коли дверi вiдчиняться, знищiть прототип танка пострiлом у гармату.
+
+[FortStandard4]
+FortName=Вхiд
+DestroyedMessage=пiдiрваний!
+
+[FortStandard3]
+FortName=Вежа танка
+
+[FortStandard2]
+FortName=Дверi ангару
+DestroyedMessage=вiдкрито!
+
+[FortStandard1]
+FortName=Шнур
+DestroyedMessage=пiдпалений!
+

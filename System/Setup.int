@@ -1,0 +1,124 @@
+[Errors]
+MissingProductTitle="%s не може бути %s у цю папку"
+MissingProductInstalled="встановлений"
+MissingProductPatched="оновлено"
+MissingProductThis="Це оновлення"
+MissingProduct="%s вимагає, щоб %s був встановлений у папку. Вкажiть поточну папку для %s, або вийдiть i встановiть його.\n\nВи можете скористатися Web-посиланням нижче, щоб дiзнатися подробицi про продукт."
+OldVersion="%s вимагає %s версiї %i або вище, ваша версiя застарiла (ваша версiя %i). Встановiть %s версiї %i або вище i спробуйте ще раз. Ви можете скористатися Web-посиланням нижче, щоб дiзнатися подробицi про продукт. \n\nВихiд iз установки."
+FolderTitle="Папка '%s'"
+FolderFormat="Введена папка '%s' неправильна. Спробуйте ще раз."
+AlreadyRunningTitle="Установка в процесi роботи програми неможлива"
+AlreadyRunning="Щоб продовжити iнсталяцiю, закрийте всi запущенi копiї та натиснiть OK. Щоб вийти, натиснiть Скасувати."
+WrongCdTitle="Не знайде файл на диску"
+WrongCd="Версiя %s файлу %s не знайдена на диску.\n\nПеревiрте диск i спробуйте ще раз."
+MissingInstallerFile="Файл програми iнсталятора не знайдено"
+MissingReferenceFile="Файл посилання не знайдено"
+MissingSourceFile="Файл не знайдено"
+FailedOpenSource="Помилка вiдкриття файлу"
+FailedOpenDest="Помилка вiдкриття створюваного файлу"
+FailedReadingSource="Помилка читання вихiдного файлу"
+FailedWritingDest="Помилка запису створюваного файлу"
+FailedLoadingUpdate="Помилка завантаження файлу-оновлення"
+FailedReadingReference="Помилка читання файлу-посилання"
+FailedClosingSource="Помилка закриття вихiдного файлу"
+FailedClosingDest="Помилка закриття створюваного файлу"
+FailedMakeDir="Помилка створення директорiї для створюваного файлу"
+AdviseBadMedia="Диск може бути пошкоджений. Якщо ви встановлюєте CD, спробуйте протерти його i спробуйте ще раз."
+AdviseBadDownload="Завантаженi файли можуть бути пошкодженi."
+AdviseBadDest="Диск може бути переповнений або на ньому є поганi сектори."
+PatchCorrupt="Файл %s пошкоджено.\n\n%s"
+CdFileMismatch="Файл %s з CD має iншу версiю. Тому %s не може бути оновлено."
+
+[General]
+Space="%i мегабайт"
+Ready="Програма-установник пiдготовлена до установки %s.\nДодаток буде встановлений в паку %s\n\nНатиснiть 'Встановити', щоб почати процес iнсталяцiї.\nНатиснiть 'Скасувати', щоб закрити програму-установник не встановлюючи %s."
+InstallCancel="Скасування установки"
+CancelPrompt="Увага! Скасування процесу встановлення %s на поточнiй стадiї може викликати помилки в роботi встановленої програми. Ви дiйсно впевненi, що хочете скасувати процес установки?"
+DidCancel="Ви скасували процес встановлення. Установка не була завершена успiшно i програма не буде працювати коректно."
+CdDescription="Щоб встановити %s, потрiбнi файли з iнсталяцiйного компакт-диска %s.\n\nБудь ласка, вставте компакт-диск %s у привiд компакт-дискiв, а потiм натиснiть 'Далi'. дискiв вiдображається неправильно, ви можете ввести її нижче."
+CdDrive="Привiд CD"
+NotEnoughSpaceTitle="Неможливо встановити на вказаний диск"
+NotEnoughSpace="На вказаному диску %s не достатньо мiсця, щоб встановити %s. Будь ласка, виберiть диск, де є достатньо мiсця, або закрийте програму-установник, звiльнiть бiльше мiсця, i спробуйте знову."
+Finish="&Готово"
+RebootButton="&Перезавантаження"
+ExitButton="&Вихiд"
+
+[IDDIALOG_FilerPageAutoPlay]
+IDC_Play="&Запустити гру"
+IDC_Reinstall=Установити"
+IDC_Uninstall="&Видалити"
+IDC_ReleaseNotes="&Документацiя"
+IDC_Web="Вебсайт Unreal Tournament"
+IDC_Complete="Установка успiшно завершена."
+IDC_CompleteReboot="Установка успiшно завершена!\nПеред тим, як запустити гру, Вам необхiдно перезавантажити комп'ютер."
+
+[IDDIALOG_FilerPageWelcome]
+IDC_WelcomePrompt="Ви збираєтеся встановити %s на Ваш комп'ютер.\n\nНатиснiть 'Далi', щоб продовжити процес встановлення, або Ви можете натиснути 'Скасувати' в будь-який момент, щоб скасувати iнсталяцiю.\n\nНiжна iнформацiя мiстить веб-посилання, якими ви можете скористатися, щоб отримати докладнiшу iнформацiю."
+IDC_WelcomePromptUpdate="Ця програма робить вашу копiю %s до версiї %s.\n\nНатиснiть 'Далi', щоб продовжити процес встановлення, або Ви можете натиснути 'Скасувати' в будь-який момент, щоб скасувати iнсталяцiю.\n\nНаведена нижче iнформацiя мiстить веб-сайт -Посилання, якими ви можете скористатися, щоб отримати бiльш детальну iнформацiю."
+IDC_LanguagePrompt="&Мова"
+
+[IDDIALOG_FilerPageLicense]
+IDC_LicenseText="Будь ласка, прочитайте лiцензiйну угоду. Встановлення даної програми вимагає вашої згоди з умовами угоди."
+IDC_LicenseQuestion="Ви згоднi з умовами? Натиснiть 'Я згоден' або 'Скасувати'."
+
+[IDDIALOG_FilerPageComponents]
+IDC_ComponentsText="Виберiть компоненти, якi ви бажаєте встановити."
+IDC_ComponentsPrompt="&Компоненти:"
+IDC_DiskSpaceFrame="Мiсця на диску: "
+IDC_DescriptionFrame="Опис"
+IDC_SpaceRequiredMessage="Потрiбно:"
+IDC_SpaceAvailableMessage="Доступно:"
+
+[IDDIALOG_FilerPageUninstallComponents]
+IDC_ComponentsText="Виберiть компоненти, якi Ви бажаєте видалити."
+IDC_ComponentsPrompt="&Компоненти:"
+IDC_DependenciesFrame="Залежностi"
+IDC_DependenciesText="Будуть видаленi такi компоненти: %s"
+
+[IDDIALOG_FilerPageFolder]
+IDC_FolderDescription="Програма iнсталяцiї встановить %s у наступну папку.\n\nДля iнсталяцiї в цю папку натиснiть 'Далi'.\n\nЩоб iнсталювати iншу папку, введiть повне iм'я, включаючи букву диска, наприклад: C:\\ NewFolder"
+IDC_FolderDescriptionPatch="Програма iнсталяцiї оновить наявну копiю %s, встановлену в нижченаведенiй папцi.\n\nЩоб продовжити, натиснiть 'Далi'.\n\nЯкщо у вас встановлена бiльш нiж одна копiя, вкажiть повне iм'я папки, включаючи букву диска, наприклад :\\NewFolder"
+IDC_FolderDescriptionMissing="Програма встановлення наявної копiї %s.\n\nВкажiть повну назву папки, де встановлено програму, включаючи букву диска, наприклад: C:\\NewFolder"
+IDC_FolderHolder="Папка"
+IDC_Browse="&Огляд"
+IDC_Default="&Скинути"
+IDC_SpaceAvailableMessage="Вiльного мiсця на диску: "
+IDC_FullSpaceRequiredMessage="Мiсця необхiдно:"
+
+[IDDIALOG_FilerPageInstallProgress]
+IDC_InstallText="Встановлення файлiв..."
+IDC_InstallingText="Встановлюється:"
+IDC_ProgressText="Файл:"
+IDC_TotalText="Усього:"
+
+[IDDIALOG_FilerPageUninstallProgress]
+IDC_InstallText="Видалення файлiв..."
+IDC_InstallingText="Видаляється:"
+IDC_ProgressText="Файл:"
+IDC_TotalText="Усього:"
+
+[IDDIALOG_Restart]
+IDC_Restart="Установка закiнчена"
+IDC_RestartMessage="Для завершення iнсталяцiї Вам необхiдно перезавантажити Windows."
+IDC_RestartText="Перед тим як виконати перезавантаження, закрийте всi запущенi програми, у тому числi i сесiї MS-DOS, i збережiть всi вiдкритi документи. Виймiть гнучкi диски якщо вони є в дисководах. Потiм натиснiть кнопку перезавантажити Windows."
+IDC_Complete="Пiсля перезавантаження Windows, iнсталяцiю буде завершено."
+IDC_Restart="&Перезавантаження Windows"
+IDC_Exit="&Вихiд"
+
+[IDDIALOG_WizardDialog]
+IDC_WizardDialog="Unreal Tournament: Встановлення\Видалення компонентiв"
+
+[IDDIALOG_FailedRequirement]
+IDC_FailedRequirement="Це доповнення не може бути встановлене сюди"
+IDC_FailedMessage="Це додаток вимагає наявностi в цiй папцi попередньо встановленої копiї наступного продукту. Будь ласка, вкажiть iснуючу папку, або вийдiть з програми-установника i встановiть цей продукт. "
+IDC_ProductHolder="Потрiбен продукт:"
+
+[IDDIALOG_ProductInfo]
+IDC_ProductHolder="Продукт"
+IDC_ProductText="Продукт:"
+IDC_VersionText="Версiя:"
+IDC_DeveloperText="Розробник:"
+
+[IDDIALOG_FilerPageUninstall]
+IDC_UninstallPrompt="Будуть видаленi такi компоненти:"
+IDC_UninstallQuestion="Видалити цi компоненти?"

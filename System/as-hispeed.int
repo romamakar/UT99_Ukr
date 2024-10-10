@@ -1,0 +1,71 @@
+[LevelInfo0]
+Title=Hi-Speed
+IdealPlayerCount=4-8
+LevelEnterText=Захопiть поїзд!
+
+[ZoneInfo8]
+ZoneName=третiй вагон
+
+[ZoneInfo10]
+ZoneName=Головний вагон
+
+[ZoneInfo9]
+ZoneName=другий вагон
+
+[SpecialEvent0]
+DamageString=%s провалився мiж вагонами...
+
+[LevelSummary]
+LevelEnterText=Захопiть поїзд! За будь-яку цiну!
+
+[AssaultInfo0]
+ObjDesc[0]="Переберiться в головний вагон. Там, на другому поверсi ви знайдете перемикач, який вiдкриває дверi, в кабiну управлiння на першому поверсi. Активуйте його."
+ObjDesc[1]=Стрибайте вниз, у кабiну керування. Обережно! Бережiться автоматичних гармат! Там Ви повиннi привести в дiю ручку, яка перехоплює керування поїздом.
+
+[FortStandard0]
+FortName=Кабiна
+DestroyedMessage=Була захоплена!
+
+[SpecialEvent9]
+Message=ПОЇЗД ЗАХВАЧЕН!
+
+[FortStandard1]
+FortName=Вагон No3
+DestroyedMessage=зараз буде захоплений!
+
+[FortStandard2]
+FortName=Вагон No2
+DestroyedMessage=зараз буде захоплений!
+
+[FortStandard3]
+FortName=Вагон 3
+DestroyedMessage=зараз буде захоплений!
+
+[SpecialEvent1]
+DamageString="%s потрапив у гвинти вертольота... 'коник'!"
+
+[FortStandard4]
+FortName=Перемикач у кабiнi
+DestroyedMessage=активiзовано!
+
+[SpecialEvent3]
+Message=Нападники на даху!
+
+[ZoneInfo0]
+ZoneName=На даху головного вагона
+
+[SlimeZone0]
+ZoneName=Бак iз кислотою
+
+[locationid5]
+LocationName=вантажна платформа
+
+[locationid6]
+LocationName=вантажна платформа
+
+[locationid7]
+LocationName=порожня платформа
+
+[locationid4]
+LocationName=Бак iз кислотою
+

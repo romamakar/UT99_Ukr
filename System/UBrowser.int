@@ -1,0 +1,197 @@
+[Public]
+
+[UBrowserIRCSystemPage]
+NotInAChannelText=Нi в одному каналi!
+KickedFromText=Ви були викинутi з каналу
+ByText=""
+IsAwayText=Вiдiйшов вiд клавiатури
+
+[UBrowserIRCPageBase]
+HasLeftText=вийшов
+HasJoinedText=приєднався
+WasKickedByText=був викинутий
+NowKnownAsText=змiнив iм'я на
+QuitText=Вихiд
+SetsModeText=встановлює режим
+
+[UBrowserServerListWindow]
+PlayerCountName=Гравцiв
+ServerCountName=Серверiв
+QueryServerText=Опитується головний сервер... (Натиснiть F5 якщо нiчого не вiдбувається)
+QueryFailedText=Помилка запиту на головний сервер:
+PingingText=Отримання пiнгу серверiв...
+CompleteText=завершено
+InfoName=Iнформацiя
+
+[UBrowserServerPing]
+AdminEmailText=Email адмiну
+AdminNameText=Iм'я адмiну
+MultiplayerBotsText=Ботiв у мережнiй грi
+FragLimitText=Фрагм лiмiт
+TimeLimitText=Лiмiт часу
+GameModeText=Режим гри
+GameTypeText=Тип гри
+GameVersionText=Версiя UT
+WorldLogText=ngWorldStats
+MutatorsText=Мутатори
+TrueString=Увiмк.
+FalseString=Вимк.
+ServerAddressText=Адреса сервера
+GoalTeamScoreText=Грановий командний рахунок
+MaxTeamsText=Макс. команд
+FriendlyFireText=Вогонь по друзях:
+MinPlayersText="Мiнiмум гравцiв"
+PlayersText="Гравцiв"
+ChangeLevelsText="Змiна рiвнiв"
+BalanceTeamsText="Баланс команд"
+BotSkillText="Рiвень ботiв"
+
+[UBrowserIRCLink]
+InvalidAddressText=Неправильна адреса сервера.
+ErrorBindingText=Помилка порту.
+ResolveFailedText=Помилка розпiзнавання адреси сервера.
+ConnectedText=Приєднано.
+ConnectingToText=Iдеться приєднання до
+TimeOutError=Вийшов час з'єднання.
+InviteString="запрошує Вас приєднатися до"
+
+[UBrowserMainWindow]
+WindowTitleString=Перегляд серверiв
+
+[UBrowserOpenBar]
+OpenText=Вiдкрити:
+OpenHelp=Введiть URL-адресу.
+
+[UBrowserIRCSetupClient]
+ServerTextIRC Сервер
+ChannelText=IRC Стандартний канал.
+ServerHelp=Виберiть IRC сервер зi списку або введiть свою адресу IRC сервера або IP-адресу.
+ChannelHelp=Виберiть стандартний канал, який буде вмикатися пiд час з'єднання з сервером або ведiть свiй власний.
+ConnectText=Пiд'єднатися
+DisconnectText=Вiд'єднатися
+ConnectHelp="Пiдключиться до вибраного IRC сервера"
+DisconnectHelp="Вiд'єднається вiд поточного сервера IRC"
+WarningText=Цей чат приєднає Вас до мережi Internet Relay Chat (IRC).\n\nEpic Games не несуть вiдповiдальностi за змiст тих чи iнших серверiв IRC. Ви пiдключаєтеся до цих каналiв на свiй страх i ризик.\n\nВи впевненi, що хочете приєднатися до каналiв IRC?
+WarningTitle=Увага
+
+[UBrowserServerGrid]
+ServerName=Сервер
+PingName=Пiнг
+MapNameName=Картка
+PlayersName=Гравцi
+
+[UBrowserRightClickMenu]
+PlayName=Грати на цьому серверi
+RefreshName=Оновити список
+InfoName=Iнформацiя
+FavoritesName=Додати до Вибраного
+RemoveFavoritesName=Видалити з Вибраного
+RefreshServerName=Пiнгувати сервер
+PingAllName=Пiнгувати всi сервери
+OpenLocationName="Вiдкрити адресу"
+CopyName="Копiювати iм'я сервера"
+
+[UBrowserMainClientWindow]
+FavoritesName=Обране
+IRCName=IRC чат
+MOTDName=Повiдомлення дня
+
+[UBrowserInfoMenu]
+RefreshName=Оновити
+CloseName=Закрити
+
+[UBrowserUpdateServerWindow]
+QueryText=Запит на сервер...
+FailureText=Сервер не вiдповiдає.
+
+[UBrowserGSpyLink]
+ResolveFailedError=Не можу знайти головний сервер: 
+TimeOutError=вийшов час з'єднання
+CouldNotConnectError=Не можу приєднатися до головного сервера: 
+
+[UBrowserPlayerGrid]
+NameText=Iм'я
+FragsText=Фрагiв
+PingText=Пiнг
+TeamText=Команда
+MeshText=Модель
+SkinText=Скiн
+FaceText=Обличчя
+IDText=ID
+
+[UBrowserSubsetFact]
+NotFoundError=Не можу знайти вiкно: 
+NotReadyError=Вiкно не готове: 
+
+[UBrowserHTTPLink]
+ResolveFailedError=Не можу знайти головний сервер: 
+TimeOutError=вийшов час з'єднання
+CouldNotConnectError=неможливо приєднатися до головного сервера:
+
+[UBrowserRulesGrid]
+RuleText=Правило
+ValueText=Значення
+
+[UBrowserIRCWindow]
+SystemName=Система
+
+[UBrowserIRCSystemMenu]
+ConnectText=З'єднатися
+DisconnectText=Вiд'єднатися
+JoinText=Увiйти
+
+[UBrowserIRCChannelMenu]
+PartText=&Частина
+JoinText=Увiйти
+
+[UBrowserIRCPrivateMenu]
+CloseText=Закрити
+JoinText=Увiйти
+
+[UBrowserEditFavoriteWindow]
+WindowTitle="Редагувати Обране"
+OKText=OK
+
+[UBrowserOpenWindow]
+OKText=OK
+WindowTitle=Вiдкрити
+
+[UBrowserNewFavoriteWindow]
+WindowTitle="Додати до Обраного"
+OKText="ОК"
+
+[UBrowserEditFavoriteWindow]
+WindowTitle="Додати до Обраного"
+
+[UBrowserEditFavoriteCW]
+DescriptionText="Опис"
+UpdateDescriptionText="Оновити описи"
+IPText="IP-адреса сервера"
+GamePortText="Номер порту сервера"
+QueryPortText="Запит номера порту сервера"
+
+[UBrowserFavoritesMenu]
+FavoritesName="Вибране"
+EditFavoriteName="Редагувати Обране"
+NewFavoriteName="Додати до Обраного"
+
+[UBrowserOpenCW]
+OpenText="Вiдкрити URL:"
+OpenHelp="Введiть URL. (Наприклад 62.16.82.30:7777, де ':7777' порт сервера)"
+
+[UMenuBotSetupBase]
+DefaultsText="Вiдновити"
+DefaultsHelp="Вiдновити стандартнi значення."
+
+[ServerListTitles]
+UBrowserUT=UT Сервери
+UBrowserLAN=LAN Сервери
+UBrowserPopulated=Популярнi сервери
+UBrowserDeathmatch=Deathmatch
+UBrowserTeamGames=Командний Deathmatch
+UBrowserCTF=Захоплення Прапора
+UBrowserDOM=Контроль
+UBrowserAS=Штурм
+UBrowserLMS=Останнiй живий...
+UBrowserAll=Сервери всiх типiв
+

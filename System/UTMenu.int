@@ -1,0 +1,467 @@
+[Public]
+Object=(Name=UMenu.UMenuGoldLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description=Жовтий)
+Object=(Name=UMenu.UMenuBlueLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description=Срiблястий)
+Object=(Name=UMenu.UMenuMetalLookAndFeel,Class=Class,MetaClass=UWindow.UWindowLookAndFeel,Description=Золотий)
+
+[OnlineServices]
+MPlayer=MPlayer
+Heat = HEAT
+WON=http://www.won.net/channels/action/ut/
+
+[PhysicalChildWindow]
+PhysicalTaunts[0]="рух 1"
+PhysicalTaunts[1]="рух 2"
+PhysicalTaunts[2]="рух 2"
+PhysicalTaunts[3]="рух 2"
+
+[UTLadder]
+MapText=Картка:
+AuthorText=Автор:
+FragText=Фрагмент лiмiту:
+TeamScoreText=Лiмiт очкiв команди:
+
+[MatchButton]
+UnknownText=Невiдомо
+
+[ManagerWindow]
+DMText=Deathmatch
+DOMText=Контроль
+CTFText=Захоплення прапора
+ASText=Штурм
+ChallengeText=Фiнал
+ChallengeString=Фiнал Турнiру
+ChalPosString=Ранг:
+TrophyText=Призi
+RankString[0]=Ранг у Deathmatch:
+RankString[1]=Ранг у Контролi:
+RankString[2]=Ранг у Захопленнi прапора:
+RankString[3]=Ранг у Штурмi:
+MatchesString=Закiнчено матчiв:
+
+[SpeechWindow]
+Options[0]=Пiдтвердження
+Options[1]=Вогонь по друзях
+Options[2]=Командi
+Options[3]=Насмiшки
+Options[4]=Рiзне
+Options[5]=Жерстi
+Options[6]=Наказ цьому боту
+WindowTitle=Командi
+
+[SlotWindow]
+EmptyText=Не використано
+AvgRankStr=Середнiй ранг:
+CompletedStr=Виграно матчiв:
+
+[NewCharacterWindow]
+MaleText=Людина
+FemaleText=Жiнка
+SkillText[0]=Новачок(0)
+SkillText[1]=Середнiй(1)
+SkillText[2]=Навчання(2)
+SkillText[3]=Опитування(3)
+SkillText[4]=Эксперт(4)
+SkillText[5]=Майстер(5)
+SkillText[6]=Професiонал(6)
+SkillText[7]=Батько(7)
+CCText="Створення персонажа"
+TeamNameString=Iм'я команди:
+NameText=Iм'я
+SexText= Стати
+TeamText=Команда
+FaceText=Особа
+SkillsText=Складнiсть
+
+[UTIndivBotSetupClient]
+SkillText=Майстернiсть
+SkillHelp=Налаштування рiвня майстерностi гри бота (комп'ютерного суперника)
+VoicePackText=Голос
+VoicePackHelp=Вибiр голосу
+FavoriteWeaponText=Улюблене оружня
+FavoriteWeaponHelp=Полюблено зброю бота
+NoFavoriteWeapon=(нi)
+AccuracyText=Точнiсть
+AccuracyHelp=Влучнiсть бота
+AlertnessText=Уважнiсть.
+AlertnessHelp=Уважнiсть бота
+CampingText=Кемперство
+CampingHelp=Наскiльки бот любити ховатися в засiдцi, тобто кемперiтi
+StrafingText=Вертальнiсть
+StrafingHelp=Перевертальнiсть бота - то наскiльки добре вiн буде рухатися
+CombatStyleText=Стиль бою
+CombatStyleHelp=Вибiр стилю бою бота (агресивностi бота)
+CombatStyleValues[1]=0.500000
+CombatStyleValues[2]=1.000000
+CombatStyleValues[3]=-0.500000
+CombatStyleValues[4]=-1.000000
+CombatStyleNames[0]=Нормальний
+CombatStyleNames[1]=Агресивний
+CombatStyleNames[2]=Берсерк
+CombatStyleNames[3]=Обережний
+CombatStyleNames[4]=Уникає
+JumpyText=Стрибучiсть
+JumpyHelp=Цей бот буде постiйно стрибати.
+
+[UTChallengeHUDConfig]
+ShowHUDText=Увiмкнути дисплей
+ShowHUDHelp=Увiмкнути iгровий дисплей
+ShowWeaponsText=Показувати зброю
+ShowWeaponsHelp=Показувати панель стану зброї внизу екрана
+ShowStatusText=Стан
+ShowStatusHelp=Вiдображати стан здоров'я та бронi гравця (справа зверху)
+ShowAmmoText=Кiлькiсть патронiв
+ShowAmmoHelp=Вiдображати кiлькiсть патронiв
+ShowTeamInfoText=Iнфо команди
+ShowTeamInfoHelp=Вiдображати iнформацiю про команду (окуляри i т.д.)
+ShowFacesText=Вiдображати обличчя
+ShowFacesHelp=Вiдображати обличчя тих, хто говорити
+ShowFragsText=Фраги
+ShowFragsHelp=Показувати кiлькiсть фрагiв (вбивств)
+UseTeamColorText=Використовувати кольори команд
+UseTeamColorHelp=Використовувати колiр вашої команди в iгровому дисплеї (Наприклад, якщо Ви у червонiй командi дисплей у Вас буде червоним)
+HUDColorText=Колiр дисплея
+HUDColorHelp=Колiр iгрового дисплея
+HUDColorNames[0]=Червоний
+HUDColorNames[1]=Бузьковий
+HUDColorNames[2]=Морський
+HUDColorNames[3]=Блакитний
+HUDColorNames[4]=Зелений
+HUDColorNames[5]=Помаранчевий
+HUDColorNames[6]=Золотий
+HUDColorNames[7]=Рожевий
+HUDColorNames[8]=Бiлий
+HUDColorNames[9]=Синiй
+HUDColorNames[10]=Свiй
+HUDRText=Червоний
+HUDRHelp=Червона складова кольору дисплея
+HUDGText=Зелений
+HUDGHelp=Зелена складова кольору дисплея
+HUDBText=Синiй
+HUDBHelp=Синя складова кольору дисплея
+OpacityText=Прозорiсть
+OpacityHelp=Прозорiсть дисплея
+HUDScaleText=Розмiр дисплея
+HUDScaleHelp=Розмiри елементiв дисплея
+WeaponScaleText=Значки зброї
+WeaponScaleHelp=Розмiр значкiв панелi стану зброї
+StatusScaleText=Значок статусу
+StatusScaleHelp=Розмiр пiктограми статусу 
+ShowStatusHelp=Розмiр значка статусу (фiгура гравця справа вгорi)
+CrosshairText=Прицiл
+CrosshairHelp=Вигляд прицiлу
+CrosshairColorText=Колiр прицiлу
+CrosshairColorHelp=Колiр прицiлу
+CrosshairRText=Червоний
+CrosshairRHelp=Червона складова кольору дисплея
+CrosshairGText=Зелений
+CrosshairGHelp=Зелена складова кольору дисплея
+CrosshairBText=Синiй
+CrosshairBHelp=Синя складова кольору дисплея
+DefaultsText=За замовчуванням
+DefaultsHelp=Вiдновити значення за замовчуванням
+
+[SpeechBinderCW]
+LabelText=Назначити клавiшу:
+NotApplicable=Неможливо
+AllString=Всi
+LeaderString=Лiдер команди
+PlayerString=Напарник
+NotBound=Не призначено
+DefaultsText=За замовчуванням
+DefaultsHelp=Вiдновити значення за замовчуванням
+
+[TeamBrowser]
+NameString=Iм'я:
+ClassString=Ранг:
+BrowserName=Список команди
+
+[EnemyBrowser]
+NameString=Iм'я:
+ClassString=Ранг:
+BrowserName=Список ворогiв
+
+[ObjectiveBrowser]
+BrowserName=Цiлi мiсiї
+OrdersTransmissionText=Далiшi накази
+
+[InGameObjectives]
+ObjectiveString=Мета
+BrowserName=Цiлi мiсiї
+OrdersTransmissionText=Найближчi накази
+
+[UTPlayerSetupClient]
+VoicePackText=Голос
+VoicePackHelp=Виберiть голос, який ви хочете використовувати для себе
+SpectatorText=Зритель
+SpectatorHelp=Не грати, а дивитися за матчем
+StatsText="Пароль ngWorldStats"
+StatsButtonText="Змiнити"
+
+[UTTeamRCWindow]
+TeamScoreText=Счет команди
+TeamScoreHelp=Гра закiнчується, коли команда набирає такий рахунок
+MaxTeamsText=Макс. команд
+MaxTeamsHelp=Максимальна кiлькiсть команд, яка може вступити в гру
+FFText=Вогонь по своїх
+FFHelp=Вiдсоток пошкоджень, що наноситься товаришевi пiд час влучення в нього
+BalancePlayersText="Баланс команд"
+BalancePlayersHelp="Якщо увiмкнено, то гравця насильно приєднують до певної команди для кращого балансу сил"
+
+[UTRulesCWindow]
+JumpMatchText=Гра стрибкiв
+JumpMatchHelp="Усi гравцi стрибають дуже високо"
+TourneyText=Турнiр
+TourneyHelp=Перемикання на наступну карту здiйснюється тiльки якщо Ви перемогли на поточнiй.
+AllowFOVText=Змiна поля зору
+AllowFOVHelp=" " "
+ForceRespawnText="Миттєво. оживл."
+ForceRespawnHelp="Гравець з'являється вiдразу пiсля того, як його вбили, без очiкування натискання клавiшi." 
+
+[SpeechChildWindow]
+WindowTitle=" "
+
+[UTBotConfigClient]
+BalanceTeamsText=Баланс команд
+BalanceTeamsHelp=Баланс команд
+DumbDownText=Удосконалення ШI
+DumbDownHelp=Покращений командний штучний iнтелект
+MinPlayersText=Мiн.гравцiв
+MinPlayersHelp=Якщо гравцiв менше, нiж тут проставлено, будуть доданi боти.
+Skills[0]=Новачок(0)
+Skills[1]=Середнiй(1)
+Skills[2]=Навчень(2)
+Skills[3]=Опитування(3)
+Skills[4]=Эксперт(4)
+Skills[5]=Майстер(5)
+Skills[6]=Професiонал(6)
+Skills[7]=Батько(7)
+SkillTaunts[1]=Вони знають як вбивати
+SkillTaunts[2]=Краще не висувайся
+SkillTaunts[3]=Думаєш ти крутий?
+SkillTaunts[4]=Тобi варто постаратися
+SkillTaunts[5]= Сподiваюсь, тобi сподобається вмирати...
+SkillTaunts[6]=Ти вже мертвий
+SkillTaunts[7]=Я альфа й омега.
+
+[PhysicalChildWindow]
+WindowTitle=" "
+
+[SpeechMiniDisplay]
+NameString=Iм'я:
+OrdersString=Команда:
+LocationString=Мiсцезнаходження:
+HumanString=Нi <Чоловiк>
+
+[OrdersChildWindow]
+WindowTitle=" "
+
+[TargetChildWindow]
+AllString=Всi
+WindowTitle=" "
+
+[UTSettingsCWindow]
+TranslocText=Транслокатор
+TranslocHelp=Є в грi Транслокатор
+AirControlText=Повiтр.
+AirControlHelp=Наскiльки ви можете керувати гравцем у повiтрi.
+
+[UTMenuStartMatchCW]
+ChangeLevelsText=Авто змiна карт
+ChangeLevelsHelp=Автоматична змiна карт
+
+[UTAudioClientWindow]
+AutoTauntText=Автонасмiшки
+AutoTauntHelp=Ваш персонаж автоматично вимовляє знущальнi фрази по вiдношенню до суперникiв
+VoiceTauntsText=Голосовi глузування
+VoiceTauntsHelp="Якщо позначенi боти приколюються над суперниками"
+Use3DHardwareText=Використання. A3D/EAX
+Use3DHardwareHelp=Використовувати тривимiрний звук (потрiбна спецiальна звукова карта)
+UseSurroundSoundText=Використовувати звук навколо
+UseSurroundSoundHelp=Використати технологiю Surround(Потрiбнi або навушники, або щонайменше 4 колонки)
+ConfirmHardwareTitle=Використання апаратного 3D звуку
+ConfirmHardwareText=Потрiбна звукова карта, що пiдтримує A3D або EAX, крiм того, гра може пригальмовувати через це.\\n\\\Пiдтверджуєте використання 3D звуку?
+ConfirmSurroundTitle=Пiдтвердження
+ConfirmSurroundTextПотрiбна вiдповiдна звукова карта i чотири колонки (або навушники), крiм того, гра може пригальмувати через це.\\n\\\Пiдтверджуєте використання звуку навколо?
+NoMatureLanguageText=Без матюкiв
+NoMatureLanguageHelp=Цензура у глузуваннях
+AnnouncerVolumeText=Гучнiсть диктор
+AnnouncerVolumeHelp="Гучнiсть диктора, який оголошує про важливi подiї матчу"
+MessageSettingsText="Повiдомлення/голос"
+MessageSettingsHelp="Якi звуковi повiдомлення гравцiв будуть вiдтворюватися"
+MessageSettings[0]="Усi"
+MessageSettings[1]="Пiдколки авто-вiдключаються"
+MessageSettings[2]="Пiдколки вiдключаються"
+MessageSettings[3]="Нi"
+
+[UTInputOptionsCW]
+InstantRocketText=Однозарядний RL
+InstantRocketHelp="У гранатомета вiдключається можливiсть накопичувати заряди"
+SpeechBinderText=Прив'язка голосу
+SpeechBinderHelp=Назначити фрази на клавiшi
+
+[ngWorldSecretClient]
+DescText[0]=Пароль гравця для свiтового рейтингу ngWorldStats
+DescText[1]=" "
+DescText[2]=" "
+DescText[3]=" "
+DescText[4]=" "
+DescText[5]=" "
+SecretText=Пароль:
+OKText=Прийняти
+SecretDesc=" "
+QuitHelp="Виберiть [Так], щоб зберегти новий пароль."
+QuitTitle="Пiдтвердiть"
+QuitText="Увага! Якщо ви гратимете з новим паролем, буде створено новий акаунт ngWorldStats. Пiдтверджуєте вихiд?"
+EmptyTitle="Пiдтвердження анулювання"
+EmptyText="Якщо удалите пароль Ваша iгрова статистика в мережi не буде збиратися. Продовжити без пароля?"
+
+[KillGameQueryClient]
+QueryText=Стерти цю збережену гру?
+YesText=Так
+NoText=Нi
+
+[UTLadderChal]
+TrophyMap=EOL_Challenge.unr
+LadderName=Фiнал
+
+[FreeSlotsClient]
+QueryText=Звiльнити один зi слотiв
+DoneText=OK
+
+[UTLadderDM]
+TrophyMap=EOL_DeathMatch.unr
+LadderName=DeathMatch
+
+[UTLadderDOM]
+TrophyMap=EOL_Domination.unr
+LadderName=Контроль
+
+[UTStartGameCW]
+DedicatedText=Видiл.
+DedicatedHelp=Увiмкнiть, щоб запустити видiлений сервер
+ServerText=Сервер
+ConfirmTitle="Пiдтвердiть початок гри"
+ConfirmText="Ви починаєте гру, але не ввели пароль NGWorldStats - вашi досягнення не будуть збереженi. Якщо хочете зберегти свої досягнення, введiть пароль зараз."
+
+[UTLadderCTF]
+ShortTitle=Захоплення Прапора
+TrophyMap=EOL_CTF.unr
+LadderName=Захоплення прапора
+
+[UTLadderAS]
+TrophyMap=EOL_Assault.unr
+LadderName=Штурм
+
+[KillGameQueryWindow]
+WindowTitle=Пiдтвердiть видалення
+
+[UTGameMenu]
+NewGameName=&Почати Чемпiонат
+NewGameHelp=Почати Чемпiонат – 4 дисциплiни, пiсля проходження вiдкриється бонус – нова модель гравця. Перевiрте собi! 
+LoadGameName=&Продовжити чемпiонат
+LoadGameHelp=Продовжити один iз збережених ранiше чемпiонатiв
+BotmatchName=Тренування
+BotmatchHelp="Тренування з комп'ютерними суперниками (ботами)"
+ReturnToGameName=Продовжити гру
+ReturnToGameHelp=Повернутися до поточної гри. Можна також натиснути на ESC.
+QuitName=&Вихiд
+QuitHelp=Вийти з гри.
+QuitTitle=Вибачте за дурне запитання, але...
+QuitText=Точно вийти?
+YesText=Так
+NoText=Нi
+
+[SpeechBinderWindow]
+WindowTitle=Назначення фраз на клавiшi
+
+[UTConfigIndivBotsWindow]
+WindowTitle=Налаштування ботiв
+
+[FreeSlotsWindow]
+WindowTitle=Всi слоти зайнятi
+
+[UTBotmatchWindow]
+WindowTitle=Почати тренування
+
+[ngWorldSecretWindow]
+WindowTitle=Пароль ngWorldStats
+
+
+[UTCustomizeClientWindow]
+LabelList[0]=Вогонь
+LabelList[1]=Альтерн. вогонь
+LabelList[2]=Вперед
+LabelList[3]=Назад
+LabelList[4]=Змiщення влiво
+LabelList[5]=Змiщення вправо
+LabelList[6]=Поворот влiво
+LabelList[7]=Поворот праворуч
+LabelList[8]=Стрибок
+LabelList[9]=Присiсти
+LabelList[10]=Огляд мишею
+LabelList[11]=Дивитись вгору
+LabelList[12]=Дивитись вниз
+LabelList[13]=Центрування погляду
+LabelList[14]=Рух
+LabelList[15] = Стороною
+LabelList[16]=Iмiтацiя смертi
+LabelList[17]="Пiдколки/Базар"
+LabelList[18]="Спiльн. командi"
+LabelList[19]="Меню голосiв"
+LabelList[20]="Ура"
+LabelList[21]="Прощавай"
+LabelList[22]="Танець перемоги"
+LabelList[23]="Удоволення"
+LabelList[24]="Слiд.оружие"
+LabelList[25]="Перед.оружие"
+LabelList[26]="Кинути зброю"
+LabelList[27]="Найкраща зброя"
+LabelList[28]="Транслокатор"
+LabelList[29]="Бензопила"
+LabelList[30]="Могутнiй Молот"
+LabelList[31]="Енфорсер"
+LabelList[32]="Шокова Рушниця"
+LabelList[33]="Бiо Гармата"
+LabelList[34]="Iмпульсна Пушка"
+LabelList[35]="Снайп. Гвинтiвка"
+LabelList[36]="Розрiзник"
+LabelList[37]="Кулемет"
+LabelList[38]="Осколоч.Гармата"
+LabelList[39]="Ракетниця"
+LabelList[40]="Ликар"
+LabelList [41] = "Вид з очей соратника, Соратник 1"
+LabelList[42]="Соратник 2"
+LabelList[43]="Соратник 3"
+LabelList[44]="Соратник 4"
+LabelList[45]="Соратник 5"
+LabelList[46]="Соратник 6"
+LabelList[47]="Соратник 7"
+LabelList[48]="Соратник 8"
+LabelList[49]="Соратник 9"
+LabelList[50]="Соратник 10"
+LabelList[51]="Дисплей,Збiльшити"
+LabelList[52]="Дисплей,Зменшити"
+LabelList[53]="Клавiша, Клавiша"
+LabelList[54]="Швидк.виклик консолi"
+
+[UTPasswordWindow]
+WindowTitle="Введiть пароль сервера."
+
+[UTPasswordCW]
+PasswordText="Пароль:"
+
+[UTServerSetupPage]
+GamePasswordText="Пароль гри"
+GamePasswordHelp="Якщо встановлено, гравець повинен буде ввести його для входу в гру."
+AdminPasswordText="Пароль адмiна."
+AdminPasswordHelp="Пароль для доступу до консольних команд адмiнiстратора гри."
+EnableWebserverText="Вiддалень.адмiн."
+EnableWebserverHelp="Увiмкнути вiддалене адмiнiстрування?"
+WebAdminUsernameText="Iм'я Web-адмiна"
+WebAdminUsernameHelp="Логiн, який використовується при вiддаленому адмiнiструваннi"
+WebAdminPasswordText="Пароль Web-адмiна"
+WebAdminPasswordHelp="Пароль, який використовується при вiддаленому адмiнiструваннi"
+ListenPortText="Порт вебсервера"
+
+[NewGameInterimObject]
+GameWindowType="TExtension.TE_NewCharacterWindow"

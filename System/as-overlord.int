@@ -1,0 +1,46 @@
+[LevelInfo0]
+Title=Overlord
+IdealPlayerCount=8-12
+LevelEnterText=Виведiть зброю з ладу, знищивши кiмнату керування.
+
+[ZoneInfo2]
+ZoneName=Казарми
+
+[ZoneInfo5]
+ZoneName=Склад боєприпасiв
+
+[ZoneInfo3]
+ZoneName=
+
+[ZoneInfo6]
+ZoneName=Зала зброї
+
+[KillingField0]
+ZoneName=Берег
+
+[ZoneInfo1]
+ZoneName=ДОТИ
+
+[ZoneInfo0]
+ZoneName=Вхiд
+
+[ZoneInfo8]
+ZoneName=останнiй коридор
+
+[WaterZone0]
+ZoneName=Вода
+
+[AssaultInfo0]
+ObjDesc[0]=Для того щоб вивести зброю з ладу, Ви повиннi пробратися через бункер до залу з гарматою. Там ви знайдете кiмнату керування. Знищте у нiй все обладнання.
+
+[FortStandard4]
+FortName=" "
+DestroyedMessage=Атакуючi прорвалися до кiмнати.
+
+[LevelSummary]
+LevelEnterText=Виведiть зброю з ладу, знищивши кiмнату керування.
+
+[FortStandard0]
+FortName=
+DestroyedMessage=Атакуючi на березi!.
+

@@ -1,0 +1,44 @@
+[WaterZone1]
+ZoneName=" "
+
+[ZoneInfo3]
+ZoneName=" "
+
+[ZoneInfo5]
+ZoneName=" "
+
+[WaterZone0]
+ZoneName=" "
+
+[ZoneInfo2]
+ZoneName=" "
+
+[ZoneInfo7]
+ZoneName=" "
+
+[PressureZone0]
+ZoneName="камера"
+
+[ZoneInfo6]
+ZoneName=" "
+
+[ZoneInfo1]
+ZoneName=" "
+
+[ZoneInfo4]
+ZoneName=" "
+
+[ZoneInfo0]
+ZoneName=" "
+
+[LevelInfo0]
+Title=Тиск
+IdealPlayerCount=8
+LevelEnterText=" "
+
+[LevelSummary]
+Title=Тиск
+IdealPlayerCount=8
+LevelEnterText=" "
+
+

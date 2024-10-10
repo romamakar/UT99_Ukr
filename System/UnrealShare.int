@@ -1,0 +1,718 @@
+[Public]
+;Object=(Name=UnrealShare.DeathmatchGame,Class=Class,MetaClass=Engine.GameInfo)
+;Object=(Name=UnrealShare.TeamGame,Class=Class,MetaClass=Engine.GameInfo)
+;Object=(Name=UnrealShare.CoopGame,Class=Class,MetaClass=Engine.GameInfo)
+Object=(Name=UnrealShare.DispersionPistol,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.Automag,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.Stinger,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.ASMD,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.Eightball,Class=Class,MetaClass=Engine.Weapon)
+Object=(Name=UnrealShare.FemaleOne,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Female 1")
+Object=(Name=UnrealShare.MaleThree,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Male 3")
+Object=(Name=UnrealShare.UnrealSpectator,Class=Class,MetaClass=UnrealShare.UnrealiPlayer,Description="Spectator")
+Object=(Name=UnrealShare.FemaleOneBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Female 1")
+Object=(Name=UnrealShare.MaleThreeBot,Class=Class,MetaClass=UnrealShare.Bots,Description="Male 3")
+Object=(Name=UnrealShare.SinglePlayer,Class=Class,MetaClass=UnrealShare.SinglePlayer)
+;Preferences=(Caption="Game Types",Parent="Advanced Options")
+;Preferences=(Caption="Coop Play",Parent="Game Types",Class=UnrealShare.CoopGame,Immediate=True)
+;Preferences=(Caption="Deathmatch",Parent="Game Types",Class=UnrealShare.DeathmatchGame,Immediate=True)
+;Preferences=(Caption="Team Play",Parent="Game Types",Class=UnrealShare.TeamGame,Immediate=True)
+;Preferences=(Caption="Networking",Parent="Advanced Options")
+;Preferences=(Caption="Map Lists",Parent="Networking")
+;Preferences=(Caption="Deathmatch Maps",Parent="Map Lists",Class=UnrealShare.DmMapList,Immediate=True)
+
+[DeathmatchGame]
+ClassCaption=Deathmatch
+GlobalNameChange=" changed name to "
+NoNameChange=" is already in use"
+MaxedOutMessage=Server is already at capacity.
+GameName=DeathMatch
+TimeMessage[0]=5 minutes left in the game!
+TimeMessage[1]=4 minutes left in the game!
+TimeMessage[2]=3 хвилини left in the game!
+TimeMessage[3]=2 хвилини left in the game!
+TimeMessage[4]=1 minute left in the game!
+TimeMessage[5]=30 seconds left!
+TimeMessage[6]=10 seconds left!
+TimeMessage[7]=5 seconds and counting...
+TimeMessage[8]=4...
+TimeMessage[9]=3...
+TimeMessage[10]=2...
+TimeMessage[11]=1...
+TimeMessage[12]=Time Up!
+
+[TeamGame]
+ClassCaption=Team Play
+NewTeamMessage=" is now on "
+TeamColor[0]=Red
+TeamColor[1]=Blue
+TeamColor[2]=Green
+TeamColor[3]=Gold
+GameName=Team Game
+
+[CoopGame]
+ClassCaption=Cooperative Play
+GameName=Coop Game
+
+[UnrealGameInfo]
+DeathVerb=" was "
+DeathPrep=" by "
+DeathTerm=killed
+DeathArticle=a  
+ExplodeMessage=" was blown up"
+SuicideMessage=" had a sudden heart attack."
+FallMessage=" left a small crater."
+DrownedMessage=" Forgot to come up for air."
+BurnedMessage=" був incinerated"
+CorrodedMessage=" was slimed"
+HackedMessage=" was hacked"
+DeathMessage[0]=killed
+DeathMessage[1]=ruled
+DeathMessage[2]=smoked
+DeathMessage[3]=slaughtered
+DeathMessage[4]=annihilated
+DeathMessage[5]=put down
+DeathMessage[6]=splooged
+DeathMessage[7]=perforated
+DeathMessage[8]=shredded
+DeathMessage[9]=destroyed
+DeathMessage[10]=whacked
+DeathMessage[11]=canned
+DeathMessage[12]=busted
+DeathMessage[13]=creamed
+DeathMessage[14]=smeared
+DeathMessage[15]=shut out
+DeathMessage[16]=beaten down
+DeathMessage[17]=smacked down
+DeathMessage[18]=pureed
+DeathMessage[19]=sliced
+DeathMessage[20]=diced
+DeathMessage[21]=ripped
+DeathMessage[22]=blasted
+DeathMessage[23]=torn up
+DeathMessage[24]=spanked
+DeathMessage[25]=eviscerated
+DeathMessage[26]=neutered
+DeathMessage[27]=whipped
+DeathMessage[28]=shafted
+DeathMessage[29]=trashed
+DeathMessage[30]=smashed
+DeathMessage[31]=trounced
+DeathModifier[0]=thoroughly 
+DeathModifier[1]=completely 
+DeathModifier[2]=absolutely 
+DeathModifier[3]=totally 
+DeathModifier[4]=utterly 
+MajorDeathMessage[0]=розрiзнений на новий один
+MajorDeathMessage[1]=messed up real bad
+MajorDeathMessage[2]=Give New definition of pain
+MajorDeathMessage[3]=
+MajorDeathMessage[4]=
+MajorDeathMessage[5]=
+MajorDeathMessage[6]=
+MajorDeathMessage[7]=
+HeadLossMessage[0]=decapitated
+HeadLossMessage[1]=beheaded
+
+[UnrealQuitMenu]
+YesSelString=" [YES] No"
+NoSelString="Yes [NO]"
+MenuTitle=Quit?
+HelpMessage[1]=Select yes and hit enter to return to your puny, miserable, useless real life, якщо ви не можете керувати UNREALity.
+MenuList[0]=A Digital Extremes/Epic Games
+MenuList[1]=Collaboration
+MenuList[2]="Game Design: James Schmalz"
+MenuList[3]=Cliff Bleszinski
+MenuList[4]=Level Design: Cliff Bleszinski
+MenuList[5]=T. Elliot Cannon Pancho Eekels
+MenuList[6]=Jeremy War Cedric Fiorentino
+MenuList[7]=Shane Caudle
+MenuList[8]=Animator: Dave Carter
+MenuList[9]=Art: James Schmalz 
+MenuList[10]=Mike Leatham Artur Bialas
+MenuList[11]=Programming: Tim Sweeney Steven Polge
+MenuList[12]=Erik de Neve James Schmalz
+MenuList[13]=Carlo Vogelsang Nick Michon
+MenuList[14]=Music: Alexander Brandon
+MenuList[15]=Michiel van den Bos
+MenuList[16]=Sound Effects: Dave Ewing
+MenuList[17]=Producer for GT: Jason Schreiber
+MenuList[18]=Biz:Mark Rein Nigel Kent Craig Lafferty
+
+[DispersionPistol]
+PickupMessage=You got the Dispersion Pistol
+ItemName=Dispersion Pistol
+DeathMessage=%o was killed by %k's %w.  What a loser!
+
+[UnrealGameOptionsMenu]
+AdvancedString=Advanced Options
+AdvancedHelp=Edit advanced game configuration options.
+MenuTitle=GAME OPTIONS
+HelpMessage[1]=Adjust the speed at which time passes in the game.
+HelpMessage[2]=If true, зменшити gore in the game.
+MenuList[1]=Game Speed
+MenuList[2]=Reduced Gore
+
+[UnrealIndivBotMenu]
+MenuTitle=Artificial Intelligence Configuration
+HelpMessage[1]=Which Bot Configuration is being edited. Використовуйте праворуч i правом arrows to change.
+HelpMessage[2]=Натиснiть, щоб редагувати iм'я цiєї bot.
+HelpMessage[3]=За допомогою лiвої та правої клавiатури натиснiть на змiну class of this bot.
+HelpMessage[4]=За допомогою лiвого та правого кнопок для змiни шпильки цiєї bot.
+HelpMessage[5]="Adjust the overall skill of this bot by this amount (relative to the base skill for bots)."
+HelpMessage[6]="Type в якому командi це bots plays on (Red, Blue, Green, or Yellow)."
+MenuList[1]="Configuration"
+MenuList[2]=Name
+MenuList[3]=Class
+MenuList[4]=Skin
+MenuList[5]=Skill Adjust
+MenuList[6]=Team
+
+[IntroNullHud]
+ESCMessage=Press ESC to begin
+
+[UnrealFavoritesMenu]
+MenuTitle=FAVORITES
+EditList[0]=Name for Server:
+EditList[1]=Address:
+HelpMessage[1]=Натиснiть на цей сервер.  Hit the right arrow key to edit this entry.
+HelpMessage[2]=Натиснiть на цей сервер.  Hit the right arrow key to edit this entry.
+HelpMessage[3]=Натиснiть на цей сервер.  Hit the right arrow key to edit this entry.
+HelpMessage[4]=Натиснiть на цей сервер.  Hit the right arrow key to edit this entry.
+HelpMessage[5]=Натиснiть на цей сервер.  Hit the right arrow key to edit this entry.
+HelpMessage[6]=Натиснiть на цей сервер.  Hit the right arrow key to edit this entry.
+HelpMessage[7]=Натиснiть на цей сервер.  Hit the right arrow key to edit this entry.
+HelpMessage[8]=Натиснiть на цей сервер.  Hit the right arrow key to edit this entry.
+HelpMessage[9]=Натиснiть на цей сервер.  Hit the right arrow key to edit this entry.
+HelpMessage[10]=Натиснiть на цей сервер.  Hit the right arrow key to edit this entry.
+HelpMessage[11]=Натиснiть на цей сервер.  Hit the right arrow key to edit this entry.
+HelpMessage[12]=Натиснiть на цей сервер.  Hit the right arrow key to edit this entry.
+
+[Translator]
+PickupMessage=Прес F2 для активацiї Translator
+NewMessage=Universal Translator
+
+[UnrealVideoMenu]
+MenuTitle=AUDIO/VIDEO
+HelpMessage[1]="Adjust display brightness using the left and right arrow keys."
+HelpMessage[2]=Display Unreal in a window. Звернiть увагу на те, що йти до програмного забезпечення дисплея може скористатися великими detail actors, що були visible з hardware acceleration.
+HelpMessage[3]="За допомогою лiвих i правих кнопок виберiть вiдповiдь, а потiм натиснiть цю вiдповiдь."
+HelpMessage[4]=Увiмкнути низьку texture detail option to improve performance.  Змiни до цього налаштування буде досягти ефекту на наступному рiвнi змiни.
+HelpMessage[5]=Adjust the volume of the music using the left and right arrow keys.
+HelpMessage[6]=Adjust the volume of sound effects in the game using the left and right arrow keys.
+HelpMessage[7]=Використання низької якостi звуку для забезпечення ефективностi виконання на машинах з 32 мегабайтами або меншою кiлькiстю пам'ятi.  Змiни до цього налаштування буде досягти ефекту на наступному рiвнi змiни.
+MenuList[1]=Brightness
+MenuList[2]=Toggle Fullscreen Mode
+MenuList[3]=Select Resolution
+MenuList[4]=Texture Detail
+MenuList[5]=Music Volume
+MenuList[6]=Sound Volume
+MenuList[7]=Sound Quality
+LowText=Low
+HighText=High
+HelpMessage[8]=Як вiрно, ви будете повiдомити прослуховування дзвiнкiв протягом gametypes that use them.
+MenuList[8]=Voice Messages
+HelpMessage[9]=Як вiрно, ви будете робити, коли ви отримуєте повiдомлення.
+MenuList[9]=Message Beep
+
+[UnrealMeshMenu]
+HelpMessage[4]=Змiнити вашу категорiю за допомогою лiвого та правого arrow keys.
+HelpMessage[5]=Enter admin password here, або game password if required.
+MenuList[4]=Class:
+MenuList[5]=Password:
+HelpMessage[6]=Press enter to start game.
+MenuList[6]=Start Game
+
+[UnrealPlayerMenu]
+MenuTitle=Select Digital Representation
+HelpMessage[1]=Натиснiть ввод до типу у вашому iменi. Be sure to do this before joining multiplayer game.
+HelpMessage[2]=Увiмкнути кнопки для змiни кольору вашої команди (Red, Blue, Green, або Yellow).
+HelpMessage[3]=Змiнити вашу шкiру, використовуючи лiву та праву клавiшi.
+MenuList[1]=Name: 
+MenuList[2]=Team Color:
+MenuList[3]=Skin:
+HelpMessage[4]=Ви можете тiльки змiнити вашу клас/модель при першому введеннi в гравець у multiplayer або перейти до нового single player game.
+MenuList[4]=Class:
+Teams[0]=Red
+Teams[1]=Blue
+Teams[2]=Green
+Teams[3]=Gold
+
+[UnrealJoinGameMenu]
+InternetOption="Internet (28.8 - 56K)"
+FastInternetOption="Fast Internet (ISDN, cable modem)"
+LANOption="LAN"
+MenuTitle="JOIN GAME"
+HelpMessage[1]=Listen for local servers
+HelpMessage[2]=Виберiть сервер вiд списку favorites
+HelpMessage[3]=Натиснiть вгору для типу адреси.  Натиснiть на це до цього сервера.
+HelpMessage[4]=Set networking speed.
+HelpMessage[5]=Open GameSpy Lite
+MenuList[1]=Find Local Servers
+MenuList[2]=Choose From Favorites
+MenuList[3]=Open
+MenuList[4]=Net Speed
+MenuList[5]="Готувати до Unreal server list"
+
+[UnrealOptionsMenu]
+MenuTitle=OPTIONS MENU
+HelpMessage[1]=Enable or disable vertical aiming help.
+HelpMessage[2]=Toggle enabling of joystick.
+HelpMessage[3]="Adjust the mouse sensitivity, або як ми збираємося перемiщатися в mouse to produce a given motion in the game."
+HelpMessage[4]=Invert the mouse X axis.  Якщо вiрно, натиснувши на руки, щоб викликати, ви думаєте, вниз, коли вони.
+HelpMessage[5]=Як вiрно, коли ви збираєтеся натиснути клавiатуру кнопки перегляду буде автоматично центр його.
+HelpMessage[6]=Як true, the mouse is always used for looking up and down, з не потрiбен for mouselook key.
+HelpMessage[7]=Як вiрно, коли не можна використовувати-вiдтворення вашого перегляду буде автоматично пристосовано до висування i знизу сльоти i штани.
+HelpMessage[8]=Як вiрно, ваш екран буде flash flash, коли ви почнете ваш weapon.
+HelpMessage[9]=Виберiть crosshair appearing at the center of your screen
+HelpMessage[10]=Select where your weapon буде appear.
+HelpMessage[11]=Як натиснуто, двома-натиснiть на рухомих кнопках (назад, вниз, лiвий лiвий, i правий лiвий) буде викликати вас, щоб зробити швидкий рух.
+HelpMessage[12]=Натиснiть на клавiатуру, клавiатуру, i joystick configuration.
+HelpMessage[13]=Hit enter to prioritize weapon switching order.
+HelpMessage[14]=За допомогою кнопок праворуч i праворуч натиснiть кнопку Heads Up Display configuration.
+HelpMessage[15]=Adjust the amount of bobbing when moving.
+HelpMessage[16]=Set your optimal networking speed.  Це має impact on internet gameplay.
+MenuList[1]=Auto Aim
+MenuList[2]=Joystick Enabled
+MenuList[3]=Mouse Sensitivity
+MenuList[4]=Invert Mouse
+MenuList[5]=LookSpring
+MenuList[6]=Always MouseLook
+MenuList[7]=Auto Slope Look
+MenuList[8]=Weapon Flash
+MenuList[9]=Crosshair
+MenuList[10]=Weapon Hand
+MenuList[11]=Dodging
+MenuList[12]=Customize Controls
+MenuList[13]=Prioritize Weapons
+MenuList[14]=HUD Configuration
+MenuList[15]=View Bob
+MenuList[16]=Net Speed
+HideString=Hidden
+HelpMessage[17]=Open advanced preferences configuration menu.
+MenuList[17]=Advanced Options
+
+[EndgameHud]
+Message1=Skaarj escape пiд broken free from the planet's gravitational pull... barely.  Yet it's fuel has depleted and you drift aimlessly.
+Message2=From where many have died, you have escaped.  You laugh to yourself; so much has happened, але little has changed.
+Message3=Бепорує crash landing, ви були перебитi в споряджений стiльник.  Now, once again you are confined in a prison.
+Message4=Бути, ви впевненi, що деякi будуть тримати пiд вашим маленьким весл... eventually.
+Message5=Until then, you drift and hope.
+Message6=To Be Continued...
+
+[UnrealWeaponMenu]
+MenuTitle=PRIORITIES
+
+[Eightball]
+PickupMessage=Ви знайдете казку
+ItemName=Eightball
+DeathMessage=%o був змащений вниз multiple times by %k's %w.
+
+[UnrealKeyboardMenu]
+OrString = "or"
+MenuTitle=CONTROLS
+HelpMessage[1]=
+MenuList[1]=Fire
+MenuList[2]=Alternate Fire
+MenuList[3]=Move Forward
+MenuList[4]=Move Backward
+MenuList[5]=Turn Left
+MenuList[6]=Turn Right
+MenuList[7]=Strafe Left
+MenuList[8]=Strafe Right
+MenuList[9]=Jump/Up
+MenuList[10]=Crouch/Down
+MenuList[11]="Mouse Look"
+MenuList[12]=Activate Item
+MenuList[13]=Next Item
+MenuList[14]=Previous Item
+MenuList[15]=Look Up
+MenuList[16]=Look Down
+MenuList[17]=Center View
+MenuList[18]=Walk
+MenuList[19]=Strafe
+MenuList[20]=Next Weapon
+MenuList[21]=RESET TO DEFAULTS
+
+[TranslatorEvent]
+M_NewMessage=Новий Translator Message
+M_TransMessage=Translator Message
+
+[Flashlight]
+ExpireMessage="Flashlight batteries have died."
+PickupMessage=Ви стрiляли в flashlight
+
+[ParentBlob]
+BlobKillMessage=було прочитано з Blob
+
+[FlakCannon]
+PickupMessage=Ви знайдете Flak Cannon
+ItemName=Flak Cannon
+
+[Rifle]
+PickupMessage=You got the Rifle
+ItemName=Sniper Rifle
+
+[UnrealBotConfigMenu]
+MenuTitle=BOTS
+HelpMessage[1]=Як вiрно, кнопки пристосованi до їх шкiдливого рiвня, що базуються на тому, як вони беруть участь у гравцях.
+HelpMessage[2]=Base skill level of bots (between 0 and 3).
+HelpMessage[3]="Як вiрно, клацнiть в ходi гри в довжинi.
+HelpMessage[4]=Змiнити налаштування iндивiдуальних bots.
+MenuList[1]=Auto-Adjust Skills
+MenuList[2]=Base Skill
+MenuList[3]=Random Order
+MenuList[4]=Configure Individual Bots
+HelpMessage[5]=Number of bots to start play (max 15).
+HelpMessage[6]=Use bots when playing with other people.
+MenuList[5]=Number of Bots
+MenuList[6]=Bots in Multiplayer
+
+[UnrealLoadMenu]
+RestartString=Restart 
+MenuTitle=LOAD GAME
+
+[UnrealSlotMenu]
+MonthNames[0]=January
+MonthNames[1]=February
+MonthNames[2]=March
+MonthNames[3]=April
+MonthNames[4]=May
+MonthNames[5]=June
+MonthNames[6]=July
+MonthNames[7]=August
+MonthNames[8]=September
+MonthNames[9]=Октябрь
+MonthNames[10] = November
+MonthNames[11]=December
+
+[ASMD]
+PickupMessage=You got the ASMD
+ItemName=ASMD
+DeathMessage="%k inflicted mortal damage upon %o with the %w."
+
+[UnrealMainMenu]
+HelpMessage[1]=Hit вводити до modify game options, включно з loading and saving games, змiнюючи difficulty level, i starting a BotMatch.
+HelpMessage[2]=Натиснiть на modify Multiplayer setup options, включаючи starting або joining в мережi, i змiнюючи вашу appearance, name, or team.
+HelpMessage[3]=Hit enter to customize controls.
+HelpMessage[4]=Змiна звуку та вiдтворення опцiй
+HelpMessage[5]=Hit enter to quit game.
+HelpMessage[7]=Call TOLL FREE 1-877-4UNREAL to Order UNREAL!
+MenuList[1]=GAME
+MenuList[2]=MULTIPLAYER
+MenuList[3]=OPTIONS
+MenuList[4]=AUDIO/VIDEO
+MenuList[5]=QUIT
+MenuList[7]=ORDER INFO
+
+[UnrealServerMenu]
+BotTitle=BOTMATCH
+MenuTitle=MULTIPLAYER
+HelpMessage[1]=Choose Game Type.
+HelpMessage[2]=Choose Map.
+HelpMessage[3]=Modify Game Options.
+HelpMessage[4]=Start Game.
+MenuList[1]=Select Game
+MenuList[2]=Select Map
+MenuList[3]=Configure Game
+MenuList[4]=Start Game
+MenuList[5]=Launch Dedicated Server
+HelpMessage[5]=Start a dedicated server on this machine.
+
+[UnrealGameMenu]
+HelpMessage[1]=Hit вводити до поточної гри.
+HelpMessage[2]=Hit вводити до load a saved game.
+HelpMessage[3]=Select a difficulty level, and start a new game.
+HelpMessage[4]=Hit вводити до modify game options.  Звернiть увагу, що ви не можете це зробити, якщо ви граєте в multiplayer game.
+HelpMessage[5]=DeathMatch against Bots.
+MenuList[1]=SAVE GAME
+MenuList[2]=LOAD GAME
+MenuList[3]=NEW GAME
+MenuList[4]=GAME OPTIONS
+MenuList[5]=BOTMATCH
+
+[Health]
+PickupMessage=Ви натиснули на Health Pack +
+
+[AutoMag]
+PickupMessage=You got the AutoMag
+ItemName=Automag
+DeathMessage=%o got gatted %k's %w.
+
+[UnrealChooseGameMenu]
+MenuTitle=CHOOSE GAME
+HelpMessage[1]=Choose which game to play.
+HelpMessage[2]=Choose which game to play.
+HelpMessage[3]=Choose which game to play.
+HelpMessage[4]=Choose which game to play.
+HelpMessage[5]=Choose which game to play.
+HelpMessage[6]=Choose which game to play.
+HelpMessage[7]=Choose which game to play.
+HelpMessage[8]=Choose which game to play.
+HelpMessage[9]=Choose which game to play.
+HelpMessage[10]=Choose which game to play.
+HelpMessage[11]=Choose which game to play.
+HelpMessage[12]=Choose which game to play.
+HelpMessage[13]=Choose which game to play.
+HelpMessage[14]=Choose which game to play.
+HelpMessage[15]=Choose which game to play.
+HelpMessage[16]=Choose which game to play.
+HelpMessage[17]=Choose which game to play.
+HelpMessage[18]=Choose which game to play.
+HelpMessage[19]=Choose which game to play.
+
+[UnrealMultiPlayerMenu]
+HelpMessage[1]=Join a network game.
+HelpMessage[2]=Set up and start a network game.
+HelpMessage[3]=Configure appearance, name, and team name.
+MenuList[1]=JOIN GAME
+MenuList[2]=START GAME
+MenuList[3]=PLAYER SETUP
+
+[UnrealHelpMenu]
+MenuTitle=HELP
+HelpMessage[1]=Open the troubleshooting document.
+MenuList[1]=TroubleShooting
+
+[YesNoMenu]
+YesSelString=[YES] No
+NoSelString="Yes [NO]"
+
+[NaliFruit]
+PickupMessage=Ви натиснiть на Nali Healing Fruit +
+
+[Minigun]
+PickupMessage=Ви знайдете Minigun
+ItemName=Minigun
+
+[UnrealListenMenu]
+MenuTitle=LOCAL SERVERS
+HelpMessage[1]=Hit Enter для цього сервера.
+HelpMessage[2]=Hit Enter для цього сервера.
+HelpMessage[3]=Hit Enter для цього сервера.
+HelpMessage[4]=Hit Enter для цього сервера.
+HelpMessage[5]=Hit Enter для цього сервера.
+HelpMessage[6]=Hit Enter для цього сервера.
+HelpMessage[7]=Hit Enter для цього сервера.
+HelpMessage[8]=Hit Enter для цього сервера.
+HelpMessage[9]=Hit Enter для цього сервера.
+HelpMessage[10]=Hit Enter для цього сервера.
+HelpMessage[11]=Hit Enter для цього сервера.
+HelpMessage[12]=Hit Enter для цього сервера.
+HelpMessage[13]=Hit Enter для цього сервера.
+HelpMessage[14]=Hit Enter для цього сервера.
+HelpMessage[15]=Hit Enter для цього сервера.
+HelpMessage[16]=Hit Enter для цього сервера.
+HelpMessage[17]=Hit Enter для цього сервера.
+HelpMessage[18]=Hit Enter для цього сервера.
+HelpMessage[19]=Hit Enter для цього сервера.
+
+[GESBioRifle]
+PickupMessage=Ви знайдете GES BioRifle
+ItemName=GES Bio Rifle
+
+[UnrealDMGameOptionsMenu]
+HelpMessage[3]=Частини фраґсiв скоренi за керуванням до кiнця гри.  Якщо 0, є не обмеженим.
+HelpMessage[4]=Time limit (in minutes) до кiнця гри.  Якщо 0, є не обмеженим.
+HelpMessage[5]=Maximum number of players allowed in the game.
+HelpMessage[6]=Якщо Weapons Stay is enabled, weapons respawn instantly, але може тiльки бути вилучений вгору за допомогою гравця.
+HelpMessage[7]=Configure bot game and individual parameters.
+HelpMessage[8]=Choose Game Style: Hardcore game speed is faster and weapons do more damage than Classic. Turbo is Hardcore with real fast movement.
+HelpMessage[9]=Classic or new style (weapon based) deathmessages.
+MenuList[3]=Frag limit
+MenuList[4]=Time Limit
+MenuList[5]=Max Players
+MenuList[6]=Weapons Stay
+MenuList[7]=Configure Bots
+MenuList[8]=Game Style
+MenuList[9]=DeathMessages
+GameStyle[0]=Classic
+GameStyle[1]=Hardcore
+GameStyle[2]=Turbo
+
+[Amplifier]
+ExpireMessage=Amplifier is out of power.
+PickupMessage="You got the Energy Amplifier"
+
+[SearchLight]
+PickupMessage=Ви натиснiть на Searchlight.
+
+[SCUBAGear]
+PickupMessage=Ви натискаєте SCUBA gear
+
+[UnrealNewGameMenu]
+HelpMessage[1]=Tourist mode.
+HelpMessage[2]=Ready for some action!
+HelpMessage[3]=Not for the faint of heart.
+HelpMessage[4]=Death wish.
+MenuList[1]=EASY
+MenuList[2]=MEDIUM
+MenuList[3]=HARD
+MenuList[4]=UNREAL
+
+[Stinger]
+PickupMessage=Ви кинуто вгору Stinger
+ItemName=Stinger
+DeathMessage=%o був perforated by %k's %w.
+
+[RazorAmmo]
+PickupMessage=Ви кинули вгору Razor Blades
+
+[RocketCan]
+PickupMessage=You picked up 12 Eightballs
+
+[ShellBox]
+PickupMessage=Ви натиснули 50 bullets
+
+[VoiceBox]
+PickupMessage=Ви натиснiть на Voice Box
+
+[UnrealSaveMenu]
+CantSave=CAN'T SAVE WHEN DEAD
+MenuTitle=SAVE GAME
+
+[Seeds]
+PickupMessage=You got the Nali fruit seeds
+
+[RifleAmmo]
+PickupMessage=You got 8 Rifle rounds.
+
+[FlakBox]
+PickupMessage=Якщо вибрано 10 Flak Shells
+
+[Flare]
+PickupMessage=You got a flare
+
+[JumpBoots]
+ExpireMessage=The Jump Boots drained
+PickupMessage=You кинувся вгору скачки
+
+[WeaponPowerUp]
+PickupMessage="You got the Dispersion Pistol Powerup"
+
+[Razorjack]
+PickupMessage=Ви знайдете RazorJack
+ItemName=Razorjack
+
+[ForceField]
+M_NoRoom=Немає роботи для активного поля.
+PickupMessage=Ви кинулися до Force Field
+
+[ASMDAmmo]
+PickupMessage=Ви натиснуто на ASMD core.
+
+[ShieldBelt]
+PickupMessage="Ви знайдете Shield Belt."
+
+[UnrealTeamGameOptionsMenu]
+HelpMessage[10]="Procentage of damage when hit by friendly fire. Note that you always take full damage from your own weapons."
+MenuList[10]=Friendly Fire Scale
+
+[OKMenu]
+OKString=[OK]
+
+[StingerAmmo]
+PickupMessage=Ви скинули 40 Tarydium Shards
+
+[UpgradeMenu]
+MenuList[1]=Ви потребуєте нову версiю Unreal to play on this server. Чи можете ви йти до Unreal web site для нової версiї?
+
+[Sludge]
+PickupMessage=Ви натискали 25 Kilos of Tarydium Sludge
+
+[Invisibility]
+ExpireMessage=Invisibility has worn off.
+PickupMessage=Ви маєте Invisibility
+
+[ToxinSuit]
+PickupMessage=Ви кинулися до Toxin Suit
+
+[Shells]
+PickupMessage=Ви кинуто 15 shells
+
+[RifleRound]
+PickupMessage=You got a Rifle Round.
+
+[QuadShot]
+PickupMessage=Ви знайдете QuadShot
+
+[PowerShield]
+PickupMessage=You got the PowerShield
+
+[Dampener]
+ExpireMessage=Acoustic dampener має керувати.
+PickupMessage=Ви знайдете Acoustic Dampener
+
+[KevlarSuit]
+PickupMessage=Ви натиснiть на Kevlar Suit
+
+[FlakShellAmmo]
+PickupMessage=You got a flak shell.
+
+[Fell]
+Name=fell
+AltName=fell
+
+[Drowned]
+Name=drowned
+AltName=drowned
+
+[Decapitated]
+Name=decapitated
+AltName=beheaded
+
+[Corroded]
+Name=corroded
+AltName=slimed
+
+[Clip]
+PickupMessage=Ви натиснули на клiп
+
+[Burned]
+Name=Roasted
+AltName=flame-broiled
+
+[SuperHealth]
+PickupMessage=Ви натиснули на Super Health Pack
+
+[Bandages]
+PickupMessage=You got some bandages +
+
+[AsbestosSuit]
+PickupMessage=Ви натиснiть на Asbestos Suit
+
+[Armor]
+PickupMessage=Ви знайдете Assault Vest
+
+[UnrealHUD]
+IdentifyName=Name
+IdentifyHealth=Health
+VersionMessage=Version
+TeamName[0]=Red Team: 
+TeamName[1]=Blue Team: 
+TeamName[2]=Green Team: 
+TeamName[3]=Gold Team: 
+
+[UnrealCoopGameOptions]
+Difficulties[0]=Easy
+Difficulties[1]=Medium
+Difficulties[2]=Hard
+Difficulties[3]=Unreal
+HelpMessage[3]=Skill level setting.
+MenuList[3]=Difficulty
+
+[UnrealTeamScoreBoard]
+TeamName[0]=Red Team: 
+TeamName[1]=Blue Team: 
+TeamName[2]=Green Team: 
+TeamName[3]=Gold Team: 
+
+[SinglePlayer]
+GameName=Unreal
+
+[MaleThree]
+MenuName=Male 3
+
+[FemaleOne]
+MenuName=Female 1
+

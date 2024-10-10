@@ -1,0 +1,178 @@
+[Public]
+;Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Object=(Name=Engine.ServerCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Object=(Name=Engine.CheckSumCommandlet,Class=Class,MetaClass=Core.Commandlet)
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+Preferences=(Caption="Public Server Information",Parent="Networking",Class=Engine.GameReplicationInfo,Immediate=True)
+Preferences=(Caption="Game Settings",Parent="Advanced Options",Class=Engine.GameInfo,Immediate=True)
+
+[Errors]
+NetOpen="Помилка вiдкриття файлу"
+NetWrite="Помилка запису у файл"
+NetRefused="Сервер вiдмовляється вiдсилати '%s'"
+NetClose="Помилка при закриттi файлу"
+NetSize="Невiдповiднiсть розмiрiв файлу"
+NetMove="Помилка пiд час перемiщення файлу"
+NetInvalid="Отримано неправильний запит файлу"
+NoDownload="Файл '%s'не пiдлягає завантаженню"
+DownloadFailed="Неможливо завантажити файл '%s': %s"
+RequestDenied="Сервер запросив файл iз незакiнченого рiвня: Вiдмова"
+ConnectionFailed="З'єднання перервано"
+ChAllocate="Неможливо визначити канал"
+NetAlready="Вже в мережi"
+NetListen="Помилка прослуховування: Немає доступного контексту"
+LoadEntry="Неможливо завантажити Вхiд: %s"
+InvalidUrl="Невiрна URL: %s"
+InvalidLink="Неправильне посилання: %s"
+FailedBrowse="Не вдалося вiдкрити %s: %s"
+Listen="Неможливо прослухати: %s"
+AbortToEntry="Неможливо; повернутися до Вхiд"
+ServerOpen="Сервери не можуть вiдкривати iншi адреси в мережi"
+ServerListen="Видiлений сервер не може прослухати: %s"
+Pending="Встановлення зв'язку з '%s' провалилося; %s"
+LoadPlayerClass="Неможливо завантажити клас гравця"
+ServerOutdated="Версiя сервера застарiла"
+ClientOutdated="Вам потрiбно застосувати останнi патчi"
+RejectedByServer="Вiдкинуто сервером"
+
+[Progress]
+CancelledConnect="Спроба з'єднання скасована"
+RunningNet="%s: %s (гравцiв - %i)"
+NetReceiving="Отримання '%s': %i/%i"
+NetReceiveOk="'%s' успiшно отримано"
+NetSend="Надсилання '%s'"
+NetSending="Надсилання '%s': %i/%i"
+Connecting="З'єднання (F10 - перервати)..."
+Listening="Пошук клiєнтiв..."
+Loading="Завантаження"
+Saving="Збереження"
+Paused="Пауза виставлена гравцем %s"
+ReceiveFile="Завантажується файл '%s' (Скасувати - F10)"
+ReceiveOptionalFile="Завантажується додатковий файл '%s' (F10 - пропустити)"
+ReceiveSize="Розмiр %iK, Завершено %3.1f%%"
+ConnectingText="З'єднання (F10 - скасування):"
+ConnectingURL="unreal://%s/%s"
+
+[Console]
+ClassCaption="Стандартна Консоль"
+LoadingMessage="ЗАВАНТАЖЕННЯ"
+SavingMessage="ЗБЕРIГАННЯ"
+ConnectingMessage="З'ЄДНАННЯ"
+PausedMessage="ПАУЗА"
+PrecachingMessage="КЕШУВАННЯ"
+ChatChannel="(БАЗАР)" 
+TeamChannel="(КОМАНДА)"  
+
+[General]
+Upgrade=Для входу на цей сайт вам потрiбна остання версiя гри, доступна на сайтi:
+UpgradeURL=http://www.unreal.com/upgrade
+UpgradeQuestion=Хочете перейти на сторiнку компанiї-розробника?
+Version=Версiя %i
+
+[Menu]
+HelpMessage=
+MenuList=
+LeftString="Влiво"
+RightString="Вправо"
+CenterString="Центр"
+EnabledString="Увiмкнено"
+DisabledString="Вимкнено"
+HelpMessage[1]="Це меню ще не належить."
+YesString=так
+NoString=нi
+
+;[Inventory]
+;PickupMessage="Ви пiдiбрали"
+;M_Activated="активовано"
+;M_Selected="вибраний"
+;M_Deactivated="деактивовано"
+;ItemArticle=""
+
+[Inventory]
+PickupMessage="Ви пiдiбрали"
+M_Activated=""
+M_Selected=""
+M_Deactivated=""
+ItemArticle=""
+
+[WarpZoneInfo]
+OtherSideURL=
+
+[GameInfo]
+SwitchLevelMessage="Змiна рiвня"
+DefaultPlayerName="Гравець"
+LeftMessage="вийшов iз гри."
+FailedSpawnMessage="Неможливо вiдродити гравця"
+FailedPlaceMessage="Неможливо знайти мiсце старту"
+NameChangedMessage="Iм'я змiнено на "
+EnteredMessage=" увiйшов до гри."
+GameName="Гра"
+MaxedOutMessage="Сервер переповнений."
+WrongPassword="Неправильний пароль."
+NeedPassword="Потрiбен пароль."
+FailedTeamMessage="Неможливо знайти команду для гравця"
+
+[LevelInfo]
+Title="Без назви"
+
+[Weapon]
+MessageNoAmmo="без патронiв."
+PickupMessage="Ти отримав зброю"
+DeathMessage="%o вбито %w. %k спробував."
+ItemName="Зброя"
+DeathMessage[0]="%o вбито %w. %k постарався."
+DeathMessage[1]="%o вбито %w. %k постарався."
+DeathMessage[2]="%o вбито %w. %k постарався."
+DeathMessage[3]="%o вбито %w. %k постарався."
+
+[Counter]
+CountMessage="Залишилося %i..."
+CompleteMessage="Закiнчено!"
+
+[Ammo]
+PickupMessage="Ти пiдiбрав патрони"
+
+[Pickup]
+ExpireMessage=""
+
+[SpecialEvent]
+DamageString=""
+
+[DamageType]
+Name="убитий"
+AltName="убитий"
+
+[PlayerPawn]
+QuickSaveString="Швидке збереження"
+NoPauseMessage="Гра не може бути припинена"
+ViewingFrom="Тепер перегляд вiд"
+OwnCamera="власна камера"
+FailedView="Неможливо змiнити вигляд."
+CantChangeNameMsg="Ви не можете змiнити своє iм'я протягом запущеної гри."
+
+[Pawn]
+NameArticle=""
+
+[Spectator]
+MenuName="Спостерiгач"
+
+[ServerCommandlet]
+HelpCmd=сервер
+HelpOneLiner=Сервер мережевої гри
+HelpUsage=сервер map.unr[?game=gametype] [-опцiї...] [parm=value]...
+HelpWebLink=http://unreal.epicgames.com/servertips.htm
+HelpParm[0]=Протокол
+HelpDesc[0]=Визначте реєстрацiйний файл 
+HelpParm[1]=Всi Адмiни
+HelpDesc[1]=Дати всiм гравцям привiлеї адмiну
+
+[CheckSumCommandlet]
+HelpCmd=checksum
+HelpOneLiner = Calculate package checksum for stat logging
+HelpUsage=checksum packagename.u
+HelpParm[0]=Filename
+HelpDesc[0]=Filename to calculate checksum

@@ -1,0 +1,7 @@
+[Public]
+Object=(Name=TCowMeshSkins.WarCow,Class=Texture,Description="Бойова корова")
+Object=(Name=TCowMeshSkins.AtomicCow,Class=Texture,Description="Атомна корова")
+Object=(Name=TCowMeshSkins.T_Cow_0,Class=Texture)
+Object=(Name=TCowMeshSkins.T_Cow_1,Class=Texture)
+Object=(Name=TCowMeshSkins.T_Cow_2,Class=Texture)
+Object=(Name=TCowMeshSkins.T_Cow_3,Class=Texture)

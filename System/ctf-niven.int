@@ -1,0 +1,24 @@
+[LevelSummary]
+LevelEnterText=Лабораторiя Niven
+
+[ZoneInfo6]
+ZoneName=База синiх
+
+[ZoneInfo4]
+ZoneName=База червоних
+
+[ZoneInfo3]
+ZoneName=Червоний реактор
+
+[ZoneInfo5]
+ZoneName=Синiй реактор
+
+[WaterZone1]
+ZoneName=Пiд водою
+
+[ZoneInfo1]
+ZoneName=Центральний зал
+
+[LevelInfo0]
+Title=Лабораторiя Niven
+

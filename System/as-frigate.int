@@ -1,0 +1,21 @@
+[LevelInfo0]
+Title=Фрегат
+IdealPlayerCount=4-8
+
+[FortStandard0]
+FortName=Ракети
+DestroyedMessage="запущено!"
+
+[FortStandard1]
+FortName=У корабель
+DestroyedMessage=проникли!
+
+[FortStandard2]
+FortName=Гiдрокомпресор
+
+[AssaultInfo0]
+ObjDesc[0]=Дверi в кiмнату керування кораблем керуються гiдрокомпресором. Компресор має бути знищений.
+ObjDesc[1]=Пiсля знищення гiдрокоiпресора Ви повиннi пiднятися в кiмнату керування нагорi, та натиснути червону кнопку для приведення гармат у дiю.
+
+
+

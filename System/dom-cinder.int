@@ -1,0 +1,25 @@
+[ZoneInfo18]
+ZoneName=Тайник
+
+[ZoneInfo21]
+ZoneName=Пiвденна сторона
+
+[ZoneInfo20]
+ZoneName=Лава
+
+[ControlPoint2]
+PointName=Тайник
+
+[ControlPoint1]
+PointName=Лава
+
+[ControlPoint0]
+PointName=Верхня
+
+[ZoneInfo22]
+ZoneName=Лiфт
+
+[ZoneInfo19]
+ZoneName=Головне мiсце
+
+

@@ -1,0 +1,4 @@
+[Public]
+Object=(Name=DE.VolatileAmmo,Class=Class,MetaClass=Engine.Mutator,Description="Боєприпаси, що вибухають,Боєприпаси вибухають коли в них потрапляють.")
+Object=(Name=De.TeamBeacon,Class=Class,MetaClass=Engine.Mutator,Description="Маяк групи,Iдентифiкує членiв групи.")
+Object=(Name=De.VolatileWeapon,Class=Class,MetaClass=Engine.Mutator,Description="Енергозалежна Зброя,Знищенi гравцi розвантажать їхню зброю!")
